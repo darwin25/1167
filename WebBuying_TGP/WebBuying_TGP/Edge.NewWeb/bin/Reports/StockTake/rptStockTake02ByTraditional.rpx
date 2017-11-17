@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActiveReportsLayout Version="3.2" PrintWidth="13223.52" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="PageHeader" Name="PageHeader" Height="1164.96" BackColor="16777215" CanShrink="1">
+      <Control Type="AR.Field" Name="TextBox1" Left="0" Top="607.6801" Width="10468.8" Height="1127.52" Text="库存盘点二" Style="font-family: 微软雅黑; font-size: 20.25pt; font-weight: bold; text-align: center; ddo-char-set: 0" CharacterSpacing="5" />
+      <Control Type="AR.ReportInfo" Name="ReportInfo1" Left="5924.161" Top="0" Width="4050.72" Height="467.9999" FormatString="第 {PageNumber} 页，共 {PageCount} 页" Style="font-family: 微软雅黑; font-size: 9.75pt; text-align: right; ddo-char-set: 0" />
+      <Control Type="AR.Label" Name="Label26" Left="151.2" Top="0" Width="1620" Height="468" Caption="客户编号" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label27" DataField="WebSiteName" Left="1994.4" Top="0" Width="2787.84" Height="468.0001" Caption="Label27" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label23" Left="1771.2" Top="0" Width="223.2001" Height="468" Caption="：" />
+    </Section>
+    <Section Type="GroupHeader" Name="GroupHeader1" Height="4788" DataField="StockTakeNumber" GroupKeepTogether="1" RepeatStyle="1" BackColor="16777215" CanShrink="1">
+      <Control Type="AR.Label" Name="Label1" Left="149.76" Top="89.28001" Width="1620" Height="468" Caption="Inventory Number" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134; ddo-font-vertical: none" />
+      <Control Type="AR.Label" Name="Label2" Left="5924.161" Top="89.28001" Width="1620" Height="468" Caption="Count Type" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: right; ddo-char-set: 134; ddo-font-vertical: none" />
+      <Control Type="AR.Label" Name="lblStockTakeNumber" DataField="StockTakeNumber" Left="1992.96" Top="89.28001" Width="2787.84" Height="468" Caption="lblStockTakeNumber" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" PaddingRight="3" />
+      <Control Type="AR.Label" Name="lblStockTakeType" DataField="TraditionalStockTakeTypeName" Left="7754.399" Top="89.28001" Width="2787.84" Height="468" Caption="lblStockTakeType" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label3" Left="149.76" Top="557.28" Width="1620" Height="467.9999" Caption="Inventory Status" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblStatus" DataField="StatusName" Left="1994.4" Top="557.28" Width="2787.84" Height="467.9999" Caption="lblStatus" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label4" Left="5924.161" Top="557.28" Width="1620" Height="468" Caption="Count Date" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: right; ddo-char-set: 134; ddo-font-vertical: none" />
+      <Control Type="AR.Label" Name="lblStockTakeDate" DataField="StockTakeDate" Left="7754.399" Top="557.28" Width="2787.84" Height="468" Caption="lblStockTakeDate" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label6" Left="149.76" Top="1025.28" Width="1620" Height="467.9999" Caption="Created Date Time" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblCreatedOn" DataField="CreatedOn" Left="1992.96" Top="1025.28" Width="2787.84" Height="468.0001" Caption="lblCreatedOn" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label7" Left="5924.161" Top="1025.28" Width="1620" Height="468" Caption="Created By" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: right; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblCreateBy" DataField="CreatedName" Left="7754.399" Top="1025.28" Width="2787.84" Height="468" Caption="lblCreateBy" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label5" Left="149.76" Top="1448.64" Width="1620" Height="467.9999" Caption="Store" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblVendorName1" DataField="ETraditionalStoreName" Left="1994.4" Top="1448.64" Width="2787.84" Height="468.0001" Caption="lblVendorName1" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label28" Left="1769.76" Top="89.28001" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label29" Left="1771.2" Top="557.28" Width="223.2003" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label30" Left="1771.2" Top="1025.28" Width="223.2" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label31" Left="1769.76" Top="1448.64" Width="223.2" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label38" Left="7531.2" Top="89.28001" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label39" Left="7531.2" Top="557.2802" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label40" Left="7531.2" Top="1025.28" Width="223.2001" Height="468" Caption="：" />
+    </Section>
+    <Section Type="GroupHeader" Name="GroupHeader2" Height="405" DataField="StockTakeNumber" GroupKeepTogether="1" RepeatStyle="1" BackStyle="1" BackColor="11119017" CanShrink="1">
+      <Control Type="AR.Label" Name="lblProCode" Left="108" Top="0" Width="1872" Height="393.12" Caption="Product Code" Style="background-color: DarkGray; color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label21" Left="1980" Top="0" Width="3676.32" Height="393.12" Caption="Product Name" Style="background-color: DarkGray; color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label49" Left="7639.2" Top="0" Width="1982.88" Height="393.12" Caption="Stock Type Code" Style="background-color: DarkGray; color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label48" Left="5656.32" Top="0" Width="1982.88" Height="393.12" Caption="货品部门" Style="background-color: DarkGray; color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label8" Left="9527.04" Top="0" Width="1982.88" Height="393.12" Caption="数量" Style="background-color: DarkGray; color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: right; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+    </Section>
+    <Section Type="Detail" Name="Detail" Height="368.64" BackColor="16777215" KeepTogether="1" CanGrow="0" CanShrink="1">
+      <Control Type="AR.Field" Name="txtProCode" DataField="ProdCode" Left="108" Top="119.52" Width="1872" Height="393.12" Text="txtProCode" Style="font-family: 微软雅黑; font-size: 9.75pt; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtProDesc3" DataField="ProdDesc3" Left="1980" Top="119.52" Width="3241.44" Height="393.12" Text="txtProDesc3" Style="font-family: 微软雅黑; font-size: 9.75pt; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtDepartCode" DataField="DepartCode" Left="5656.32" Top="119.52" Width="1982.88" Height="393.12" Text="txtDepartCode" Style="text-align: left" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtSTOCKTYPE" DataField="STOCKTYPE" Left="7639.2" Top="119.52" Width="1982.88" Height="393.12" Text="txtSTOCKTYPE" OutputFormat="" Style="text-align: left" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtQty" DataField="Qty" Left="9527.04" Top="119.52" Width="1982.88" Height="393.12" Text="txtQty" OutputFormat="#,##0.00" Style="text-align: right" PaddingLeft="16" />
+    </Section>
+    <Section Type="GroupFooter" Name="GroupFooter2" Height="329.76" BackColor="16777215" NewPage="2" KeepTogether="1" CanShrink="1">
+      <Control Type="AR.Label" Name="Label24" Left="7968.96" Top="0" Width="1440" Height="288" Caption="订单总量：" Style="font-family: 微软雅黑; font-size: 9.75pt; font-weight: bold; text-align: right; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="txtTotalQty" DataField="Qty" Left="9527.04" Top="0" Width="1982.88" Height="288" Text="txtTotalQty" OutputFormat="#,##0.00" Style="font-family: 微软雅黑; font-size: 9.75pt; text-align: right; ddo-char-set: 0" SummaryType="3" SummaryRunning="1" SummaryGroup="GroupHeader2" PaddingLeft="16" />
+    </Section>
+    <Section Type="GroupFooter" Name="GroupFooter1" Height="0" BackColor="16777215" NewPage="2" KeepTogether="1" />
+    <Section Type="PageFooter" Name="PageFooter" Height="405" BackColor="16777215" CanGrow="0" />
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <SqlDbDataSource ConnectF="BHunkowNWeCOJ0TrLLsGciESt4PUcHe0bUYbU3ht+f5ZfnXKRrSvFFzre4MFSVur58rZAiJwPVeeO/De4+arkoQ60ayWvyRdIjJBM3ZgY5Z1TwhPOcIatAHzr9DjvC+xg0iqPOZiz4ylUBc+DwiG3w==" SQL="declare @WebSiteName nvarchar(20)&#xD;&#xA;select STK_STake_H.StockTakeNumber, STK_STake_H.StoreID,STK_STake_H.[Status],STK_STake_H.StockTakeType,&#xA;case STK_STake_H.StockTakeType when 0 then'盘数量'else  '盘序列号'end SimplifiedStockTakeTypeTypeName,&#xA;case STK_STake_H.StockTakeType when 0 then '盤數量'else '盤序列號'end as TraditionalStockTakeTypeTypeName,&#xA;case STK_STake_H.StockTakeType when 0 then 'By Quantity'else 'By Serial No'end as EnglishStockTypeName,STK_STake_H.Remark,&#xA;Convert(varchar(10),StockTakeDate,120)as StockTakeDate ,&#xA;case STK_STake_H.[Status] when 1 then '注册结束' &#xA;when 2 then '第一次盘点结束'&#xA;when 3 then '第二次盘点结束'&#xA;when 4 then '产生差异表'&#xA;else  '盘点结束' end as StatusName,&#xA;Convert(varchar(10),STK_STake_H.CreatedOn,120)as CreatedOn,STK_STake_H.CreatedBy,Accounts_Users.UserName as CreatedName,&#xA;Convert(varchar(10),STK_STake_H.UpdatedOn,120)as UpdatedOn,STK_STake_H.UpdatedBy,u.UserName as UpdatedName,STK_STAKE_H.StockTakeID,&#xA;BUY_PRODUCT.ProdCode,BUY_PRODUCT.ProdDesc1,BUY_PRODUCT.ProdDesc2,BUY_PRODUCT.ProdDesc3,BUY_PRODUCT.DepartCode,&#xA;STK_STake02.STOCKTYPE,STK_STake02.QTY,STK_STake02.[STATUS],STK_STake02.SerialNo,STK_STake02.SEQ,&#xA;BUY_STORE.StoreName1 as EEnglishStoreName ,BUY_STORE.StoreName2 as ESimplifiedStoreName,&#xA;BUY_STORE.StoreName3 as ETraditionalStoreName,BUY_STORE.StoreAddressDetail1,&#xA;BUY_STORE.Contact,BUY_STORE.ContactPhone,&#xA;BUY_PRODUCT.ProdDesc1,BUY_PRODUCT.ProdDesc2,BUY_PRODUCT.ProdDesc3,@WebSiteName as WebSiteName&#xA;&#xD;&#xA;from STK_STake_H&#xD;&#xA;left join STK_STake02 on STK_STake_H.StockTakeNumber=STK_STake02.StockTakeNumber&#xD;&#xA;&#xA;left join Accounts_Users on STK_STake_H.CreatedBy=Accounts_Users.UserID&#xD;&#xA;left join Accounts_Users as u  on STK_STake_H.UpdatedBy=u.UserID&#xD;&#xA;&#xA;left join BUY_PRODUCT on STK_STake02.ProdCode=BUY_PRODUCT.ProdCode&#xD;&#xA;left join BUY_STORE on STK_STake_H.StoreID=BUY_STORE.StoreID" CommandTimeout="0" />
+  </DataSources>
+  <Script><![CDATA[
+int RowNo = 0;
+public void Detail_Format()
+{
+	if ((RowNo % 2) == 1)
+	{  
+		this.Detail.BackColor = Color.Gainsboro;
+	}
+	else 
+	{ 
+		this.Detail.BackColor = Color.Transparent;
+	}
+	RowNo++;
+}
+// 记录当前页实际高度
+public float ActualPageHeight = 0;
+
+public void ActiveReport_ReportStart()
+{
+	rpt.Document.Printer.PrinterName = "";
+}
+private void Detail_AfterPrint(object sender, EventArgs e)
+{
+	// 记录每条数据占用的高度
+	ActualPageHeight += this.Detail.Height;
+}]]></Script>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

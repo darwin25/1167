@@ -1,0 +1,53 @@
+2017-05-03 17:10:23,759  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-03 17:10:32,196  User admin,functionName:Menu Management,msg:List 
+2017-05-03 17:18:02,615  User admin,functionName:Menu Management,msg:List 
+2017-05-03 17:20:36,113  User admin,functionName:,msg:Add Tree Menu : Replenishment Details 
+2017-05-03 17:27:15,566  User admin,functionName:,msg:Update Tree Menu : Replenishment Details 
+2017-05-03 17:27:26,032  User admin,functionName:,msg:Update Tree Menu : Replenishment Details 
+2017-05-03 17:32:36,618  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-03 17:33:40,049  User admin,functionName:Menu Management,msg:Delete Tree Menu : 126 
+2017-05-03 17:33:48,482  User admin,functionName:Menu Management,msg:List 
+2017-05-03 17:35:21,751  User admin,functionName:,msg:Add Tree Menu : Replenishment Setup 
+2017-05-03 17:55:50,719  User admin,functionName:Menu Management,msg:List 
+2017-05-03 17:57:09,537  User admin,functionName:Menu Management,msg:List 
+2017-05-03 18:08:26,924  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-03 18:08:47,338  User admin,functionName:Menu Management,msg:List 
+2017-05-03 18:43:45,257  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-03 18:43:51,651  User admin,functionName:Menu Management,msg:List 
+2017-05-03 18:49:28,560  User admin,functionName:Menu Management,msg:List 
+2017-05-03 18:49:29,807  User admin,functionName:Discount Setting,msg:List 
+2017-05-03 18:50:52,864  User admin,functionName:,msg:List 
+2017-05-03 18:51:03,309  User admin,functionName:,msg:List 
+2017-05-03 18:51:05,488  User admin,functionName:,msg:List 
+2017-05-03 18:51:09,279  User admin,functionName:,msg:List 
+2017-05-03 18:51:09,386  User admin,functionName:Bank,msg:Load Field,Error Message: 
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'RGB'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.webbuying_masterfiles_basicinformations_buy_color_list_aspx.__DataBindinglblRGB(Object sender, EventArgs e) in c:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_COLOR\List.aspx:line 49
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at FineUI.GridRow.DataBindRow()
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_COLOR.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_COLOR\List.aspx.cs:line 78
+2017-05-03 18:54:12,455  User admin,functionName:,msg:List 
+2017-05-03 18:54:12,699  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+Invalid column name 'ApprovedBy'.
+Invalid column name 'ApprovedOn'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1112
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 518
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 58
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\List.aspx.cs:line 133
+2017-05-03 18:54:13,779  User admin,functionName:,msg:List 
+2017-05-03 18:54:14,746  User admin,functionName:Product Picture,msg:List 
+2017-05-03 18:54:15,789  User admin,functionName:Product Details,msg:List 

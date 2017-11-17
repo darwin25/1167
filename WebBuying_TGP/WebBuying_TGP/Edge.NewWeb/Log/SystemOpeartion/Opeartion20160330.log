@@ -1,0 +1,24 @@
+2016-03-30 11:45:19,024  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 11:47:39,370  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:01:24,550  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:01:38,693  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:02:56,788  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:06:17,650  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:07:14,029  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:09:45,179  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:12:14,236  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:14:07,027  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:14:55,728  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:18:05,535  User admin,functionName:,msg: Stock Take 01 Update Success 
+2016-03-30 12:19:48,612  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:22:32,059  User admin,functionName:,msg: Stock Take 01 Update Success 
+2016-03-30 12:23:08,637  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:24:50,647  User admin,functionName:,msg: Stock Take 01 Update Success 
+2016-03-30 12:39:43,207  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 12:40:53,216  User admin,functionName:,msg:Show 
+2016-03-30 12:40:58,530  User admin,functionName:,msg:Show 
+2016-03-30 12:40:58,546  User admin,functionName:,msg: Update  
+2016-03-30 12:40:58,608  User admin,functionName:,msg:Update LogisticsPrice Success TransNum:2016114watsons132R01000140 
+2016-03-30 12:41:01,443  User admin,functionName:,msg:Show 
+2016-03-30 15:39:42,835  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-30 15:39:55,705  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000037 

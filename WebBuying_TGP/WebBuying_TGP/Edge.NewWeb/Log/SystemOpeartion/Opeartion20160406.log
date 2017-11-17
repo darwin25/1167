@@ -1,0 +1,98 @@
+2016-04-06 09:20:37,395  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 09:23:17,425  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 09:26:42,637  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 09:55:25,132  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 09:59:15,148  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 10:02:00,433  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 10:14:22,604  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 10:14:38,419  User admin,functionName:,msg:List 
+2016-04-06 10:27:40,131  User ,functionName:,msg:List 
+2016-04-06 10:27:52,734  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 10:27:58,927  User admin,functionName:,msg:List 
+2016-04-06 11:09:30,027  User ,functionName:,msg:List 
+2016-04-06 11:09:39,581  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 11:40:26,921  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 11:41:01,372  User admin,functionName:,msg:List 
+2016-04-06 11:49:32,724  User admin,functionName:,msg:List 
+2016-04-06 11:50:51,974  User admin,functionName:,msg:List 
+2016-04-06 11:51:30,259  User admin,functionName:,msg:List 
+2016-04-06 11:52:04,162  User admin,functionName:,msg:List 
+2016-04-06 11:54:34,449  User admin,functionName:,msg:ExPort System.IO.FileNotFoundException: Could not find file 'D:\Working\WebBuying_NEWUI\Edge.NewWeb\Reports\Enquiry\StockQuery\rptEnquiryOrder.rpx'.
+File name: 'D:\Working\WebBuying_NEWUI\Edge.NewWeb\Reports\Enquiry\StockQuery\rptEnquiryOrder.rpx'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at GrapeCity.ActiveReports.SectionReport.#abF(XmlReader reader)
+   at GrapeCity.ActiveReports.SectionReport.LoadLayout(XmlReader reader, ArrayList& errors)
+   at GrapeCity.ActiveReports.SectionReport.LoadLayout(XmlReader reader)
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName, Int32 StoreID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 177
+   at Edge.Web.Enquiry.StockQuery.Print.LoadReport(String ids, Int32 storeID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\Print.aspx.cs:line 86
+   at Edge.Web.Enquiry.StockQuery.Print.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\Print.aspx.cs:line 47 
+2016-04-06 11:57:57,414  User admin,functionName:,msg:List 
+2016-04-06 12:05:32,111  User admin,functionName:,msg:List 
+2016-04-06 12:07:14,041  User admin,functionName:,msg:ExPort System.IO.FileNotFoundException: Could not find file 'D:\Working\WebBuying_NEWUI\Edge.NewWeb\Reports\Enquiry\StockQuery\rptEnquiryOrder.rpx'.
+File name: 'D:\Working\WebBuying_NEWUI\Edge.NewWeb\Reports\Enquiry\StockQuery\rptEnquiryOrder.rpx'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at GrapeCity.ActiveReports.SectionReport.#abF(XmlReader reader)
+   at GrapeCity.ActiveReports.SectionReport.LoadLayout(XmlReader reader, ArrayList& errors)
+   at GrapeCity.ActiveReports.SectionReport.LoadLayout(XmlReader reader)
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName, Int32 StoreID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 177
+   at Edge.Web.Enquiry.StockQuery.Print.LoadReport(String ids, Int32 storeID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\Print.aspx.cs:line 86
+   at Edge.Web.Enquiry.StockQuery.Print.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\Print.aspx.cs:line 47 
+2016-04-06 12:08:36,912  User ,functionName:,msg:List 
+2016-04-06 12:08:47,183  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 12:08:51,859  User admin,functionName:,msg:List 
+2016-04-06 12:16:13,555  User ,functionName:,msg:List 
+2016-04-06 12:16:25,663  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 12:16:30,279  User admin,functionName:,msg:List 
+2016-04-06 12:31:08,941  User ,functionName:,msg:List 
+2016-04-06 12:31:18,443  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 12:31:23,560  User admin,functionName:,msg:List 
+2016-04-06 14:10:38,681  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 14:10:43,207  User admin,functionName:,msg:List 
+2016-04-06 14:24:20,707  User admin,functionName:,msg:List 
+2016-04-06 14:57:05,808  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 14:57:11,419  User admin,functionName:,msg:List 
+2016-04-06 14:58:49,198  User admin,functionName:,msg:List 
+2016-04-06 14:59:05,581  User admin,functionName:,msg:List 
+2016-04-06 15:16:10,383  User admin,functionName:,msg:List 
+2016-04-06 15:26:53,946  User admin,functionName:,msg:ExPort System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName, Int32 StoreID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 202
+   at Edge.Web.Enquiry.StockQuery.Print.LoadReport(String ids, Int32 storeID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\Print.aspx.cs:line 89
+   at Edge.Web.Enquiry.StockQuery.Print.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\Print.aspx.cs:line 50 
+2016-04-06 15:27:06,548  User admin,functionName:,msg:List 
+2016-04-06 15:27:23,321  User admin,functionName:,msg:ExPort System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName, Int32 StoreID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 202
+   at Edge.Web.Enquiry.StockQuery.Print.LoadReport(String ids, Int32 storeID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\Print.aspx.cs:line 89
+   at Edge.Web.Enquiry.StockQuery.Print.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\Print.aspx.cs:line 50 
+2016-04-06 15:27:31,803  User admin,functionName:,msg:List 
+2016-04-06 15:34:34,430  User ,functionName:,msg:List 
+2016-04-06 15:34:44,864  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 15:34:49,950  User admin,functionName:,msg:List 
+2016-04-06 15:54:06,993  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 16:28:30,364  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 16:28:38,005  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 16:31:01,333  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-06 16:31:10,994  User ,functionName:Login,msg: Login Operation userName:admin 

@@ -1,0 +1,268 @@
+2016-04-08 12:21:02,277  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 12:21:18,775  User admin,functionName:,msg:Void Failed :PO0000000000082 
+2016-04-08 12:26:29,046  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 12:26:42,843  User admin,functionName:,msg:Void 
+2016-04-08 12:26:49,972  User admin,functionName:,msg:Void Failed :PO0000000000082 
+2016-04-08 12:44:30,786  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 12:44:39,958  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 12:44:57,573  User admin,functionName:,msg:Void 
+2016-04-08 12:44:57,604  User admin,functionName:,msg:Void Failed :SHP000000000074 
+2016-04-08 12:45:07,196  User admin,functionName:,msg:Void 
+2016-04-08 12:45:07,272  User admin,functionName:,msg:Void Failed :SHP000000000077 
+2016-04-08 12:45:16,025  User admin,functionName:,msg:Void 
+2016-04-08 12:45:16,025  User admin,functionName:,msg:Void Failed :RECIO0000000057 
+2016-04-08 12:45:25,078  User admin,functionName:,msg:Void 
+2016-04-08 12:45:25,160  User admin,functionName:,msg:Void Success :SPO000000000191 
+2016-04-08 12:45:32,829  User admin,functionName:,msg:Void 
+2016-04-08 12:45:32,876  User admin,functionName:,msg:Void Failed :RECIO0000000056 
+2016-04-08 12:45:40,482  User admin,functionName:,msg:Void 
+2016-04-08 12:45:40,513  User admin,functionName:,msg:Void Failed :SRTN00000000015 
+2016-04-08 12:45:49,120  User admin,functionName:,msg:Void 
+2016-04-08 12:45:49,151  User admin,functionName:,msg:Void Success :STKADJ000000064 
+2016-04-08 12:45:52,913  User admin,functionName:,msg:List 
+2016-04-08 12:46:10,789  User admin,functionName:,msg:Void 
+2016-04-08 12:46:10,852  User admin,functionName:,msg:Void Success :TRAOUT000000012 
+2016-04-08 12:46:19,807  User admin,functionName:,msg:Void 
+2016-04-08 12:46:19,838  User admin,functionName:,msg:Void Failed :TRANIN000000007 
+2016-04-08 12:46:28,596  User admin,functionName:,msg:Void 
+2016-04-08 12:46:28,612  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000040 
+2016-04-08 12:47:04,387  User admin,functionName:,msg:List 
+2016-04-08 12:57:04,805  User ,functionName:,msg:List 
+2016-04-08 12:57:17,977  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 12:57:23,789  User admin,functionName:,msg:List 
+2016-04-08 14:25:39,409  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 14:25:50,312  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 14:26:18,763  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 14:26:41,546  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 14:26:51,713  User admin,functionName:,msg:List 
+2016-04-08 14:28:50,288  User ,functionName:,msg:List 
+2016-04-08 14:30:19,690  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 14:30:24,213  User admin,functionName:,msg:List 
+2016-04-08 14:34:53,766  User admin,functionName:,msg:Add ProdClass Success Code:111 
+2016-04-08 14:36:20,374  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 14:41:01,334  User admin,functionName:,msg:List 
+2016-04-08 14:41:15,568  User admin,functionName:,msg: Add  
+2016-04-08 14:41:15,646  User admin,functionName:,msg:Add StoreGroup Success Code:222 
+2016-04-08 14:41:15,808  User admin,functionName:,msg:List 
+2016-04-08 14:51:44,219  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 14:51:51,470  User admin,functionName:,msg:List 
+2016-04-08 14:52:44,511  User admin,functionName:,msg:List 
+2016-04-08 14:52:55,621  User admin,functionName:,msg: Add  
+2016-04-08 14:52:55,652  User admin,functionName:,msg:111 
+2016-04-08 14:53:10,083  User admin,functionName:,msg: Add  
+2016-04-08 14:53:10,083  User admin,functionName:,msg:111 
+2016-04-08 14:53:13,150  User admin,functionName:,msg: Add  
+2016-04-08 14:53:13,150  User admin,functionName:,msg:111 
+2016-04-08 14:53:25,605  User admin,functionName:,msg: Add  
+2016-04-08 14:53:25,605  User admin,functionName:,msg:111 
+2016-04-08 14:53:38,174  User admin,functionName:,msg: Add  
+2016-04-08 14:53:38,174  User admin,functionName:,msg:111 
+2016-04-08 14:55:16,501  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 14:56:16,048  User admin,functionName:,msg:List 
+2016-04-08 14:56:28,754  User admin,functionName:,msg: Add  
+2016-04-08 14:56:38,722  User admin,functionName:,msg:111 
+2016-04-08 14:57:21,591  User admin,functionName:,msg:111 
+2016-04-08 14:57:39,122  User admin,functionName:,msg: Add  
+2016-04-08 14:58:58,261  User admin,functionName:,msg:TEST 
+2016-04-08 15:00:01,390  User ,functionName:,msg:List 
+2016-04-08 15:00:32,615  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 15:00:40,692  User admin,functionName:,msg:List 
+2016-04-08 15:00:41,768  User admin,functionName:,msg:List 
+2016-04-08 15:00:49,450  User admin,functionName:,msg: Add  
+2016-04-08 15:00:49,528  User admin,functionName:,msg:Add Discount Success Code:111 
+2016-04-08 15:00:49,676  User admin,functionName:,msg:List 
+2016-04-08 15:15:51,867  User ,functionName:,msg:List 
+2016-04-08 15:16:06,482  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 15:16:41,234  User admin,functionName:,msg:List 
+2016-04-08 15:20:11,264  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 15:20:15,819  User admin,functionName:,msg:List 
+2016-04-08 15:22:06,110  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 15:22:11,886  User admin,functionName:,msg:List 
+2016-04-08 15:24:07,412  User admin,functionName:,msg:List 
+2016-04-08 15:24:15,118  User admin,functionName:,msg: Update  
+2016-04-08 15:24:15,165  User admin,functionName:,msg:Update Discount Success Code:111 
+2016-04-08 15:24:26,697  User admin,functionName:,msg: Delete 1 
+2016-04-08 15:24:39,731  User admin,functionName:,msg:List 
+2016-04-08 15:24:47,237  User admin,functionName:,msg:List 
+2016-04-08 15:27:55,318  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 15:28:01,611  User admin,functionName:,msg:List 
+2016-04-08 15:30:36,562  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 15:30:42,469  User admin,functionName:,msg:List 
+2016-04-08 15:30:46,587  User admin,functionName:,msg:Show 
+2016-04-08 15:30:50,155  User admin,functionName:,msg:update 
+2016-04-08 15:30:59,963  User admin,functionName:,msg:List 
+2016-04-08 15:31:07,690  User admin,functionName:,msg: Add  
+2016-04-08 15:31:07,768  User admin,functionName:,msg:Add BoxSale Success Code:01119638 
+2016-04-08 15:31:07,784  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_BOXSALE.BundledGoods.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_BOXSALE\BundledGoods.aspx.cs:line 167
+2016-04-08 15:31:07,877  User admin,functionName:,msg:update 
+2016-04-08 15:32:46,296  User ,functionName:,msg:List 
+2016-04-08 15:33:07,318  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 15:33:12,322  User admin,functionName:,msg:List 
+2016-04-08 15:33:18,209  User admin,functionName:,msg:update 
+2016-04-08 15:33:21,609  User admin,functionName:,msg:List 
+2016-04-08 15:33:33,135  User admin,functionName:,msg: Add  
+2016-04-08 15:38:37,964  User admin,functionName:,msg:Add BoxSale Success Code:01119641 
+2016-04-08 15:38:40,772  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_BOXSALE.BundledGoods.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_BOXSALE\BundledGoods.aspx.cs:line 167
+2016-04-08 15:40:36,820  User ,functionName:,msg:List 
+2016-04-08 15:41:00,570  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 15:41:04,557  User admin,functionName:,msg:List 
+2016-04-08 15:41:06,485  User admin,functionName:,msg:update 
+2016-04-08 15:41:11,553  User admin,functionName:,msg: Delete 21 
+2016-04-08 15:42:34,324  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 15:42:39,313  User admin,functionName:,msg:List 
+2016-04-08 15:42:41,341  User admin,functionName:,msg:update 
+2016-04-08 15:42:47,683  User admin,functionName:,msg:List 
+2016-04-08 15:42:52,904  User admin,functionName:,msg: Add  
+2016-04-08 15:42:52,967  User admin,functionName:,msg:Add BoxSale Success Code:01119649 
+2016-04-08 15:42:55,047  User admin,functionName:,msg:update 
+2016-04-08 15:43:10,313  User admin,functionName:,msg: Delete 1035 
+2016-04-08 15:44:16,976  User admin,functionName:,msg:List 
+2016-04-08 15:44:19,324  User admin,functionName:,msg:update 
+2016-04-08 15:44:58,101  User admin,functionName:,msg: Delete 29 
+2016-04-08 15:46:00,750  User ,functionName:,msg:List 
+2016-04-08 15:46:12,428  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 15:46:18,075  User admin,functionName:,msg:List 
+2016-04-08 15:46:20,328  User admin,functionName:,msg:update 
+2016-04-08 15:46:29,690  User admin,functionName:,msg: Delete 1033 
+2016-04-08 15:47:07,354  User admin,functionName:,msg:List 
+2016-04-08 15:47:22,518  User admin,functionName:,msg:List 
+2016-04-08 15:47:42,002  User admin,functionName:,msg:Show 
+2016-04-08 15:47:44,232  User admin,functionName:,msg:Show 
+2016-04-08 15:48:25,031  User admin,functionName:,msg:List 
+2016-04-08 15:48:28,069  User admin,functionName:,msg:List 
+2016-04-08 15:48:36,173  User admin,functionName:,msg:List 
+2016-04-08 15:48:36,257  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException: An expression of non-boolean type specified in a context where a condition is expected, near '01119638'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1001
+   at Edge.SVA.BLL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 502
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 47
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\List.aspx.cs:line 133
+2016-04-08 15:49:42,827  User admin,functionName:,msg: Add  
+2016-04-08 15:49:42,905  User admin,functionName:,msg:Add ProdAssociated Success Code:01119638 
+2016-04-08 15:49:45,789  User admin,functionName:,msg:Show 
+2016-04-08 15:49:48,219  User admin,functionName:,msg:Show 
+2016-04-08 15:52:33,099  User admin,functionName:,msg:Show 
+2016-04-08 15:52:36,526  User admin,functionName:,msg:Show 
+2016-04-08 15:53:41,510  User admin,functionName:,msg:List 
+2016-04-08 15:53:44,719  User admin,functionName:,msg:List 
+2016-04-08 15:55:04,617  User admin,functionName:,msg:List 
+2016-04-08 15:55:15,782  User admin,functionName:,msg:List 
+2016-04-08 15:55:26,322  User admin,functionName:,msg: Update  
+2016-04-08 15:55:26,353  User admin,functionName:,msg:Update ProductParticulars Success Code:01119638 
+2016-04-08 15:55:33,958  User admin,functionName:,msg: Update  
+2016-04-08 15:55:33,974  User admin,functionName:,msg:Update ProductParticulars Success Code:01119638 
+2016-04-08 15:56:16,192  User admin,functionName:,msg:List 
+2016-04-08 15:56:23,683  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-04-08 15:56:24,868  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-04-08 15:56:40,027  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-04-08 15:56:41,041  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-04-08 15:57:19,674  User admin,functionName:,msg:List 
+2016-04-08 15:57:25,783  User admin,functionName:,msg:List 
+2016-04-08 15:57:38,806  User admin,functionName:,msg:Void Promotion:³É¹¦  £º 0      Ê§°Ü  :  1 
+2016-04-08 15:59:27,625  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-04-08 15:59:28,670  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-04-08 15:59:36,700  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-04-08 15:59:37,714  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-04-08 15:59:45,082  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-04-08 15:59:46,111  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-04-08 16:05:47,667  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-04-08 16:05:48,681  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-04-08 16:06:47,357  User admin,functionName:,msg:List 
+2016-04-08 16:07:38,452  User admin,functionName:,msg:List 
+2016-04-08 16:10:26,209  User admin,functionName:,msg:List 
+2016-04-08 16:10:29,313  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-04-08 16:10:30,359  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-04-08 16:13:29,398  User admin,functionName:,msg:List 
+2016-04-08 16:13:45,619  User admin,functionName:,msg:List 
+2016-04-08 16:14:30,850  User admin,functionName:,msg:List 
+2016-04-08 16:19:28,297  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 16:24:19,771  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 17:11:46,263  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-08 17:18:09,599  User ,functionName:Login,msg: Login Operation userName:admin 

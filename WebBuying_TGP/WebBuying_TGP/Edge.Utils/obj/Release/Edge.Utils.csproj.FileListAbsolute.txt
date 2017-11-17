@@ -1,0 +1,4 @@
+C:\SVN\WebBuying_TGP\Edge.Utils\bin\Release\Edge.Utils.dll
+C:\SVN\WebBuying_TGP\Edge.Utils\bin\Release\Edge.Utils.pdb
+C:\SVN\WebBuying_TGP\Edge.Utils\obj\Release\Edge.Utils.dll
+C:\SVN\WebBuying_TGP\Edge.Utils\obj\Release\Edge.Utils.pdb

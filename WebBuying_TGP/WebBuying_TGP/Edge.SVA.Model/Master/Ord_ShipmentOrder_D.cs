@@ -1,0 +1,73 @@
+﻿using System;
+namespace Edge.SVA.Model
+{
+	/// <summary>
+	/// 卡订货单明细。
+	///表中brandID，cardtypeid，cardgradeid 关系不做校验，由UI在创建单据时做校验。
+	///存储过程实际操作时，只按照CardGradeID来做。
+	/// </summary>
+	[Serializable]
+	public partial class Ord_ShipmentOrder_D
+	{
+		public Ord_ShipmentOrder_D()
+		{}
+		#region Model
+		private int _keyid;
+		private string _ShipmentOrdernumber;
+		private string _prodcode;
+		private int? _orderqty;
+        private int? _actualqty;
+        private string _remark;
+		/// <summary>
+		/// 主键
+		/// </summary>
+		public int KeyID
+		{
+			set{ _keyid=value;}
+			get{return _keyid;}
+		}
+		/// <summary>
+		/// 订单编号，主键
+		/// </summary>
+		public string ShipmentOrderNumber
+		{
+			set{ _ShipmentOrdernumber=value;}
+			get{return _ShipmentOrdernumber;}
+		}
+        /// <summary>
+        /// 商品编号
+        /// </summary>
+        public string ProdCode
+        {
+            set { _prodcode = value; }
+            get { return _prodcode; }
+        }
+		/// <summary>
+		/// 订单数量
+		/// </summary>
+		public int? OrderQty
+		{
+			set{ _orderqty=value;}
+			get{return _orderqty;}
+		}
+        /// <summary>
+        /// 实际数量
+        /// </summary>
+        public int? ActualQty
+        {
+            set { _actualqty = value; }
+            get { return _actualqty; }
+        }
+        /// <summary>
+        /// 备注 PCCW 有导入
+        /// </summary>
+        public string Remark
+        {
+            set { _remark = value; }
+            get { return _remark; }
+        }
+		#endregion Model
+
+	}
+}
+

@@ -1,0 +1,60 @@
+2017-05-15 12:02:06,154  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-15 12:05:57,567  User admin,functionName:,msg:List 
+2017-05-15 13:36:16,065  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-15 13:36:49,583  User admin,functionName:,msg:List 
+2017-05-15 13:43:59,444  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-15 13:44:06,208  User admin,functionName:,msg:List 
+2017-05-15 13:51:39,811  User admin,functionName:,msg:List 
+2017-05-15 13:51:48,467  User admin,functionName:,msg:List 
+2017-05-15 14:38:01,782  User ,functionName:,msg:List 
+2017-05-15 14:54:59,811  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-15 14:55:13,434  User admin,functionName:,msg:List 
+2017-05-15 14:55:17,035  User admin,functionName:,msg:List 
+2017-05-15 14:59:42,603  User admin,functionName:,msg:List 
+2017-05-15 14:59:47,837  User admin,functionName:,msg:List 
+2017-05-15 15:00:55,534  User admin,functionName:,msg:Show 
+2017-05-15 15:01:42,833  User admin,functionName:,msg:List 
+2017-05-15 15:10:28,319  User admin,functionName:,msg:List 
+2017-05-15 15:11:29,344  User admin,functionName:,msg:List 
+2017-05-15 15:12:53,990  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-15 15:13:01,730  User admin,functionName:,msg:List 
+2017-05-15 15:13:09,148  User admin,functionName:,msg:List 
+2017-05-15 15:19:54,955  User admin,functionName:,msg:List 
+2017-05-15 15:23:22,294  User admin,functionName:,msg:List 
+2017-05-15 15:23:55,457  User admin,functionName:,msg:List 
+2017-05-15 15:24:11,712  User admin,functionName:,msg:List 
+2017-05-15 15:24:42,080  User admin,functionName:,msg:List 
+2017-05-15 15:39:43,012  User admin,functionName:,msg:List 
+2017-05-15 15:39:52,706  User admin,functionName:,msg:List 
+2017-05-15 15:53:54,626  User admin,functionName:,msg:List 
+2017-05-15 15:55:21,962  User ,functionName:,msg:List 
+2017-05-15 15:55:32,202  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-15 15:55:37,939  User admin,functionName:,msg:List 
+2017-05-15 16:04:02,743  User admin,functionName:,msg:List 
+2017-05-15 16:18:16,358  User admin,functionName:,msg:List 
+2017-05-15 16:18:19,223  User admin,functionName:,msg:List 
+2017-05-15 16:18:57,520  User admin,functionName:,msg:List 
+2017-05-15 16:19:00,454  User admin,functionName:,msg:List 
+2017-05-15 16:25:29,894  User admin,functionName:,msg:List 
+2017-05-15 17:00:15,382  User ,functionName:,msg:List 
+2017-05-15 17:00:27,302  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-15 17:00:31,668  User admin,functionName:,msg:List 
+2017-05-15 17:00:33,684  User admin,functionName:,msg:List 
+2017-05-15 17:00:52,622  User admin,functionName:,msg:Show 
+2017-05-15 18:25:13,662  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-15 18:25:25,263  User admin,functionName:,msg:List 
+2017-05-15 18:26:16,561  User admin,functionName:,msg:Show 
+2017-05-15 18:27:06,383  User admin,functionName:Product Size,msg:List 
+2017-05-15 18:34:46,266  User admin,functionName:Product Size,msg:List 
+2017-05-15 18:36:39,884  User admin,functionName:Product Size,msg:List 
+2017-05-15 18:37:43,659  User admin,functionName:Product Size,msg:List 
+2017-05-15 18:43:46,812  User admin,functionName:Product Size,msg:List 
+2017-05-15 18:44:01,041  User admin,functionName:Menu Management,msg:List 
+2017-05-15 18:44:06,169  User admin,functionName:Discount Setting,msg:List 
+2017-05-15 19:17:04,457  User ,functionName:Bundle Sales,msg:List 
+2017-05-15 19:17:19,760  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-15 19:17:24,553  User admin,functionName:Bundle Sales,msg:List 
+2017-05-15 19:17:34,182  User admin,functionName:Menu Management,msg:List 
+2017-05-15 19:22:55,463  User admin,functionName:,msg:List 
+2017-05-15 19:24:51,551  User admin,functionName:,msg:List 
+2017-05-15 19:24:54,798  User admin,functionName:,msg:Show 

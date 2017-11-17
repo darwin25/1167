@@ -1,0 +1,52 @@
+2016-06-14 11:54:07,308  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 12:27:25,540  User admin,functionName:,msg:List 
+2016-06-14 14:05:15,594  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 14:16:28,674  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 14:19:02,341  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 14:33:00,735  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 14:33:21,758  User admin,functionName:,msg:Show 
+2016-06-14 14:33:35,620  User admin,functionName:,msg:Show 
+2016-06-14 14:34:57,207  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'CardNumber'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.operation_storeordermanagement_salespickorder_list_aspx.__DataBindinglblCardNumber(Object sender, EventArgs e) in d:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx:line 105
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at FineUI.GridRow.DataBindRow()
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 225
+2016-06-14 14:36:03,098  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 14:51:46,674  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 14:52:53,609  User admin,functionName:,msg:Shipment Store Order SHP000000000076 Update Success 
+2016-06-14 14:56:04,969  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 15:02:24,920  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 15:03:25,862  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 15:05:43,715  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 15:06:00,408  User admin,functionName:,msg:List 
+2016-06-14 15:17:17,420  User ,functionName:Personal Information,msg:List 
+2016-06-14 15:17:28,682  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 15:17:34,402  User admin,functionName:,msg:List 
+2016-06-14 15:18:05,152  User admin,functionName:,msg: Add  
+2016-06-14 15:18:05,199  User admin,functionName:,msg:Add BlackList Success Code:1 
+2016-06-14 15:18:05,467  User admin,functionName:,msg:List 
+2016-06-14 15:18:42,831  User admin,functionName:,msg:List 
+2016-06-14 15:19:35,406  User admin,functionName:,msg:List 
+2016-06-14 15:19:50,466  User admin,functionName:,msg: Delete 4 
+2016-06-14 16:06:09,705  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-14 16:06:17,116  User admin,functionName:,msg:List 
+2016-06-14 16:06:23,268  User admin,functionName:,msg:List 
+2016-06-14 16:06:25,820  User admin,functionName:产品规格,msg:List 
+2016-06-14 16:06:30,503  User admin,functionName:,msg:List 
+2016-06-14 16:06:34,535  User admin,functionName:,msg:List 
+2016-06-14 16:06:37,021  User admin,functionName:,msg:List 
+2016-06-14 16:06:39,262  User admin,functionName:,msg:List 
+2016-06-14 16:41:58,178  User ,functionName:Login,msg: Login Operation userName:admin 

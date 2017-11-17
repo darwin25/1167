@@ -1,0 +1,37 @@
+2016-04-29 10:49:11,485  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-29 11:04:03,360  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-29 11:05:15,524  User admin,functionName:,msg:Return Store Order SRTN00000000032 Add Success 
+2016-04-29 11:05:23,441  User admin,functionName:,msg:Approve Success :SRTN00000000032 
+2016-04-29 11:08:57,638  User admin,functionName:,msg:Return Store Order SRTN00000000033 Add Success 
+2016-04-29 11:09:05,045  User admin,functionName:,msg:Approve Success :SRTN00000000033 
+2016-04-29 11:23:30,081  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-29 11:24:10,810  User admin,functionName:,msg:Return Store Order SRTN00000000035 Add Success 
+2016-04-29 11:35:45,362  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-29 11:36:08,820  User admin,functionName:,msg:Return Store Order SRTN00000000035 Update Success But Detail Failed,Error Message: 
+System.ArgumentException: Column 'OrderQty' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.Web.Operation.StoreOrderManagement.ReturnStoreOrder.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\ReturnStoreOrder\Modify.aspx.cs:line 144
+2016-04-29 11:36:22,871  User admin,functionName:,msg:Return Store Order SRTN00000000035 Update Success But Detail Failed,Error Message: 
+System.ArgumentException: Column 'OrderQty' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.Web.Operation.StoreOrderManagement.ReturnStoreOrder.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\ReturnStoreOrder\Modify.aspx.cs:line 144
+2016-04-29 11:38:03,576  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-29 11:39:13,194  User admin,functionName:,msg:Return Store Order SRTN00000000035 Update Success But Detail Failed,Error Message: 
+System.ArgumentException: Column 'OrderQty' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.Web.Operation.StoreOrderManagement.ReturnStoreOrder.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\ReturnStoreOrder\Modify.aspx.cs:line 149
+2016-04-29 11:41:11,868  User admin,functionName:,msg:Return Store Order SRTN00000000035 Update Success But Detail Failed,Error Message: 
+System.ArgumentException: Column 'OrderQty' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.Web.Operation.StoreOrderManagement.ReturnStoreOrder.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\ReturnStoreOrder\Modify.aspx.cs:line 149
+2016-04-29 11:42:57,854  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-29 11:43:56,760  User admin,functionName:,msg:Return Store Order SRTN00000000035 Update Success 
+2016-04-29 11:44:14,257  User admin,functionName:,msg:Approve Success :SRTN00000000035 
+2016-04-29 11:48:28,745  User admin,functionName:,msg:Trans Out Store Order TRAOUT000000313 Add Success 
+2016-04-29 11:48:38,746  User admin,functionName:,msg:Approve Success :TRAOUT000000313 
+2016-04-29 18:26:42,182  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-29 18:26:54,100  User ,functionName:Login,msg: Login Operation userName:admin 

@@ -1,0 +1,16 @@
+2017-05-31 12:28:24,412  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-31 13:09:31,576  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-31 13:09:46,804  User admin,functionName:,msg:Approve Success :SHP000000002494 
+2017-05-31 14:56:24,548  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-31 14:56:39,881  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '='.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_TransInOrder_H.GetRecordCount(String strWhere) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\Ord_TransInOrder_H.cs:line 507
+   at Edge.SVA.BLL.Ord_TransInOrder_H.GetRecordCount(String strWhere) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\Ord_TransInOrder_H.cs:line 260
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.TransInStoreOrder.TransInStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\TransInStoreOrderController.cs:line 48
+   at Edge.Web.Operation.StoreOrderManagement.TransInOrder.List.RptBind(String strWhere, String orderby) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\TransInOrder\List.aspx.cs:line 225
+ClientConnectionId:db3a6ff6-3f3f-4f09-8233-ebe82bd7ceb2
+Error Number:102,State:1,Class:15
+2017-05-31 16:30:46,248  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-31 16:30:55,376  User admin,functionName:,msg:List 
+2017-05-31 17:01:36,814  User ,functionName:Login,msg: Login Operation userName:admin 

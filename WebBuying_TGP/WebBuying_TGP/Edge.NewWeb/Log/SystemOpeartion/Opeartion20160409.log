@@ -1,0 +1,28 @@
+2016-04-09 07:08:08,744  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:08:20,135  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:09:40,194  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:09:57,941  User admin,functionName:产品规格,msg:List 
+2016-04-09 07:10:07,535  User admin,functionName:,msg:List 
+2016-04-09 07:23:10,966  User admin,functionName:,msg:List 
+2016-04-09 07:35:02,146  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:37:15,343  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:39:48,465  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:41:41,623  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:44:25,651  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:44:31,169  User admin,functionName:产品规格,msg:List 
+2016-04-09 07:44:59,481  User admin,functionName:,msg:Add ProdClass Success Code:1111 
+2016-04-09 07:45:24,294  User admin,functionName:,msg:Add ProdClass Success Code:ER 
+2016-04-09 07:49:30,946  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:50:57,169  User admin,functionName:,msg:Add ProdClass Success Code:111 
+2016-04-09 07:55:17,687  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:55:28,863  User admin,functionName:,msg:List 
+2016-04-09 07:56:59,547  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 07:57:45,559  User admin,functionName:,msg:Add ProdClass Success Code:CE 
+2016-04-09 08:04:54,081  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 08:05:28,393  User admin,functionName:,msg:CE 
+2016-04-09 08:07:52,214  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 08:11:41,116  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 08:18:56,569  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 08:21:23,235  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 08:24:05,425  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-09 08:24:14,874  User admin,functionName:,msg:List 

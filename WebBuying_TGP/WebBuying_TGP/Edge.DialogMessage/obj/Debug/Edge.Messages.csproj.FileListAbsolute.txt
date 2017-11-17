@@ -1,0 +1,18 @@
+C:\SVN\WebBuying\Edge.DialogMessage\bin\Debug\Edge.Messages.dll
+C:\SVN\WebBuying\Edge.DialogMessage\bin\Debug\Edge.Messages.pdb
+C:\SVN\WebBuying\Edge.DialogMessage\obj\Debug\Edge.Messages.dll
+C:\SVN\WebBuying\Edge.DialogMessage\obj\Debug\Edge.Messages.pdb
+C:\SVN\WebBuying_TGP\Edge.DialogMessage\bin\Debug\Edge.Messages.dll
+C:\SVN\WebBuying_TGP\Edge.DialogMessage\bin\Debug\Edge.Messages.pdb
+C:\SVN\WebBuying_TGP\Edge.DialogMessage\obj\Debug\Edge.Messages.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\Edge.DialogMessage\obj\Debug\Edge.Messages.dll
+C:\SVN\WebBuying_TGP\Edge.DialogMessage\obj\Debug\Edge.Messages.pdb
+C:\SVN2\WebBuying_TGP\Edge.DialogMessage\bin\Debug\Edge.Messages.dll
+C:\SVN2\WebBuying_TGP\Edge.DialogMessage\bin\Debug\Edge.Messages.pdb
+C:\SVN2\WebBuying_TGP\Edge.DialogMessage\obj\Debug\Edge.Messages.csprojResolveAssemblyReference.cache
+C:\SVN2\WebBuying_TGP\Edge.DialogMessage\obj\Debug\Edge.Messages.dll
+C:\SVN2\WebBuying_TGP\Edge.DialogMessage\obj\Debug\Edge.Messages.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.DialogMessage\bin\Debug\Edge.Messages.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.DialogMessage\bin\Debug\Edge.Messages.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.DialogMessage\obj\Debug\Edge.Messages.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.DialogMessage\obj\Debug\Edge.Messages.pdb

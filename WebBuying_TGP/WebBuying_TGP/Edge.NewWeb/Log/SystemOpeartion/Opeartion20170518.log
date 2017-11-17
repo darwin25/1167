@@ -1,0 +1,64 @@
+2017-05-18 11:46:00,101  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 12:35:06,062  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 12:52:59,939  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 12:55:46,475  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 13:00:59,261  User admin,functionName:,msg:Store Order SPO000000001847 Add Success 
+2017-05-18 13:05:05,666  User admin,functionName:,msg:Approve Success :SPO000000001847 
+2017-05-18 13:06:48,414  User admin,functionName:Modify,msg:Picking Store Order SHP000000002427 Update Success 
+2017-05-18 13:07:43,908  User admin,functionName:,msg:Approve Success :SHP000000002427 
+2017-05-18 13:22:22,618  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 13:34:18,969  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 13:37:25,394  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 14:35:13,384  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 14:38:36,508  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 14:38:52,598  User admin,functionName:,msg:Approve Success :SHP000000002428 
+2017-05-18 14:40:32,295  User admin,functionName:,msg:Store Order SPO000000001848 Add Success 
+2017-05-18 14:40:43,217  User admin,functionName:,msg:Approve Success :SPO000000001848 
+2017-05-18 14:41:21,512  User admin,functionName:Modify,msg:Picking Store Order SHP000000002429 Update Success 
+2017-05-18 14:41:44,868  User admin,functionName:,msg:Approve Success :SHP000000002429 
+2017-05-18 14:42:09,690  User admin,functionName:,msg:Approve Success :SHP000000002430 
+2017-05-18 14:59:36,140  User admin,functionName:,msg:Store Order SPO000000001849 Add Success 
+2017-05-18 14:59:41,134  User admin,functionName:,msg:Approve Success :SPO000000001849 
+2017-05-18 15:00:18,221  User admin,functionName:Modify,msg:Picking Store Order SHP000000002431 Update Success 
+2017-05-18 15:00:27,823  User admin,functionName:,msg:Approve Success :SHP000000002431 
+2017-05-18 15:00:45,385  User admin,functionName:,msg:Approve Success :SHP000000002432 
+2017-05-18 15:24:12,225  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 15:25:56,726  User admin,functionName:Personal Information,msg:List 
+2017-05-18 15:26:01,017  User admin,functionName:,msg:List 
+2017-05-18 15:26:05,801  User admin,functionName:,msg:List 
+2017-05-18 15:26:06,829  User admin,functionName:Menu Management,msg:List 
+2017-05-18 16:00:19,068  User admin,functionName:,msg: Update  
+2017-05-18 16:00:19,079  User admin,functionName:,msg:Update Replenformula Success Code:1 
+2017-05-18 16:00:19,121  User admin,functionName:Menu Management,msg:List 
+2017-05-18 16:28:34,937  User admin,functionName:,msg:Store Order SPO000000001851 Add Success 
+2017-05-18 16:28:41,610  User admin,functionName:,msg:Approve Success :SPO000000001851 
+2017-05-18 18:12:41,111  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 18:16:06,204  User admin,functionName:,msg:List 
+2017-05-18 18:17:37,512  User ,functionName:Store,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.BUY_STORE.GetRecordCount(String strWhere) in C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\BUY_STORE.cs:line 815
+   at Edge.SVA.BLL.BUY_STORE.GetRecordCount(String strWhere) in C:\SVN\WebBuying_TGP\Edge.SVA.BLL\Master\BUY_STORE.cs:line 346
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_STORE.BuyingStoreController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_STORE\BuyingStoreController.cs:line 53
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_STORE.List.RptBind(String strWhere, String orderby) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_STORE\List.aspx.cs:line 85
+ClientConnectionId:0069652c-fe67-4d51-ba22-e76f52426ed1
+Error Number:102,State:1,Class:15
+2017-05-18 18:17:48,883  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 18:17:55,593  User admin,functionName:,msg:List 
+2017-05-18 18:18:08,259  User admin,functionName:,msg:List 
+2017-05-18 18:19:21,517  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 18:39:56,373  User admin,functionName:,msg:List 
+2017-05-18 18:43:26,225  User admin,functionName:,msg:Store Order SPO000000001853 Add Success 
+2017-05-18 18:43:40,230  User admin,functionName:,msg:Approve Success :SPO000000001853 
+2017-05-18 18:44:30,812  User admin,functionName:Modify,msg:Picking Store Order SHP000000002469 Update Success 
+2017-05-18 18:44:48,976  User admin,functionName:,msg:Approve Success :SHP000000002469 
+2017-05-18 18:46:15,733  User admin,functionName:,msg:Approve Success :SHP000000002470 
+2017-05-18 18:51:40,078  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 18:56:48,963  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-18 18:57:55,494  User admin,functionName:,msg:Approve Success :RECIO0000001322 
+2017-05-18 18:58:07,989  User admin,functionName:,msg:List 
+2017-05-18 18:59:33,498  User admin,functionName:,msg:Return Store Order SRTN00000000166 Add Success 
+2017-05-18 19:00:01,234  User admin,functionName:,msg:Approve Success :SRTN00000000166 
+2017-05-18 19:00:07,870  User admin,functionName:,msg:List 
+2017-05-18 19:02:31,691  User admin,functionName:,msg:Store Order SPO000000001854 Add Success 
+2017-05-18 19:02:38,269  User admin,functionName:,msg:Approve Success :SPO000000001854 

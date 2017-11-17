@@ -1,0 +1,35 @@
+2017-05-23 12:21:40,947  User ,functionName:Login,msg: Login Operation userName:Admin 
+2017-05-23 12:23:21,108  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-23 12:23:51,577  User admin,functionName:,msg:Store Order SPO000000001883 Add Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'KeyID' does not allow DBNull.Value.
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.Add.btnSaveClose_Click(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\Add.aspx.cs:line 105
+2017-05-23 12:23:56,292  User admin,functionName:,msg:Store Order SPO000000001883 Add Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'KeyID' does not allow DBNull.Value.
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.Add.btnSaveClose_Click(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\Add.aspx.cs:line 105
+2017-05-23 12:24:07,485  User admin,functionName:,msg:Store Order SPO000000001883 Add Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'KeyID' does not allow DBNull.Value.
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.Add.btnSaveClose_Click(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\Add.aspx.cs:line 105
+2017-05-23 12:25:41,557  User admin,functionName:,msg:Store Order SPO000000001883 Add Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'KeyID' does not allow DBNull.Value.
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.Add.btnSaveClose_Click(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\Add.aspx.cs:line 105
+2017-05-23 12:26:12,822  User admin,functionName:,msg:Store Order SPO000000001883 Add Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'KeyID' does not allow DBNull.Value.
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.Add.btnSaveClose_Click(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\Add.aspx.cs:line 105
+2017-05-23 12:26:54,587  User admin,functionName:,msg:Store Order SPO000000001884 Add Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'KeyID' does not allow DBNull.Value.
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.Add.btnSaveClose_Click(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\Add.aspx.cs:line 105
+2017-05-23 12:32:57,938  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-23 12:33:27,622  User admin,functionName:,msg:Store Order SPO000000001883 Add Success 
+2017-05-23 12:33:37,978  User admin,functionName:,msg:Approve Success :SPO000000001883 
+2017-05-23 12:33:55,196  User admin,functionName:,msg:Approve Success :SHP000000002521 
+2017-05-23 12:40:51,187  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-23 12:42:41,839  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-23 12:43:03,294  User admin,functionName:,msg:Approve Success :SHP000000002522 
+2017-05-23 12:50:24,829  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-23 12:51:08,842  User admin,functionName:,msg:Store Order SPO000000001884 Add Success 
+2017-05-23 12:51:21,397  User admin,functionName:,msg:Approve Success :SPO000000001884 
+2017-05-23 12:53:17,500  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-23 12:53:35,628  User admin,functionName:,msg:Approve Success :SHP000000002523 
+2017-05-23 12:53:46,650  User admin,functionName:,msg:Approve Success :SHP000000002524 
+2017-05-23 14:52:24,322  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-23 14:52:56,745  User admin,functionName:,msg:Store Order SPO000000001883 Add Success 

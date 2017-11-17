@@ -1,0 +1,19 @@
+C:\SVN\WebBuying\Edge.SVA.Model\bin\Debug\Edge.SVA.Model.dll
+C:\SVN\WebBuying\Edge.SVA.Model\bin\Debug\Edge.SVA.Model.pdb
+C:\SVN\WebBuying\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.dll
+C:\SVN\WebBuying\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.pdb
+C:\SVN\WebBuying\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\Edge.SVA.Model\bin\Debug\Edge.SVA.Model.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.Model\bin\Debug\Edge.SVA.Model.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.Model\bin\Debug\Edge.SVA.Model.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.Model\bin\Debug\Edge.SVA.Model.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.csprojResolveAssemblyReference.cache
+C:\SVN2\WebBuying_TGP\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.Model\bin\Debug\Edge.SVA.Model.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.Model\bin\Debug\Edge.SVA.Model.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.Model\obj\Debug\Edge.SVA.Model.pdb

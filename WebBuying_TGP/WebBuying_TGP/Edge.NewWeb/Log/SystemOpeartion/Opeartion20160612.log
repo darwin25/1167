@@ -1,0 +1,409 @@
+2016-06-12 09:21:49,800  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 09:22:03,125  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 09:48:17,189  User admin,functionName:,msg:Add Category 销售送货单 
+2016-06-12 09:48:41,765  User admin,functionName:,msg:Add Permission List 
+2016-06-12 09:48:47,727  User admin,functionName:,msg:Add Permission Modify 
+2016-06-12 09:48:51,577  User admin,functionName:,msg:Add Permission Show 
+2016-06-12 09:49:53,930  User admin,functionName:,msg:Add Tree Menu : 销售送货单 
+2016-06-12 09:50:15,345  User admin,functionName:,msg:Update Role Admin 
+2016-06-12 09:51:04,904  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 09:51:12,429  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException: Invalid column name 'SalesPickOrderNumber'.
+Invalid column name 'CreatedBusDate'.
+Invalid column name 'ApproveBusDate'.
+Invalid column name 'ApprovalCode'.
+Invalid column name 'ApproveStatus'.
+Invalid column name 'ApproveOn'.
+Invalid column name 'ApproveBy'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName, Int32 Times)
+   at Edge.SVA.SQLServerDAL.BaseDAL.GetList(Int32 pageSize, Int32 pageIndex) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Partial\BaseDAL.cs:line 58
+   at Edge.SVA.SQLServerDAL.BaseDAL.GetList(Int32 pageSize, Int32 pageIndex, Int32& recordCount) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Partial\BaseDAL.cs:line 66
+   at Edge.SVA.BLL.BaseBLL.GetList(Int32 pageSize, Int32 pageIndex, Int32& recordCount) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Partial\BaseBLL.cs:line 79
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.SalesShipOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\SalesShipOrderController.cs:line 22
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 172
+2016-06-12 09:55:22,724  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 09:55:52,825  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException: Invalid column name 'SalesPickOrderNumber'.
+Invalid column name 'CreatedBusDate'.
+Invalid column name 'ApproveBusDate'.
+Invalid column name 'ApprovalCode'.
+Invalid column name 'ApproveStatus'.
+Invalid column name 'ApproveOn'.
+Invalid column name 'ApproveBy'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName, Int32 Times)
+   at Edge.SVA.SQLServerDAL.BaseDAL.GetList(Int32 pageSize, Int32 pageIndex) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Partial\BaseDAL.cs:line 59
+   at Edge.SVA.SQLServerDAL.BaseDAL.GetList(Int32 pageSize, Int32 pageIndex, Int32& recordCount) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Partial\BaseDAL.cs:line 66
+   at Edge.SVA.BLL.BaseBLL.GetList(Int32 pageSize, Int32 pageIndex, Int32& recordCount) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Partial\BaseBLL.cs:line 79
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.SalesShipOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\SalesShipOrderController.cs:line 39
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 172
+2016-06-12 09:58:23,356  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 09:59:00,167  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException: Invalid column name 'SalesPickOrderNumber'.
+Invalid column name 'CreatedBusDate'.
+Invalid column name 'ApproveBusDate'.
+Invalid column name 'ApprovalCode'.
+Invalid column name 'ApproveStatus'.
+Invalid column name 'ApproveOn'.
+Invalid column name 'ApproveBy'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, String tableName, Int32 Times)
+   at Edge.SVA.SQLServerDAL.BaseDAL.GetList(Int32 pageSize, Int32 pageIndex) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Partial\BaseDAL.cs:line 59
+   at Edge.SVA.SQLServerDAL.BaseDAL.GetList(Int32 pageSize, Int32 pageIndex, Int32& recordCount) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Partial\BaseDAL.cs:line 66
+   at Edge.SVA.BLL.BaseBLL.GetList(Int32 pageSize, Int32 pageIndex, Int32& recordCount) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Partial\BaseBLL.cs:line 79
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.SalesShipOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\SalesShipOrderController.cs:line 39
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 172
+2016-06-12 10:03:33,219  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 10:04:58,256  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.ArgumentException: ApproveStatus is neither a DataColumn nor a DataRelation for table ds.
+   at System.Data.DataRowView.get_Item(String property)
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 260
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 152
+2016-06-12 10:12:57,486  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 10:13:05,412  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Status'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.operation_storeordermanagement_salesshiporder_list_aspx.__DataBindinglblApproveStatus(Object sender, EventArgs e) in d:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx:line 82
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at FineUI.GridRow.DataBindRow()
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 152
+2016-06-12 10:13:45,783  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 10:15:28,946  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Status'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.operation_storeordermanagement_salesshiporder_list_aspx.__DataBindinglblApproveStatus(Object sender, EventArgs e) in d:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx:line 82
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at FineUI.GridRow.DataBindRow()
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 152
+2016-06-12 10:16:51,111  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 10:21:41,041  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 10:23:29,413  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException: Invalid column name 'SalesPickOrderNumber'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString)
+   at Edge.SVA.SQLServerDAL.Ord_SalesShipOrder_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_SalesShipOrder_H.cs:line 440
+   at Edge.SVA.BLL.Ord_SalesShipOrder_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_SalesShipOrder_H.cs:line 152
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.SalesShipOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\SalesShipOrderController.cs:line 22
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 120
+2016-06-12 10:23:31,678  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException: Invalid column name 'SalesPickOrderNumber'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString)
+   at Edge.SVA.SQLServerDAL.Ord_SalesShipOrder_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_SalesShipOrder_H.cs:line 440
+   at Edge.SVA.BLL.Ord_SalesShipOrder_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_SalesShipOrder_H.cs:line 152
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.SalesShipOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\SalesShipOrderController.cs:line 22
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 120
+2016-06-12 10:26:27,797  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 10:27:59,824  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 10:28:58,345  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 10:47:15,428  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 10:47:24,311  User admin,functionName:,msg:Show 
+2016-06-12 10:54:03,636  User admin,functionName:,msg:Show 
+2016-06-12 10:54:57,101  User admin,functionName:,msg:Show 
+2016-06-12 10:55:53,946  User admin,functionName:,msg:Show 
+2016-06-12 10:56:05,714  User admin,functionName:,msg:Show 
+2016-06-12 10:56:12,132  User admin,functionName:,msg:Show 
+2016-06-12 10:58:49,354  User admin,functionName:,msg:Show 
+2016-06-12 10:58:53,767  User admin,functionName:,msg:Show 
+2016-06-12 11:02:05,021  User admin,functionName:,msg:Show 
+2016-06-12 11:02:48,334  User admin,functionName:,msg:Show 
+2016-06-12 11:07:24,071  User admin,functionName:,msg:Show 
+2016-06-12 11:30:15,985  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 11:34:45,526  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 11:42:00,743  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 11:42:08,298  User admin,functionName:,msg:Modify 
+2016-06-12 11:42:16,333  User admin,functionName:,msg:Modify 
+2016-06-12 11:42:16,383  User admin,functionName:,msg: Ord_SalesShipOrder_D Update Success 
+2016-06-12 11:42:23,938  User admin,functionName:,msg:Modify 
+2016-06-12 11:42:53,946  User admin,functionName:,msg:Modify 
+2016-06-12 11:51:23,852  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 11:51:32,547  User admin,functionName:,msg:Modify 
+2016-06-12 12:00:40,582  User admin,functionName:,msg:Show 
+2016-06-12 12:02:52,407  User admin,functionName:,msg:Show 
+2016-06-12 12:17:46,942  User ,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 300
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 161
+2016-06-12 12:18:10,864  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 12:22:25,763  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 300
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 161
+2016-06-12 12:23:03,921  User ,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 300
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 161
+2016-06-12 12:23:16,407  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 12:23:23,068  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 300
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 161
+2016-06-12 12:24:29,199  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 12:25:26,175  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 300
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 161
+2016-06-12 12:30:31,442  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 12:32:05,352  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 12:33:39,669  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 12:44:34,198  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 12:45:51,270  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 12:45:57,937  User admin,functionName:,msg:Modify 
+2016-06-12 12:52:04,907  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 12:52:14,661  User admin,functionName:,msg:Modify 
+2016-06-12 12:52:28,194  User admin,functionName:,msg:Modify 
+2016-06-12 12:52:28,264  User admin,functionName:,msg:Ord_SalesShipOrder_H SSO000000000002 Update Failed,Error Message: 
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'TxnNo', table 'WebBuyingUAT.dbo.Ord_SalesShipOrder_H'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms)
+   at Edge.SVA.SQLServerDAL.Ord_SalesShipOrder_H.Update(Ord_SalesShipOrder_H model) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_SalesShipOrder_H.cs:line 197
+   at Edge.SVA.BLL.Ord_SalesShipOrder_H.Update(Ord_SalesShipOrder_H model) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_SalesShipOrder_H.cs:line 43
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Edge.Web.Tools.DALTool.ExecuteMethod[T](String method, Object[] parameters) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\DALTool.cs:line 837
+   at Edge.Web.Tools.DALTool.Update[BLL](Object obj) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\DALTool.cs:line 781
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\Modify.aspx.cs:line 200
+2016-06-12 14:08:17,365  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 14:10:04,113  User admin,functionName:,msg:Modify 
+2016-06-12 14:10:11,451  User admin,functionName:,msg:Modify 
+2016-06-12 14:10:46,230  User admin,functionName:,msg:Ord_SalesShipOrder_H SSO000000000002 Update Failed,Error Message: 
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'TxnNo', table 'WebBuyingUAT.dbo.Ord_SalesShipOrder_H'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms)
+   at Edge.SVA.SQLServerDAL.Ord_SalesShipOrder_H.Update(Ord_SalesShipOrder_H model) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_SalesShipOrder_H.cs:line 197
+   at Edge.SVA.BLL.Ord_SalesShipOrder_H.Update(Ord_SalesShipOrder_H model) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_SalesShipOrder_H.cs:line 43
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Edge.Web.Tools.DALTool.ExecuteMethod[T](String method, Object[] parameters) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\DALTool.cs:line 841
+   at Edge.Web.Tools.DALTool.Update[BLL](Object obj) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\DALTool.cs:line 781
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\Modify.aspx.cs:line 202
+2016-06-12 14:11:07,272  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 14:11:13,900  User admin,functionName:,msg:Modify 
+2016-06-12 14:11:20,967  User admin,functionName:,msg:Modify 
+2016-06-12 14:11:55,397  User admin,functionName:,msg:Ord_SalesShipOrder_H SSO000000000002 Update Failed,Error Message: 
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'TxnNo', table 'WebBuyingUAT.dbo.Ord_SalesShipOrder_H'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms)
+   at Edge.SVA.SQLServerDAL.Ord_SalesShipOrder_H.Update(Ord_SalesShipOrder_H model) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_SalesShipOrder_H.cs:line 197
+   at Edge.SVA.BLL.Ord_SalesShipOrder_H.Update(Ord_SalesShipOrder_H model) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_SalesShipOrder_H.cs:line 43
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Edge.Web.Tools.DALTool.ExecuteMethod[T](String method, Object[] parameters) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\DALTool.cs:line 841
+   at Edge.Web.Tools.DALTool.Update[BLL](Object obj) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\DALTool.cs:line 781
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\Modify.aspx.cs:line 202
+2016-06-12 14:26:45,550  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 14:26:55,092  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 14:27:07,672  User admin,functionName:,msg:Modify 
+2016-06-12 14:27:18,739  User admin,functionName:,msg:Modify 
+2016-06-12 14:27:54,095  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 14:28:01,237  User admin,functionName:,msg:Modify 
+2016-06-12 14:28:04,327  User admin,functionName:,msg:Modify 
+2016-06-12 14:30:43,184  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 14:30:58,149  User admin,functionName:,msg:Modify 
+2016-06-12 14:31:15,001  User admin,functionName:,msg:Modify 
+2016-06-12 14:34:10,002  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 14:34:19,962  User admin,functionName:,msg:Modify 
+2016-06-12 14:34:35,314  User admin,functionName:,msg:Modify 
+2016-06-12 14:35:03,947  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update Success 
+2016-06-12 14:35:14,783  User admin,functionName:,msg:Modify 
+2016-06-12 14:35:22,623  User admin,functionName:,msg:Modify 
+2016-06-12 14:35:24,493  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update Success 
+2016-06-12 14:35:44,175  User admin,functionName:,msg:Modify 
+2016-06-12 14:35:54,994  User admin,functionName:,msg:Modify 
+2016-06-12 14:35:55,114  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update Success 
+2016-06-12 14:41:05,311  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 14:43:16,038  User admin,functionName:,msg:Modify 
+2016-06-12 14:44:23,426  User admin,functionName:,msg:Modify 
+2016-06-12 14:44:23,526  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update Success 
+2016-06-12 14:46:51,611  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:11:56,628  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:17:10,948  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:21:46,387  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:27:57,246  User admin,functionName:,msg:Approve Success :PO0000000000076 
+2016-06-12 15:27:57,246  User admin,functionName:,msg:Approve Failed :PO0000000000082 
+2016-06-12 15:29:24,496  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:32:02,824  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:32:07,756  User admin,functionName:,msg:List 
+2016-06-12 15:33:47,811  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:34:45,566  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:36:52,473  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:40:03,764  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:46:59,127  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:47:38,697  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update  Failed,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.btnStatus2_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 242
+2016-06-12 15:50:12,624  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:50:28,335  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update  Failed,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.btnStatus2_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 241
+2016-06-12 15:54:55,235  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 15:55:09,402  User admin,functionName:,msg:SalesShip  Order SSO000000000001 Update  Failed,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.btnStatus3_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 268
+2016-06-12 15:59:23,416  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update  Failed,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.btnStatus2_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 241
+2016-06-12 16:02:14,998  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 16:02:32,339  User admin,functionName:,msg:Modify 
+2016-06-12 16:02:37,016  User admin,functionName:,msg:Modify 
+2016-06-12 16:02:37,096  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update Success 
+2016-06-12 16:08:12,362  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 16:25:11,090  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 16:39:38,858  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 16:50:41,143  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 16:53:31,679  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 17:02:37,462  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 17:03:37,525  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 17:04:10,048  User admin,functionName:,msg:Modify 
+2016-06-12 17:04:16,948  User admin,functionName:,msg:Modify 
+2016-06-12 17:04:17,078  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update Success 
+2016-06-12 17:04:28,193  User admin,functionName:,msg:Modify 
+2016-06-12 17:06:26,749  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 17:07:56,556  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 17:08:12,657  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update  Failed,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.btnStatus2_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 238
+2016-06-12 17:14:46,360  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-12 17:15:27,357  User admin,functionName:,msg:Modify 
+2016-06-12 17:15:36,229  User admin,functionName:,msg:Modify 
+2016-06-12 17:15:36,309  User admin,functionName:,msg:SalesShip  Order SSO000000000001 Update Success 
+2016-06-12 17:15:40,239  User admin,functionName:,msg:SalesShip  Order SSO000000000001 Update  Failed,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.btnStatus3_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 265

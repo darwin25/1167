@@ -1,0 +1,3 @@
+C:\SVN\WebBuying_TGP\Common\bin\Release\Edge.Common.dll
+C:\SVN\WebBuying_TGP\Common\bin\Release\OpenSmtp.dll
+C:\SVN\WebBuying_TGP\Common\obj\Release\Edge.Common.dll

@@ -1,0 +1,15 @@
+2016-03-31 15:47:58,986  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-31 15:48:32,335  User admin,functionName:,msg:List 
+2016-03-31 15:51:38,023  User admin,functionName:,msg:Order to Supplier PO0000000000076 Update Success 
+2016-03-31 16:03:09,802  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-31 16:18:54,604  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-31 16:21:24,569  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-31 16:21:33,543  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-31 16:32:51,007  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-31 16:33:47,500  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-31 16:36:38,663  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-31 16:40:38,642  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-31 16:41:00,924  User admin,functionName:,msg:List 
+2016-03-31 16:41:13,208  User admin,functionName:,msg: Update  
+2016-03-31 16:41:13,442  User admin,functionName:Update,msg:Update Product Success Code:01119638 
+2016-03-31 17:17:09,768  User ,functionName:Login,msg: Login Operation userName:admin 

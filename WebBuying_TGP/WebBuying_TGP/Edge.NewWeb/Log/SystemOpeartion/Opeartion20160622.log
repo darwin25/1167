@@ -1,0 +1,76 @@
+2016-06-22 11:33:00,297  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-22 11:33:19,053  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-22 11:57:52,967  User admin,functionName:,msg:Void 
+2016-06-22 11:57:52,999  User admin,functionName:,msg:Void Failed :SHP000000000075 
+2016-06-22 12:09:36,864  User ,functionName:Login,msg: Login Operation userName:admin3 
+2016-06-22 12:09:45,877  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-22 12:10:02,239  User admin,functionName:,msg:Void 
+2016-06-22 12:10:02,255  User admin,functionName:,msg:Void Failed :SPUO00000000002 
+2016-06-22 12:10:12,287  User admin,functionName:,msg:Void 
+2016-06-22 12:10:12,289  User admin,functionName:,msg:Void Failed :SPUO00000000001 
+2016-06-22 12:11:13,701  User admin,functionName:,msg:Void 
+2016-06-22 12:11:13,732  User admin,functionName:,msg:Void Success :SPUO00000000001 
+2016-06-22 12:22:29,686  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-22 12:22:39,489  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-22 12:23:26,044  User admin,functionName:,msg:Modify 
+2016-06-22 12:23:34,909  User admin,functionName:,msg:Modify 
+2016-06-22 12:23:35,065  User admin,functionName:,msg:SalesShip  Order SSO000000000001 Update Success 
+2016-06-22 12:23:37,904  User admin,functionName:,msg:Modify 
+2016-06-22 12:25:07,320  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-22 12:25:29,994  User admin,functionName:,msg:Modify 
+2016-06-22 12:26:12,000  User admin,functionName:,msg:Modify 
+2016-06-22 12:33:29,304  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-22 12:34:03,792  User admin,functionName:,msg:Modify 
+2016-06-22 12:34:10,663  User admin,functionName:,msg:Modify 
+2016-06-22 12:34:10,757  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update Success 
+2016-06-22 12:34:15,839  User admin,functionName:,msg:Modify 
+2016-06-22 12:39:38,641  User admin,functionName:,msg:Modify 
+2016-06-22 12:39:44,902  User admin,functionName:,msg:Modify 
+2016-06-22 12:39:44,980  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update Success 
+2016-06-22 12:42:16,537  User admin,functionName:,msg:Modify 
+2016-06-22 12:42:20,485  User admin,functionName:,msg:Modify 
+2016-06-22 12:42:20,516  User admin,functionName:,msg:SalesShip  Order SSO000000000001 Update Success 
+2016-06-22 12:47:16,680  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-22 12:47:23,914  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-22 12:47:35,789  User admin,functionName:,msg:Modify 
+2016-06-22 12:47:41,040  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update  Failed,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.btnStatus1_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 240
+2016-06-22 12:49:19,814  User admin,functionName:,msg:Modify 
+2016-06-22 12:52:04,029  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-22 12:52:35,593  User admin,functionName:,msg:Modify 
+2016-06-22 12:52:41,030  User admin,functionName:,msg:Modify 
+2016-06-22 12:52:41,108  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update Success 
+2016-06-22 12:52:44,718  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update  Failed,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.btnStatus1_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 240
+2016-06-22 12:54:22,946  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update  Failed,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.btnStatus2_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 273
+2016-06-22 12:55:57,401  User admin,functionName:,msg:SalesShip  Order SSO000000000002 Update  Failed,Error Message: 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at System.Web.HttpResponse.Redirect(String url)
+   at Edge.Web.PageBase.RefreshPage() in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\PageBase.cs:line 316
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.btnStatus3_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 300

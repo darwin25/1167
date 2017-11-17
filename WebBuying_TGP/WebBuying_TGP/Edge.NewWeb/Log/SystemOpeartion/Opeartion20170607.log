@@ -1,0 +1,19 @@
+2017-06-07 11:25:06,923  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-07 11:25:26,355  User admin,functionName:,msg:List 
+2017-06-07 11:55:53,229  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-07 11:56:04,299  User admin,functionName:,msg:List 
+2017-06-07 12:18:51,786  User admin,functionName:,msg:List 
+2017-06-07 12:18:52,409  User admin,functionName:,msg:List 
+2017-06-07 17:26:48,902  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-07 17:28:04,035  User admin,functionName:,msg:List 
+2017-06-07 18:05:59,702  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-07 18:06:06,776  User admin,functionName:,msg:List 
+2017-06-07 18:06:34,507  User admin,functionName:,msg:List 
+2017-06-07 18:07:10,480  User admin,functionName:,msg:List 
+2017-06-07 18:08:45,135  User admin,functionName:Promotion Price,msg:List 
+2017-06-07 18:08:48,254  User admin,functionName:,msg:List 
+2017-06-07 20:43:15,138  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-07 20:47:32,017  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-07 20:50:10,584  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-07 20:52:37,273  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-07 20:52:49,976  User admin,functionName:,msg:List 

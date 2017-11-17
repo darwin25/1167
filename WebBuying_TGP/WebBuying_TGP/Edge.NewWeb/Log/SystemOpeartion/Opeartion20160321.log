@@ -1,0 +1,6 @@
+2016-03-21 10:03:46,558  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-21 10:04:07,968  User admin,functionName:,msg:Approve Success :PO0000000000082 
+2016-03-21 10:04:14,652  User admin,functionName:,msg:Void Failed :PO0000000000082 
+2016-03-21 10:04:23,058  User admin,functionName:,msg:Void Failed :SPO000000000178 
+2016-03-21 10:04:28,694  User admin,functionName:,msg:Approve Failed :SPO000000000175 
+2016-03-21 10:15:38,282  User admin,functionName:,msg:Void Failed :RECIO0000000056 

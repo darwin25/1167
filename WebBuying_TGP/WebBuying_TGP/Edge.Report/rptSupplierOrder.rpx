@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActiveReportsLayout Version="3.2" PrintWidth="15630" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="PageHeader" Name="PageHeader" Height="2280" BackColor="16777215">
+      <Control Type="AR.Field" Name="TextBox1" Left="5250.24" Top="269.28" Width="2954.88" Height="528.48" Text="供应商订单" Style="font-size: 20pt; text-align: center" />
+      <Control Type="AR.Field" Name="txtPOCode" Left="420.48" Top="1620" Width="1440" Height="288" Text="订单号" Style="text-align: center" />
+      <Control Type="AR.Label" Name="lblApproveSatus" Left="2550.24" Top="1620" Width="1440" Height="288" Caption="状态" Style="text-align: center" />
+      <Control Type="AR.Label" Name="lblVendorName" Left="4589.28" Top="1620" Width="1440" Height="288" Caption="供应商" Style="text-align: center" />
+      <Control Type="AR.Label" Name="lblProCode" Left="7064.64" Top="1620" Width="1440" Height="288" Caption="货品" Style="text-align: center" />
+      <Control Type="AR.Label" Name="lblProDesc" Left="9074.881" Top="1620" Width="1440" Height="288" Caption="货品名称" Style="text-align: center" />
+      <Control Type="AR.Label" Name="lblQty" Left="11819.52" Top="1620" Width="1440" Height="288" Caption="数量" Style="text-align: center" />
+    </Section>
+    <Section Type="Detail" Name="Detail" Height="1245" BackColor="16777215">
+      <Control Type="AR.Field" Name="txtPOCode1" DataField="POCode" Left="495.36" Top="210.24" Width="1440" Height="288" Text="订单号" Style="text-align: center" />
+      <Control Type="AR.Field" Name="txtApproveStatus1" DataField="ApproveStatus" Left="2550.24" Top="210.24" Width="1440" Height="288" Text="状态" Style="text-align: center" />
+      <Control Type="AR.Field" Name="txtVendorName11" DataField="VendorName1" Left="4769.28" Top="210.24" Width="1440" Height="288" Text="供应商" Style="text-align: center" />
+      <Control Type="AR.Field" Name="txtProdCode1" DataField="ProdCode" Left="7064.64" Top="210.24" Width="1440" Height="288" Text="货品" Style="text-align: center" />
+      <Control Type="AR.Field" Name="txtProdDesc11" DataField="ProdDesc1" Left="8939.521" Top="210.24" Width="2430.72" Height="288" Text="货品名称" Style="text-align: center" />
+      <Control Type="AR.Field" Name="txtQty1" DataField="Qty" Left="11819.52" Top="210.24" Width="1440" Height="288" Text="数量" Style="text-align: center" />
+    </Section>
+    <Section Type="PageFooter" Name="PageFooter" Height="1560" BackColor="16777215" />
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <SqlDbDataSource ConnectF="BHunkowNWeCOJ0TrLLsGciESt4PUcHe0bUYbU3ht+f5ZfnXKRrSvFFzre4MFSVur58rZAiJwPVeeO/De4+arkoQ60ayWvyRdIjJBM3ZgY5Z1TwhPOcIatAHzr9DjvC+xg0iqPOZiz4ylUBc+DwiG3w==" SQL="select BUY_PO_H.POCode,&#xD;&#xA;case  ApproveStatus &#xD;&#xA;when  'P' then '待定'&#xD;&#xA;when  'A' then '批准'&#xD;&#xA;else '无效' &#xD;&#xA;end as ApproveStatus, &#xD;&#xA;BUY_VENDOR.VendorName1,Note1,Note2,Note3,&#xD;&#xA;BUY_PO_D.ProdCode,UnitCost,Qty,ProdDesc1&#xD;&#xA;from  BUY_PO_H &#xD;&#xA;left join  BUY_VENDOR on BUY_PO_H.VendorID=BUY_VENDOR.VendorID&#xD;&#xA;left join BUY_PO_D on BUY_PO_H.POCode=BUY_PO_D.POCode&#xD;&#xA;left join BUY_PRODUCT on BUY_PO_D.ProdCode=BUY_PRODUCT.ProdCode" CommandTimeout="100" />
+  </DataSources>
+  <Script><![CDATA[public void Detail_Format()
+{
+
+}
+
+
+]]></Script>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

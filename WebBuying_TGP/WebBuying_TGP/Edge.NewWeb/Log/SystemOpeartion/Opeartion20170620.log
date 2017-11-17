@@ -1,0 +1,88 @@
+2017-06-20 12:59:53,166  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-20 13:00:18,424  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-20 13:03:57,181  User admin,functionName:,msg:Store Order SPO000000001875 Detail No Data 
+2017-06-20 13:04:13,529  User admin,functionName:,msg:Store Order SPO000000001875 Add Success 
+2017-06-20 13:04:41,007  User admin,functionName:,msg:Approve Success :SPO000000001875 
+2017-06-20 13:31:15,328  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-20 13:33:16,108  User admin,functionName:,msg:Approve Receive Store Order :System.Data.SqlClient.SqlException (0x80131904): Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 722
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 200
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 40
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.Approve(Ord_ReceiveOrder_H model, Boolean& isSuccess) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 93
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Approve.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Approve.aspx.cs:line 52
+ClientConnectionId:d6e3747f-d41d-4e23-8f8e-e783c34da264
+Error Number:512,State:1,Class:16 
+2017-06-20 13:33:22,100  User admin,functionName:,msg:Approve Receive Store Order :System.Data.SqlClient.SqlException (0x80131904): Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 722
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 200
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 40
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.Approve(Ord_ReceiveOrder_H model, Boolean& isSuccess) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 93
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Approve.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Approve.aspx.cs:line 52
+ClientConnectionId:d6e3747f-d41d-4e23-8f8e-e783c34da264
+Error Number:512,State:1,Class:16 
+2017-06-20 13:34:13,773  User admin,functionName:,msg:Approve Receive Store Order :System.Data.SqlClient.SqlException (0x80131904): Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 722
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 200
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 40
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.Approve(Ord_ReceiveOrder_H model, Boolean& isSuccess) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 93
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Approve.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Approve.aspx.cs:line 52
+ClientConnectionId:d6e3747f-d41d-4e23-8f8e-e783c34da264
+Error Number:512,State:1,Class:16 
+2017-06-20 13:34:45,103  User admin,functionName:,msg:Approve Receive Store Order :System.Data.SqlClient.SqlException (0x80131904): Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 722
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 200
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 40
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.Approve(Ord_ReceiveOrder_H model, Boolean& isSuccess) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 93
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Approve.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Approve.aspx.cs:line 52
+ClientConnectionId:d6e3747f-d41d-4e23-8f8e-e783c34da264
+Error Number:512,State:1,Class:16 
+2017-06-20 13:35:25,961  User admin,functionName:,msg:Approve Receive Store Order :System.Data.SqlClient.SqlException (0x80131904): Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 722
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 200
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 40
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.Approve(Ord_ReceiveOrder_H model, Boolean& isSuccess) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 93
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Approve.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Approve.aspx.cs:line 52
+ClientConnectionId:d6e3747f-d41d-4e23-8f8e-e783c34da264
+Error Number:512,State:1,Class:16 
+2017-06-20 13:38:21,423  User admin,functionName:,msg:Approve Receive Store Order :System.Data.SqlClient.SqlException (0x80131904): Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 722
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 200
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 40
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.Approve(Ord_ReceiveOrder_H model, Boolean& isSuccess) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 93
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Approve.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Approve.aspx.cs:line 52
+ClientConnectionId:d6e3747f-d41d-4e23-8f8e-e783c34da264
+Error Number:512,State:1,Class:16 
+2017-06-20 13:40:06,012  User admin,functionName:,msg:Approve Receive Store Order :System.Data.SqlClient.SqlException (0x80131904): Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 722
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 200
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 40
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.Approve(Ord_ReceiveOrder_H model, Boolean& isSuccess) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 93
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Approve.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Approve.aspx.cs:line 52
+ClientConnectionId:d6e3747f-d41d-4e23-8f8e-e783c34da264
+Error Number:512,State:1,Class:16 
+2017-06-20 13:42:52,591  User admin,functionName:,msg:Approve Receive Store Order :System.Data.SqlClient.SqlException (0x80131904): Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 722
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 200
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 40
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.Approve(Ord_ReceiveOrder_H model, Boolean& isSuccess) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 93
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Approve.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Approve.aspx.cs:line 52
+ClientConnectionId:d6e3747f-d41d-4e23-8f8e-e783c34da264
+Error Number:512,State:1,Class:16 
+2017-06-20 13:53:43,805  User admin,functionName:,msg:Approve Receive Store Order :System.Data.SqlClient.SqlException (0x80131904): Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+   at Edge.DBUtility.DbHelperSQL.ExecuteSql(String SQLString, SqlParameter[] cmdParms) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 722
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 200
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.Update(Ord_ReceiveOrder_H model) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 40
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.Approve(Ord_ReceiveOrder_H model, Boolean& isSuccess) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 93
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Approve.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Approve.aspx.cs:line 52
+ClientConnectionId:d6e3747f-d41d-4e23-8f8e-e783c34da264
+Error Number:512,State:1,Class:16 
+2017-06-20 13:55:53,646  User admin,functionName:,msg:Approve Success :RECIO0000001324 

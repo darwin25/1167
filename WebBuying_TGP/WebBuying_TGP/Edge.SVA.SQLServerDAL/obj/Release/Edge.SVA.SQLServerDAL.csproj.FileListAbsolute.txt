@@ -1,0 +1,12 @@
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Release\Edge.SVA.SQLServerDAL.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Release\Edge.SVA.SQLServerDAL.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Release\Edge.DBUtility.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Release\Edge.SVA.IDAL.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Release\Edge.SVA.Model.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Release\MySql.Data.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Release\System.Data.SQLite.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Release\Edge.SVA.IDAL.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Release\Edge.SVA.Model.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Release\Edge.SVA.SQLServerDAL.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Release\Edge.SVA.SQLServerDAL.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Release\Edge.SVA.SQLServerDAL.pdb

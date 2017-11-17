@@ -1,0 +1,50 @@
+2016-03-18 10:29:22,152  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 10:30:37,946  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 10:34:41,812  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 10:36:51,637  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 10:39:58,435  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 10:41:12,563  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 11:08:40,493  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 11:08:51,397  User admin,functionName:,msg:List 
+2016-03-18 11:08:56,406  User admin,functionName:,msg:List 
+2016-03-18 11:11:34,803  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 11:11:43,551  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 11:13:10,359  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 11:15:33,637  User admin,functionName:,msg:List 
+2016-03-18 11:15:47,637  User admin,functionName:,msg:Show 
+2016-03-18 11:16:59,038  User admin,functionName:,msg:List 
+2016-03-18 11:17:02,306  User admin,functionName:,msg:List 
+2016-03-18 11:22:14,304  User admin,functionName:,msg: Update  
+2016-03-18 11:22:14,850  User admin,functionName:,msg:Update Product Success Code:01119638 
+2016-03-18 11:23:07,614  User admin,functionName:,msg:List 
+2016-03-18 11:24:15,285  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 11:24:22,846  User admin,functionName:,msg:List 
+2016-03-18 11:24:25,728  User admin,functionName:,msg:List 
+2016-03-18 11:24:39,746  User admin,functionName:,msg: Add  
+2016-03-18 11:24:39,918  User admin,functionName:,msg:Add Product Picture Success Code:01119638 
+2016-03-18 11:49:12,009  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 11:49:23,799  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 11:49:37,047  User admin,functionName:,msg:List 
+2016-03-18 11:49:43,766  User admin,functionName:,msg:List 
+2016-03-18 11:50:03,994  User admin,functionName:,msg:List 
+2016-03-18 11:50:09,311  User admin,functionName:,msg:List 
+2016-03-18 11:50:25,266  User admin,functionName:,msg: Add  
+2016-03-18 11:50:48,635  User admin,functionName:,msg:Add Product Picture Success Code:4902561001488 
+2016-03-18 11:59:06,963  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 11:59:17,071  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 11:59:24,421  User admin,functionName:,msg:List 
+2016-03-18 11:59:26,946  User admin,functionName:,msg:List 
+2016-03-18 11:59:35,282  User admin,functionName:,msg:Show 
+2016-03-18 11:59:38,920  User admin,functionName:,msg:Show 
+2016-03-18 12:52:30,471  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 12:52:48,685  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 12:52:54,859  User admin,functionName:,msg:List 
+2016-03-18 12:52:57,821  User admin,functionName:,msg:List 
+2016-03-18 12:53:15,223  User admin,functionName:Update,msg:Update 
+2016-03-18 14:08:59,872  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 14:11:09,624  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 14:18:44,945  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 14:28:51,933  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 14:46:45,181  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 14:48:56,955  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-18 15:05:17,239  User ,functionName:Login,msg: Login Operation userName:admin 

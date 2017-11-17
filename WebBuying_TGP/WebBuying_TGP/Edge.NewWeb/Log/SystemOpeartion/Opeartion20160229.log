@@ -1,0 +1,31 @@
+2016-02-29 14:10:06,670  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-29 14:11:20,377  User ,functionName:,msg:List 
+2016-02-29 14:11:31,826  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-29 14:11:34,636  User admin,functionName:,msg:List 
+2016-02-29 14:12:10,764  User admin,functionName:,msg: Update  
+2016-02-29 14:12:10,967  User admin,functionName:,msg:Update Product Success Code:ttt 
+2016-02-29 14:12:12,808  User admin,functionName:,msg:Show 
+2016-02-29 14:14:07,166  User admin,functionName:,msg:Show 
+2016-02-29 14:18:31,321  User admin,functionName:,msg:List 
+2016-02-29 14:19:07,225  User admin,functionName:[ExcelTool].GetExcelSheets(),Error Message: 
+System.Data.OleDb.OleDbException: External table is not in the expected format.
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at Edge.Web.Tools.ExcelTool.GetExcelSheets(String filename) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ExcelTool.cs:line 84
+2016-02-29 14:19:08,324  User admin,functionName:[ExcelTool].GetExcelSheets(),Error Message: 
+System.Data.OleDb.OleDbException: External table is not in the expected format.
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at Edge.Web.Tools.ExcelTool.GetExcelSheets(String filename) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ExcelTool.cs:line 84
+2016-02-29 14:21:21,441  User ,functionName:,msg:List 
+2016-02-29 14:21:31,972  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-29 14:21:34,738  User admin,functionName:,msg:List 
+2016-02-29 15:52:04,848  User ,functionName:Login,msg: Login Operation userName:admin 

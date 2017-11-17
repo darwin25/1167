@@ -1,0 +1,257 @@
+2016-07-13 09:24:58,209  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 09:25:17,942  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 09:25:25,848  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 09:25:37,071  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 09:27:12,778  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 09:27:26,793  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 09:27:39,206  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 09:27:46,995  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 10:39:13,209  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 10:40:07,619  User admin,functionName:,msg:Add Category 店铺的自动补货设置 
+2016-07-13 10:40:29,514  User admin,functionName:,msg:Add Permission List 
+2016-07-13 10:40:32,973  User admin,functionName:,msg:Add Permission Show 
+2016-07-13 10:40:38,296  User admin,functionName:,msg:Add Permission Modify 
+2016-07-13 10:40:40,872  User admin,functionName:,msg:Add Permission Add 
+2016-07-13 10:40:45,738  User admin,functionName:,msg:Add Permission Delete 
+2016-07-13 10:41:58,782  User admin,functionName:,msg:Update Category 店铺的自动补货设置 
+2016-07-13 10:43:03,588  User admin,functionName:,msg:Add Tree Menu : 店铺的自动补货设置 
+2016-07-13 10:43:17,941  User admin,functionName:,msg:Update Role Admin 
+2016-07-13 10:53:03,451  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 10:59:18,654  User admin,functionName:,msg:List 
+2016-07-13 10:59:22,931  User admin,functionName:,msg:List 
+2016-07-13 10:59:28,278  User admin,functionName:,msg:List 
+2016-07-13 10:59:34,038  User admin,functionName:,msg:List 
+2016-07-13 10:59:39,278  User admin,functionName:,msg:List 
+2016-07-13 10:59:46,627  User admin,functionName:,msg:List 
+2016-07-13 10:59:48,139  User admin,functionName:,msg:List 
+2016-07-13 10:59:50,581  User admin,functionName:,msg:List 
+2016-07-13 10:59:58,308  User admin,functionName:,msg:List 
+2016-07-13 11:00:03,141  User admin,functionName:,msg:List 
+2016-07-13 12:26:22,324  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 12:39:38,918  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 12:42:31,549  User ,functionName:Login,msg: Login Operation userName:admi 
+2016-07-13 12:42:47,880  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 12:42:55,125  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 14:12:08,746  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 14:12:16,572  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 14:15:31,922  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 14:23:38,584  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 14:23:44,318  User admin,functionName:,msg:List 
+2016-07-13 14:24:36,833  User admin,functionName:,msg:Add 
+2016-07-13 14:24:36,880  User admin,functionName:,msg:Add BUY_REPLEN Success Code:test001 
+2016-07-13 14:27:09,326  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 14:27:15,531  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 14:27:30,718  User admin,functionName:Load Brand,msg:error,Error Message: 
+System.Data.SqlClient.SqlException: Invalid column name 'BrandID'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in D:\Working\WebBuying_NEWUI\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.BUY_REPLEN_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_REPLEN_H.cs:line 310
+   at Edge.SVA.BLL.BUY_REPLEN_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_REPLEN_H.cs:line 200
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 34
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2016-07-13 14:27:36,063  User admin,functionName:Load Brand,msg:error,Error Message: 
+System.Data.SqlClient.SqlException: Invalid column name 'BrandID'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in D:\Working\WebBuying_NEWUI\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.BUY_REPLEN_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_REPLEN_H.cs:line 310
+   at Edge.SVA.BLL.BUY_REPLEN_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_REPLEN_H.cs:line 200
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 34
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2016-07-13 14:27:44,064  User admin,functionName:Load Brand,msg:error,Error Message: 
+System.Data.SqlClient.SqlException: Invalid column name 'BrandID'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in D:\Working\WebBuying_NEWUI\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.BUY_REPLEN_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_REPLEN_H.cs:line 310
+   at Edge.SVA.BLL.BUY_REPLEN_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_REPLEN_H.cs:line 200
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 34
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2016-07-13 14:27:47,059  User admin,functionName:Load Brand,msg:error,Error Message: 
+System.Data.SqlClient.SqlException: Invalid column name 'BrandID'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in D:\Working\WebBuying_NEWUI\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.BUY_REPLEN_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_REPLEN_H.cs:line 310
+   at Edge.SVA.BLL.BUY_REPLEN_H.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_REPLEN_H.cs:line 200
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 34
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2016-07-13 14:32:42,344  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 14:46:26,293  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 14:46:33,785  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 14:48:12,074  User admin,functionName:,msg:List 
+2016-07-13 14:48:21,340  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"CardTypeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-13 14:48:22,432  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-07-13 14:48:22,494  User admin,functionName:GetCardGrades ,msg:{"Action":"GetCardGrades","CardTypeID":0,"ConditionStr":"CardGradeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-13 14:48:23,508  User admin,functionName:GetCardGrades,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardGradeInfo(CardGradeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 204
+2016-07-13 15:14:57,685  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 15:15:03,499  User admin,functionName:,msg:List 
+2016-07-13 15:15:06,614  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"CardTypeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-13 15:15:07,675  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-07-13 15:15:07,690  User admin,functionName:GetCardGrades ,msg:{"Action":"GetCardGrades","CardTypeID":0,"ConditionStr":"CardGradeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-13 15:15:08,720  User admin,functionName:GetCardGrades,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardGradeInfo(CardGradeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 204
+2016-07-13 15:15:29,026  User admin,functionName:,msg:List 
+2016-07-13 15:29:46,384  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 15:30:04,078  User admin,functionName:,msg:List 
+2016-07-13 15:30:13,782  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"CardTypeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-13 15:30:14,800  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-07-13 15:30:14,835  User admin,functionName:GetCardGrades ,msg:{"Action":"GetCardGrades","CardTypeID":0,"ConditionStr":"CardGradeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-13 15:30:15,840  User admin,functionName:GetCardGrades,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardGradeInfo(CardGradeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 204
+2016-07-13 15:30:33,962  User admin,functionName:,msg:List 
+2016-07-13 15:31:59,385  User ,functionName:,msg:List 
+2016-07-13 15:32:11,049  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 15:36:55,633  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 15:37:10,498  User admin,functionName:,msg:List 
+2016-07-13 15:41:39,737  User admin,functionName:,msg:List 
+2016-07-13 15:41:43,501  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"CardTypeID='3'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-13 15:41:44,522  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-07-13 15:41:44,559  User admin,functionName:GetCardGrades ,msg:{"Action":"GetCardGrades","CardTypeID":0,"ConditionStr":"CardGradeID='-1'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-13 15:41:45,555  User admin,functionName:GetCardGrades,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardGradeInfo(CardGradeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 204
+2016-07-13 15:44:02,108  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-13 15:44:03,131  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-07-13 15:48:49,343  User admin,functionName:,msg:List 
+2016-07-13 15:49:01,763  User admin,functionName:,msg:List 
+2016-07-13 15:51:24,808  User admin,functionName:,msg:List 
+2016-07-13 15:56:08,776  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 15:56:37,207  User admin,functionName:,msg:List 
+2016-07-13 16:00:49,848  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 16:24:02,452  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 16:29:31,355  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 16:31:02,387  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 16:49:24,243  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 16:49:53,995  User admin,functionName:,msg:List 
+2016-07-13 16:51:05,511  User admin,functionName:,msg:Update 
+2016-07-13 16:53:18,113  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 16:54:03,316  User admin,functionName:,msg:List 
+2016-07-13 16:54:25,369  User admin,functionName:,msg:Update 
+2016-07-13 16:55:20,905  User admin,functionName:,msg:BUY_REPLEN test001 Update Success But Detail Failed,Error Message: 
+System.ArgumentException: Column 'EntityCode' does not belong to table Table1.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\Modify.aspx.cs:line 212
+2016-07-13 16:58:00,668  User ,functionName:Login,msg: Login Operation userName:admi 
+2016-07-13 16:58:09,321  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 16:58:35,230  User admin,functionName:,msg:List 
+2016-07-13 16:58:54,979  User admin,functionName:,msg:Update 
+2016-07-13 16:59:09,300  User admin,functionName:,msg:BUY_REPLEN test001 Update Success But Detail Failed,Error Message: 
+System.ArgumentException: Column 'EntityCode' does not belong to table Table1.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\Modify.aspx.cs:line 212
+2016-07-13 17:00:04,697  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:00:29,364  User admin,functionName:,msg:List 
+2016-07-13 17:00:42,649  User admin,functionName:,msg:Update 
+2016-07-13 17:00:57,641  User admin,functionName:,msg:BUY_REPLEN test001 Update Success 
+2016-07-13 17:05:17,859  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:06:25,865  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:15:04,060  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:16:29,861  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:25:41,989  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:28:50,750  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:31:34,703  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:32:08,942  User admin,functionName:,msg:List 
+2016-07-13 17:32:35,264  User admin,functionName:,msg:List 
+2016-07-13 17:32:48,939  User admin,functionName:,msg:Update 
+2016-07-13 17:32:49,017  User admin,functionName:,msg:BUY_REPLEN test001 Update Success 
+2016-07-13 17:33:57,568  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:34:05,117  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:34:46,345  User admin,functionName:,msg:Update 
+2016-07-13 17:35:05,433  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:35:18,632  User admin,functionName:,msg:Update 
+2016-07-13 17:39:00,416  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:39:12,451  User admin,functionName:,msg:Update 
+2016-07-13 17:39:12,529  User admin,functionName:,msg:BUY_REPLEN test001 Update Success 
+2016-07-13 17:45:25,874  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:56:51,653  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 17:57:26,064  User admin,functionName:,msg:Add 
+2016-07-13 17:57:26,110  User admin,functionName:,msg:Add BUY_REPLEN Success Code:1222 
+2016-07-13 18:01:26,293  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-13 18:01:34,241  User admin,functionName:,msg:Delete 
+2016-07-13 18:02:20,242  User admin,functionName:,msg:Add 
+2016-07-13 18:02:20,273  User admin,functionName:,msg:Add BUY_REPLEN Success Code:12222 
+2016-07-13 18:02:30,862  User admin,functionName:,msg:Update 
+2016-07-13 18:02:30,893  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success 
+2016-07-13 18:04:37,994  User ,functionName:Login,msg: Login Operation userName:admin 

@@ -1,0 +1,26 @@
+2017-05-17 15:53:23,784  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-17 15:59:54,035  User admin,functionName:,msg:List 
+2017-05-17 16:06:13,804  User admin,functionName:,msg:Show 
+2017-05-17 16:06:45,385  User admin,functionName:,msg:Update Tree Menu : Products 
+2017-05-17 16:07:25,405  User admin,functionName:,msg:List 
+2017-05-17 16:31:43,114  User admin,functionName:,msg:Show 
+2017-05-17 16:32:05,779  User admin,functionName:,msg:List 
+2017-05-17 17:31:43,327  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-17 17:31:51,809  User admin,functionName:,msg:List 
+2017-05-17 17:33:43,789  User admin,functionName:Personal Information,msg:List 
+2017-05-17 17:33:52,551  User admin,functionName:Product Picture,msg:List 
+2017-05-17 17:33:54,835  User admin,functionName:Associated Product,msg:List 
+2017-05-17 17:33:56,485  User admin,functionName:Product Type,msg:List 
+2017-05-17 17:33:58,691  User admin,functionName:Product Details,msg:List 
+2017-05-17 17:34:02,903  User admin,functionName:,msg:List 
+2017-05-17 17:34:05,125  User admin,functionName:Promotion Price,msg:List 
+2017-05-17 17:34:07,632  User admin,functionName:Cost Price,msg:List 
+2017-05-17 17:34:08,065  User admin,functionName:CPrice,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_STOREGROUP.GetList(String strWhere) in C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\BUY_STOREGROUP.cs:line 257
+   at Edge.SVA.BLL.BUY_STOREGROUP.GetModelList(String strWhere) in C:\SVN\WebBuying_TGP\Edge.SVA.BLL\Master\BUY_STOREGROUP.cs:line 120
+   at Edge.Web.Tools.DALTool.GetBuyingStoreGroupName(String code, Dictionary`2 cache) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\DALTool.cs:line 952
+   at Edge.Web.Tools.DataTool.AddBuyingStoreGroupName(DataSet ds, String name, String refKey) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\DataTool.cs:line 865
+   at Edge.Web.Controllers.WebBuying.MasterFiles.PriceSettings.BUY_CPRICE_H.BuyingCPriceController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\WebBuying\MasterFiles\PriceSettings\BUY_CPRICE_H\BuyingCPriceController.cs:line 150
+   at Edge.Web.WebBuying.MasterFiles.PriceSettings.BUY_CPRICE_H.List.RptBind(String strWhere, String orderby) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\WebBuying\MasterFiles\PriceSettings\BUY_CPRICE_H\List.aspx.cs:line 75

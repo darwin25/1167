@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActiveReportsLayout Version="3.2" PrintWidth="12762.72" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="PageHeader" Name="PageHeader" Height="1164.84" BackColor="16777215" CanShrink="1">
+      <Control Type="AR.Field" Name="TextBox1" Left="0" Top="607.6801" Width="10468.8" Height="601.92" Text="总部收货单信息" Style="font-family: 微软雅黑; font-size: 20.25pt; font-weight: bold; text-align: center; ddo-char-set: 0" CharacterSpacing="5" />
+      <Control Type="AR.ReportInfo" Name="ReportInfo1" Left="5924.161" Top="0" Width="4050.72" Height="467.9999" FormatString="No. {PageNumber} pages，Total {PageCount} pages" Style="font-family: 微软雅黑; font-size: 9.75pt; text-align: right; ddo-char-set: 0" />
+      <Control Type="AR.Label" Name="Label26" Left="151.2" Top="0" Width="2172.96" Height="468" Caption="Customer number" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label27" DataField="WebSiteName" Left="2622.24" Top="0" Width="2787.84" Height="468.0001" Caption="Label27" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label23" Left="2399.04" Top="0" Width="223.2001" Height="468" Caption="：" />
+    </Section>
+    <Section Type="GroupHeader" Name="GroupHeader1" Height="4788" DataField="HQReceiveOrderNumber" GroupKeepTogether="1" RepeatStyle="1" BackColor="16777215" CanShrink="1">
+      <Control Type="AR.Label" Name="Label1" Left="149.76" Top="89.28001" Width="2174.4" Height="468" Caption="Transaction No" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134; ddo-font-vertical: none" />
+      <Control Type="AR.Label" Name="Label2" Left="6796.801" Top="89.28001" Width="2602.08" Height="468" Caption="Order Type" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134; ddo-font-vertical: none" />
+      <Control Type="AR.Label" Name="lblHQReceiveOrderNumber" DataField="HQReceiveOrderNumber" Left="2622.24" Top="89.28001" Width="2787.84" Height="468" Caption="lblHQReceiveOrderNumber" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" PaddingRight="3" />
+      <Control Type="AR.Label" Name="lblOrderType" DataField="EnglishOrderTypeName" Left="9734.4" Top="44.64" Width="2787.84" Height="468" Caption="lblOrderType" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label3" Left="149.76" Top="557.28" Width="2174.4" Height="468" Caption="Transaction Status" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblStatus" DataField="ApproveStatusName" Left="2622.24" Top="557.28" Width="2787.84" Height="467.9999" Caption="lblStatus" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblApprovalCode" DataField="ApprovalCode" Left="9734.4" Top="512.64" Width="2787.84" Height="468" Caption="lblApprovalCode" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label6" Left="149.76" Top="980.64" Width="2174.4" Height="468" Caption="Created Business Date" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblCreatedBusDate" DataField="CreatedBusDate" Left="2622.24" Top="980.6401" Width="2787.84" Height="468.0001" Caption="lblCreatedBusDate" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label7" Left="6796.801" Top="980.6401" Width="2547.359" Height="468" Caption="Approved Business Date" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblApproveBusDate" DataField="ApproveBusDate" Left="9734.4" Top="1025.28" Width="2787.84" Height="468" Caption="lblApproveBusDate" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label5" Left="149.76" Top="1448.64" Width="2174.4" Height="468" Caption="Created Datetime" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblCreateOn" DataField="CreatedOn" Left="2622.24" Top="1448.64" Width="2787.84" Height="468.0001" Caption="lblCreateOn" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label8" Left="6796.801" Top="1448.64" Width="2547.36" Height="468" Caption="Created By" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblCreateBy" DataField="CreatedName" Left="9734.4" Top="1448.64" Width="2787.84" Height="468" Caption="lblCreateBy" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label9" Left="149.76" Top="1916.64" Width="2249.28" Height="468" Caption="Approved Datetime" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblApproveOn" DataField="ApproveOn" Left="2622.24" Top="1916.64" Width="2787.84" Height="468.0001" Caption="lblApproveOn" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label10" Left="6796.801" Top="1916.64" Width="2602.08" Height="468" Caption="Approved By" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblApproveBy" DataField="ApproveName" Left="9734.4" Top="1916.64" Width="2787.84" Height="468" Caption="lblApproveBy" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label12" Left="74.88007" Top="2384.64" Width="2547.36" Height="468" Caption="Remark" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblRemark" DataField="Remark" Left="2622.24" Top="2384.64" Width="9900" Height="468" Caption="lblRemark" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label13" Left="149.76" Top="2852.64" Width="2174.4" Height="468" Caption="供应商/Store" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblVendorName1" DataField="OEnglishStoreName" Left="2622.24" Top="2852.64" Width="2862.72" Height="468.0001" Caption="lblVendorName1" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label14" Left="6796.801" Top="2852.64" Width="2547.36" Height="468" Caption="Address" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblFromAddress" DataField="FromAddress" Left="9734.4" Top="2855.52" Width="2787.84" Height="468" Caption="lblFromAddress" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label16" Left="6796.801" Top="3323.52" Width="2547.36" Height="468" Caption="Contact Phone" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblFromContactPhone" DataField="FromContactPhone" Left="9734.4" Top="3320.64" Width="2787.84" Height="468" Caption="lblFromContactPhone" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label18" Left="6796.801" Top="3791.52" Width="2602.08" Height="468" Caption="Address" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblStoreAddress" DataField="StoreAddress" Left="9734.4" Top="3791.52" Width="2787.84" Height="468" Caption="lblStoreAddress" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label20" Left="6796.801" Top="4259.521" Width="2602.08" Height="468" Caption="Contact Phone" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblContactPhone" DataField="ContactPhone" Left="9734.4" Top="4259.521" Width="2787.84" Height="468" Caption="lblContactPhone" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label15" Left="149.76" Top="3320.64" Width="2249.28" Height="468" Caption="Contact " Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblFromContactName" DataField="FromContactName" Left="2622.24" Top="3323.52" Width="2787.84" Height="468.0001" Caption="lblFromContactName" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label17" Left="151.2" Top="3788.64" Width="2172.96" Height="468" Caption="Store" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblStoreName" DataField="EEnglishStoreName" Left="2622.24" Top="3788.64" Width="2787.84" Height="468.0001" Caption="lblStoreName" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label19" Left="149.76" Top="4259.521" Width="2174.4" Height="468" Caption="Contact " Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="lblStoreContactName" DataField="StoreContactName" Left="2622.24" Top="4256.64" Width="2787.84" Height="468.0001" Caption="lblStoreContactName" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; ddo-char-set: 134" />
+      <Control Type="AR.Label" Name="Label28" Left="2399.04" Top="89.28001" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label29" Left="2399.04" Top="557.28" Width="223.2003" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label30" Left="2399.04" Top="980.6401" Width="223.2" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label31" Left="2399.04" Top="1448.64" Width="223.2" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label32" Left="2399.04" Top="1916.64" Width="223.2" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label34" Left="2399.04" Top="2855.52" Width="223.2" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label35" Left="2399.04" Top="3320.64" Width="223.2" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label36" Left="2399.04" Top="3788.64" Width="223.2" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label37" Left="2399.04" Top="4259.521" Width="223.2" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label38" Left="9398.881" Top="44.64" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label39" Left="9398.881" Top="557.28" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label40" Left="9398.881" Top="980.6401" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label41" Left="9398.881" Top="1448.64" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label42" Left="9398.881" Top="1916.64" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label43" Left="2399.041" Top="2384.64" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label44" Left="9398.881" Top="2852.64" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label45" Left="9398.881" Top="3320.64" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label46" Left="9398.881" Top="3788.64" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label47" Left="9398.881" Top="4256.64" Width="223.2001" Height="468" Caption="：" />
+      <Control Type="AR.Label" Name="Label22" Left="6809.759" Top="557.28" Width="2534.402" Height="468" Caption="Approval Code" Style="color: Black; font-family: 微软雅黑; font-size: 9.75pt; font-weight: normal; text-align: left; ddo-char-set: 134; ddo-font-vertical: none" />
+    </Section>
+    <Section Type="GroupHeader" Name="GroupHeader2" Height="405" DataField="HQReceiveOrderNumber" GroupKeepTogether="1" RepeatStyle="1" BackStyle="1" BackColor="11119017" CanShrink="1">
+      <Control Type="AR.Label" Name="lblProCode" Left="108" Top="0" Width="1991.52" Height="393.12" Caption="Product Code" Style="background-color: DarkGray; color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label21" Left="2099.52" Top="0" Width="3556.8" Height="393.12" Caption="Product Name" Style="background-color: DarkGray; color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label48" Left="5656.32" Top="-1.341105E-06" Width="1982.88" Height="393.12" Caption="Order Qty" Style="background-color: DarkGray; color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: right; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label49" Left="7639.2" Top="0" Width="1982.88" Height="393.12" Caption="Receipt Quantity" Style="background-color: DarkGray; color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: right; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+    </Section>
+    <Section Type="Detail" Name="Detail" Height="368.64" BackColor="16777215" KeepTogether="1" CanGrow="0" CanShrink="1">
+      <Control Type="AR.Field" Name="txtProCode" DataField="ProdCode" Left="108" Top="43.2" Width="1991.52" Height="393.12" Text="txtProCode" Style="font-family: 微软雅黑; font-size: 9.75pt; text-align: left; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtProDesc1" DataField="ProdDesc1" Left="2099.52" Top="57.6" Width="3676.32" Height="393.12" Text="txtProDesc1" Style="font-family: 微软雅黑; font-size: 9.75pt; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txOrderQty" DataField="OrderQty" Left="5656.32" Top="57.6" Width="1982.88" Height="393.12" Text="txOrderQty" OutputFormat="#,##0.00" Style="text-align: right" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtReceiveQty" DataField="ReceiveQty" Left="7639.2" Top="43.2" Width="1982.88" Height="393.12" Text="txtReceiveQty" OutputFormat="#,##0.00" Style="text-align: right" PaddingLeft="16" />
+    </Section>
+    <Section Type="GroupFooter" Name="GroupFooter2" Height="614.88" BackColor="16777215" NewPage="2" KeepTogether="1" CanShrink="1">
+      <Control Type="AR.Label" Name="Label24" Left="5410.08" Top="0" Width="2126.88" Height="288" Caption="Total Order Qty：" Style="font-family: 微软雅黑; font-size: 9.75pt; font-weight: bold; text-align: right; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="txtTotalQty" DataField="OrderQty" Left="7639.2" Top="43.2" Width="1982.88" Height="288" Text="txtTotalQty" OutputFormat="#,##0.00" Style="font-family: 微软雅黑; font-size: 9.75pt; text-align: right; ddo-char-set: 0" SummaryType="3" SummaryRunning="1" SummaryGroup="GroupHeader2" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label25" Left="5410.08" Top="324" Width="2126.88" Height="288" Caption="Total ReceiveQty：" Style="font-family: 微软雅黑; font-size: 9.75pt; font-weight: bold; text-align: right; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="txtTotalReceiveQty" DataField="ReceiveQty" Left="7639.2" Top="288" Width="1982.88" Height="288" Text="txtTotalReceiveQty" OutputFormat="#,##0.00" Style="font-family: 微软雅黑; font-size: 9.75pt; text-align: right; ddo-char-set: 0" SummaryType="3" SummaryRunning="1" SummaryGroup="GroupHeader2" PaddingLeft="16" />
+    </Section>
+    <Section Type="GroupFooter" Name="GroupFooter1" Height="0" BackColor="16777215" NewPage="2" KeepTogether="1" />
+    <Section Type="PageFooter" Name="PageFooter" Height="930" BackColor="16777215" CanGrow="0" />
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <SqlDbDataSource ConnectF="BHunkowNWeCOJ0TrLLsGciESt4PUcHe0bUYbU3ht+f5ZfnXKRrSvFFzre4MFSVur58rZAiJwPVeeO/De4+arkoQ60ayWvyRdIjJBM3ZgY5Z1TwhPOcIatAHzr9DjvC+xg0iqPOZiz4ylUBc+DwiG3w==" SQL="select Ord_HQReceiveOrder_H.HQReceiveOrderNumber,Ord_HQReceiveOrder_H.OrderType,case Ord_HQReceiveOrder_H.OrderType when 0 then'手动'else  '自动'end SimplifiedOrderTypeName,&#xA;case Ord_HQReceiveOrder_H.OrderType when 0 then '手動'else '手動'end as TraditionalOrderTypeName,&#xA;case Ord_HQReceiveOrder_H.OrderType when 0 then 'Manually'else 'Auto'end as EnglishOrderTypeName,&#xA;ReferenceNo,FromStoreID,FromContactName,FromContactPhone,FromMobile, FromEmail,FromAddress,&#xA;Ord_HQReceiveOrder_H.StoreID,StoreContactName,StoreContactPhone,StoreContactEmail,StoreMobile,StoreAddress, &#xA;Ord_HQReceiveOrder_H.Remark,Convert(varchar(10),CreatedBusDate,120)as CreatedBusDate ,Convert(varchar(10),ApproveBusDate,120)as ApproveBusDate,&#xA;ApprovalCode,ApproveStatus,case ApproveStatus when 'P' then 'PENDING' when 'A' then 'APPROVED' else  'VOID' end as ApproveStatusName,&#xA;Convert(varchar(10),Ord_HQReceiveOrder_H.ApproveOn,120)as ApproveOn,ApproveBy,u1.UserName as ApproveName,&#xA;Convert(varchar(10),Ord_HQReceiveOrder_H.CreatedOn,120)as CreatedOn,Ord_HQReceiveOrder_H.CreatedBy,Accounts_Users.UserName as CreatedName,&#xA;Convert(varchar(10),Ord_HQReceiveOrder_H.UpdatedOn,120)as UpdatedOn,Ord_HQReceiveOrder_H.UpdatedBy,u.UserName as UpdatedName,&#xA;Ord_HQReceiveOrder_D.ProdCode,Ord_HQReceiveOrder_D.OrderQty,&#xA;Ord_HQReceiveOrder_D.ReceiveQty,BUY_STORE.StoreName1 as EEnglishStoreName ,BUY_STORE.StoreName2 as ESimplifiedStoreName,BUY_STORE.StoreName3 as ETraditionalStoreName,BUY_STORE.StoreAddressDetail1,&#xA;BUY_STORE.Contact,BUY_STORE.ContactPhone,st2.StoreName1 as OEnglishStoreName,st2.StoreName2 as OSimplifiedStoreName,st2.StoreName3 as OTraditionalStoreName ,&#xA;BUY_PRODUCT.ProdDesc1,BUY_PRODUCT.ProdDesc2,BUY_PRODUCT.ProdDesc3,@WebSiteName as WebSiteName&#xD;&#xA;&#xA;from Ord_HQReceiveOrder_H&#xA;&#xD;&#xA;left join Ord_HQReceiveOrder_D on Ord_HQReceiveOrder_H.HQReceiveOrderNumber=Ord_HQReceiveOrder_D.HQReceiveOrderNumber&#xD;&#xA;&#xA;left join Accounts_Users on Ord_HQReceiveOrder_H.CreatedBy=Accounts_Users.UserID&#xD;&#xA;left join Accounts_Users as u  on Ord_HQReceiveOrder_H.UpdatedBy=u.UserID&#xA;&#xD;&#xA;left join Accounts_Users as u1  on Ord_HQReceiveOrder_H.ApproveBy=u1.UserID&#xA;&#xD;&#xA;left join BUY_PRODUCT on Ord_HQReceiveOrder_D.ProdCode=BUY_PRODUCT.ProdCode&#xD;&#xA;&#xA;left join BUY_STORE on Ord_HQReceiveOrder_H.StoreID=BUY_STORE.StoreID&#xD;&#xA;&#xA;left join BUY_STORE st2  on Ord_HQReceiveOrder_H.FromStoreID=st2.StoreID" CommandTimeout="0" />
+  </DataSources>
+  <Script><![CDATA[
+int RowNo = 0;
+public void Detail_Format()
+{
+	if ((RowNo % 2) == 1)
+	{  
+		this.Detail.BackColor = Color.Gainsboro;
+	}
+	else 
+	{ 
+		this.Detail.BackColor = Color.Transparent;
+	}
+	RowNo++;
+}
+// 记录当前页实际高度
+public float ActualPageHeight = 0;
+
+public void ActiveReport_ReportStart()
+{
+	rpt.Document.Printer.PrinterName = "";
+}
+private void Detail_AfterPrint(object sender, EventArgs e)
+{
+	// 记录每条数据占用的高度
+	ActualPageHeight += this.Detail.Height;
+}
+]]></Script>
+  <PageSettings PaperSize="9" PaperWidth="11906" PaperHeight="16838" PaperName="" Orientation="1" PaperBin="15" Collate="0" />
+  <Parameters />
+</ActiveReportsLayout>

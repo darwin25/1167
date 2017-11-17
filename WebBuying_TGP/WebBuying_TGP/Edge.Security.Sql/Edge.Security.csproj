@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{62DCA94C-8164-49E8-BC72-56071A9BFE86}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Edge.Security</RootNamespace>
+    <AssemblyName>Edge.Security</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Edge.DBUtility">
+      <HintPath>..\Lib\Edge.DBUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandInfo.cs" />
+    <Compile Include="Data\Lan_Accounts_PermissionCategories.cs" />
+    <Compile Include="Data\Lan_Accounts_Permissions.cs" />
+    <Compile Include="Data\Lan_Accounts_Roles.cs" />
+    <Compile Include="Data\Lan_List.cs" />
+    <Compile Include="Data\Lan_S_Tree.cs" />
+    <Compile Include="Data\SysManage.cs" />
+    <Compile Include="Data\WebSet.cs" />
+    <Compile Include="DbHelperSQL.cs" />
+    <Compile Include="Manager\AccountsPrincipal.cs" />
+    <Compile Include="Manager\AccountsTool.cs" />
+    <Compile Include="Data\GlobalSql.cs" />
+    <Compile Include="Manager\Lan_Accounts_PermissionCategories.cs" />
+    <Compile Include="Manager\Lan_Accounts_Permissions.cs" />
+    <Compile Include="Manager\Lan_Accounts_Roles.cs" />
+    <Compile Include="Manager\Lan_List.cs" />
+    <Compile Include="Manager\Lan_S_Tree.cs" />
+    <Compile Include="Manager\PermissionCategories.cs" />
+    <Compile Include="Manager\PermissionMapper.cs" />
+    <Compile Include="Manager\Permissions.cs" />
+    <Compile Include="Manager\Role.cs" />
+    <Compile Include="Manager\SiteIdentity.cs" />
+    <Compile Include="Manager\SysManage.cs" />
+    <Compile Include="Manager\User.cs" />
+    <Compile Include="Data\Permission.cs" />
+    <Compile Include="Data\PermissionCategory.cs" />
+    <Compile Include="Data\Role.cs" />
+    <Compile Include="Data\User.cs" />
+    <Compile Include="DbObject.cs" />
+    <Compile Include="DESEncrypt.cs" />
+    <Compile Include="Manager\WebSet.cs" />
+    <Compile Include="Model\Lan_Accounts_PermissionCategories.cs" />
+    <Compile Include="Model\Lan_Accounts_Permissions.cs" />
+    <Compile Include="Model\Lan_Accounts_Roles.cs" />
+    <Compile Include="Model\Lan_List.cs" />
+    <Compile Include="Model\Lan_S_Tree.cs" />
+    <Compile Include="Model\SysNode.cs" />
+    <Compile Include="Model\WebSet.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PubConstant.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edge.SVA.BLL\Edge.SVA.BLL.csproj">
+      <Project>{5286401E-F3B6-45BC-9D47-5808914C0936}</Project>
+      <Name>Edge.SVA.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Edge.SVA.Model\Edge.SVA.Model.csproj">
+      <Project>{181089FA-7152-4375-AE9C-3D58D2B7D43C}</Project>
+      <Name>Edge.SVA.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

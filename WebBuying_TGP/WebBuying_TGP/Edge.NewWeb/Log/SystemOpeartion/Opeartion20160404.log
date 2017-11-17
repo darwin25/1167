@@ -1,0 +1,106 @@
+2016-04-04 07:24:51,166  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 07:26:15,775  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 07:28:56,740  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 07:29:04,508  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 07:29:11,713  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 07:31:32,519  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 07:36:36,154  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 07:45:53,905  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 08:51:39,034  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 08:53:43,644  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 09:18:02,183  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 09:49:30,886  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 12:53:16,432  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 13:04:54,408  User admin,functionName:,msg:Print System.Exception: 在RepeatToFill设置为 true 时， detail分区的 NewPage 属性必须设置为 None。
+   at #sxA.#vqb.#AEb()
+   at #sxA.#vqb.#rEb()
+   at #sxA.#vqb.#bZA(Page newPage, Single left, Single top, Single right, Single bottom, UInt32 flags, UInt32& status)
+   at GrapeCity.ActiveReports.SectionReport.#4yb()
+   at GrapeCity.ActiveReports.SectionReport.Run(Boolean syncDocument)
+   at GrapeCity.ActiveReports.SectionReport.Run()
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 164
+   at Edge.Web.Operation.SupplierOrder.Print.LoadReport(String ids, Int32 orderType) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\SupplierOrder\Print.aspx.cs:line 96
+   at Edge.Web.Operation.SupplierOrder.Print.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\SupplierOrder\Print.aspx.cs:line 58 
+2016-04-04 13:17:22,028  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 13:36:59,109  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 14:30:59,119  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 14:36:00,030  User admin,functionName:,msg:List 
+2016-04-04 14:45:09,541  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 14:47:16,082  User admin,functionName:,msg:Trans Out Store Order TRAOUT000000011 Add Success 
+2016-04-04 14:57:37,236  User admin,functionName:,msg:Trans Out Store Order TRAOUT000000011 Update Success 
+2016-04-04 15:01:30,998  User admin,functionName:,msg:Trans Out Store Order TRAOUT000000011 Update Success 
+2016-04-04 15:02:12,584  User admin,functionName:,msg:Trans Out Store Order TRAOUT000000011 Update Success 
+2016-04-04 15:16:29,461  User admin,functionName:,msg:Store Order SPO000000000187 Add Success 
+2016-04-04 15:17:27,116  User admin,functionName:,msg:Order to Supplier SPO000000000187 Update Success 
+2016-04-04 15:18:17,666  User admin,functionName:,msg:Order to Supplier SPO000000000187 Update Success 
+2016-04-04 15:18:52,325  User admin,functionName:,msg:Order to Supplier SPO000000000187 Update Success 
+2016-04-04 15:24:18,019  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 15:25:07,305  User admin,functionName:,msg:Order to Supplier SPO000000000187 Update Success 
+2016-04-04 15:48:14,461  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 15:49:32,621  User admin,functionName:,msg:Store Order SPO000000000190 Add Success 
+2016-04-04 15:50:55,824  User admin,functionName:,msg:Store Order SPO000000000191 Add Success 
+2016-04-04 16:00:35,160  User admin,functionName:,msg:Trans Out Store Order TRAOUT000000012 Add Success 
+2016-04-04 16:01:29,156  User admin,functionName:,msg:Order to Supplier SPO000000000191 Update Success 
+2016-04-04 16:09:57,621  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 16:11:48,082  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 16:40:47,771  User admin,functionName:,msg:List 
+2016-04-04 16:50:45,248  User admin,functionName:,msg:ExPort System.Exception: 在RepeatToFill设置为 true 时, detail分区的NewColumn属性必须设置为 None。
+   at #sxA.#vqb.#AEb()
+   at #sxA.#vqb.#rEb()
+   at #sxA.#vqb.#bZA(Page newPage, Single left, Single top, Single right, Single bottom, UInt32 flags, UInt32& status)
+   at GrapeCity.ActiveReports.SectionReport.#4yb()
+   at GrapeCity.ActiveReports.SectionReport.Run(Boolean syncDocument)
+   at GrapeCity.ActiveReports.SectionReport.Run()
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 164
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Print.LoadReport(String ids, Int32 orderType) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Print.aspx.cs:line 86
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.Print.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\Print.aspx.cs:line 47 
+2016-04-04 16:51:29,632  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 17:01:31,770  User admin,functionName:,msg:List 
+2016-04-04 17:02:27,380  User admin,functionName:,msg:List 
+2016-04-04 18:08:06,101  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 18:53:12,667  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 18:53:31,879  User admin,functionName:,msg:ExPort GrapeCity.ActiveReports.ReportScriptException: 24行报表脚本编译错误，错误:
+'Script.ReportScript' does not contain a definition for 'PageSettings' and no extension method 'PageSettings' accepting a first argument of type 'Script.ReportScript' could be found (are you missing a using directive or an assembly reference?)
+
+   at GrapeCity.ActiveReports.DDScripting.#NOn(String source, CompilerResults results, Nullable`1 globalcodeline, Nullable`1 namedItemLine, IList`1 expressionLineList)
+   at GrapeCity.ActiveReports.DDScripting.#Vzb()
+   at GrapeCity.ActiveReports.DDScripting.#Szb(String methodName, Object[] parameters, Boolean& success)
+   at GrapeCity.ActiveReports.SectionReport.#izb()
+   at GrapeCity.ActiveReports.SectionReport.#1yb(Boolean bDelayedInit)
+   at GrapeCity.ActiveReports.SectionReport.Run(Boolean syncDocument)
+   at GrapeCity.ActiveReports.SectionReport.Run()
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 164
+   at Edge.Web.Operation.StoreOrderManagement.TransInOrder.Print.LoadReport(String ids) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransInOrder\Print.aspx.cs:line 73
+   at Edge.Web.Operation.StoreOrderManagement.TransInOrder.Print.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransInOrder\Print.aspx.cs:line 44 
+2016-04-04 20:20:54,881  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:21:04,764  User admin,functionName:,msg:ExPort GrapeCity.ActiveReports.ReportScriptException: 24行报表脚本编译错误，错误:
+'Script.ReportScript' does not contain a definition for 'PageSettings' and no extension method 'PageSettings' accepting a first argument of type 'Script.ReportScript' could be found (are you missing a using directive or an assembly reference?)
+24行报表脚本编译错误，错误:
+'Script.ReportScript' does not contain a definition for 'PageSettings' and no extension method 'PageSettings' accepting a first argument of type 'Script.ReportScript' could be found (are you missing a using directive or an assembly reference?)
+25行报表脚本编译错误，错误:
+'Script.ReportScript' does not contain a definition for 'document' and no extension method 'document' accepting a first argument of type 'Script.ReportScript' could be found (are you missing a using directive or an assembly reference?)
+25行报表脚本编译错误，错误:
+'Script.ReportScript' does not contain a definition for 'Documnet' and no extension method 'Documnet' accepting a first argument of type 'Script.ReportScript' could be found (are you missing a using directive or an assembly reference?)
+
+   at GrapeCity.ActiveReports.DDScripting.#NOn(String source, CompilerResults results, Nullable`1 globalcodeline, Nullable`1 namedItemLine, IList`1 expressionLineList)
+   at GrapeCity.ActiveReports.DDScripting.#Vzb()
+   at GrapeCity.ActiveReports.DDScripting.#Szb(String methodName, Object[] parameters, Boolean& success)
+   at GrapeCity.ActiveReports.SectionReport.#izb()
+   at GrapeCity.ActiveReports.SectionReport.#1yb(Boolean bDelayedInit)
+   at GrapeCity.ActiveReports.SectionReport.Run(Boolean syncDocument)
+   at GrapeCity.ActiveReports.SectionReport.Run()
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 164
+   at Edge.Web.Operation.StoreOrderManagement.TransInOrder.Print.LoadReport(String ids) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransInOrder\Print.aspx.cs:line 73
+   at Edge.Web.Operation.StoreOrderManagement.TransInOrder.Print.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransInOrder\Print.aspx.cs:line 44 
+2016-04-04 20:25:49,215  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:28:56,158  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:29:55,196  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:30:54,888  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:32:24,231  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:33:49,836  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:36:11,996  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:41:01,902  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:42:21,367  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:56:41,284  User admin,functionName:,msg:List 
+2016-04-04 20:58:47,364  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-04 20:59:46,500  User admin,functionName:,msg:List 

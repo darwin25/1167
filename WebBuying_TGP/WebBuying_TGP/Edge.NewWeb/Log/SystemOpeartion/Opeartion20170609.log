@@ -1,0 +1,7 @@
+2017-06-09 11:21:09,219  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-09 11:23:24,015  User admin,functionName:,msg:Store Order SPO000000001873 Add Success 
+2017-06-09 11:23:47,660  User admin,functionName:,msg:Store Order SPO000000001874 Add Success 
+2017-06-09 11:23:54,269  User admin,functionName:,msg:Approve Success :SPO000000001873 
+2017-06-09 11:23:54,292  User admin,functionName:,msg:Approve Success :SPO000000001874 
+2017-06-09 11:45:59,418  User admin,functionName:,msg:Return Store Order SRTN00000000169 Add Success 
+2017-06-09 11:46:03,491  User admin,functionName:,msg:Approve Success :SRTN00000000169 

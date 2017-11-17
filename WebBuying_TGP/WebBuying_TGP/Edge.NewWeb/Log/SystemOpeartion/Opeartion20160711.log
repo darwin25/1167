@@ -1,0 +1,52 @@
+2016-07-11 09:20:14,598  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 09:20:27,198  User admin,functionName:,msg:List 
+2016-07-11 09:22:41,399  User ,functionName:Language Management,msg:List 
+2016-07-11 09:23:06,707  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 09:25:36,748  User admin,functionName:,msg:List 
+2016-07-11 09:25:41,476  User admin,functionName:,msg:Show 
+2016-07-11 09:25:54,287  User admin,functionName:,msg:List 
+2016-07-11 12:09:59,566  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 12:10:05,444  User admin,functionName:,msg:List 
+2016-07-11 12:10:11,508  User admin,functionName:,msg:Show 
+2016-07-11 12:14:55,664  User ,functionName:Language Management,msg:List 
+2016-07-11 12:16:32,890  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 12:16:40,470  User admin,functionName:,msg:List 
+2016-07-11 12:16:43,974  User admin,functionName:,msg:Show 
+2016-07-11 12:24:39,859  User ,functionName:Language Management,msg:List 
+2016-07-11 12:25:55,992  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 12:26:01,324  User admin,functionName:,msg:List 
+2016-07-11 12:26:24,948  User admin,functionName:,msg:Show 
+2016-07-11 12:31:22,581  User admin,functionName:,msg:List 
+2016-07-11 12:33:05,386  User ,functionName:Language Management,msg:List 
+2016-07-11 12:33:19,751  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 12:33:24,792  User admin,functionName:,msg:List 
+2016-07-11 12:33:27,792  User admin,functionName:,msg:Show 
+2016-07-11 12:36:02,578  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 12:36:10,092  User admin,functionName:,msg:List 
+2016-07-11 12:36:13,092  User admin,functionName:,msg:Show 
+2016-07-11 12:38:28,535  User admin,functionName:,msg:Show 
+2016-07-11 12:38:57,336  User admin,functionName:,msg:Show 
+2016-07-11 12:39:12,179  User admin,functionName:,msg:Show 
+2016-07-11 12:39:38,948  User admin,functionName:,msg:Show 
+2016-07-11 12:44:28,725  User admin,functionName:,msg:List 
+2016-07-11 12:44:36,708  User admin,functionName:,msg:List 
+2016-07-11 12:44:43,389  User admin,functionName:,msg:List 
+2016-07-11 12:44:46,795  User admin,functionName:,msg:Show 
+2016-07-11 12:45:15,166  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 12:45:18,770  User admin,functionName:,msg:List 
+2016-07-11 12:45:21,318  User admin,functionName:,msg:Show 
+2016-07-11 12:48:11,574  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 12:48:17,556  User admin,functionName:,msg:List 
+2016-07-11 12:48:20,525  User admin,functionName:,msg:Show 
+2016-07-11 12:49:57,824  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 12:50:04,979  User admin,functionName:,msg:List 
+2016-07-11 12:50:07,445  User admin,functionName:,msg:Show 
+2016-07-11 14:04:37,784  User ,functionName:,msg:List 
+2016-07-11 14:04:58,809  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 14:05:03,369  User admin,functionName:,msg:List 
+2016-07-11 14:12:59,290  User ,functionName:,msg:List 
+2016-07-11 14:13:10,784  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-11 14:13:16,635  User admin,functionName:,msg:List 
+2016-07-11 14:13:19,405  User admin,functionName:,msg:Show 
+2016-07-11 14:27:17,889  User admin,functionName:,msg:List 
+2016-07-11 15:50:30,588  User ,functionName:Login,msg: Login Operation userName:admin 

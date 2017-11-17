@@ -1,0 +1,52 @@
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.SQLServerDAL.dll
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.SQLServerDAL.pdb
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\bin\Debug\Edge.DBUtility.dll
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.IDAL.dll
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.Model.dll
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\bin\Debug\MySql.Data.dll
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\bin\Debug\System.Data.SQLite.dll
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\bin\Debug\Edge.DBUtility.pdb
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.IDAL.pdb
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.Model.pdb
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.dll
+C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.SQLServerDAL.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.SQLServerDAL.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.DBUtility.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.IDAL.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.Model.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\MySql.Data.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\System.Data.SQLite.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.DBUtility.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.IDAL.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.Model.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.SQLServerDAL.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.SQLServerDAL.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.DBUtility.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.IDAL.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.Model.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\MySql.Data.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\System.Data.SQLite.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.DBUtility.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.IDAL.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.Model.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.csprojResolveAssemblyReference.cache
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.SQLServerDAL.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.SQLServerDAL.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.DBUtility.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.IDAL.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.Model.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\MySql.Data.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\System.Data.SQLite.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.DBUtility.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.IDAL.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\bin\Debug\Edge.SVA.Model.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.csprojResolveAssemblyReference.cache
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.SQLServerDAL\obj\Debug\Edge.SVA.SQLServerDAL.pdb

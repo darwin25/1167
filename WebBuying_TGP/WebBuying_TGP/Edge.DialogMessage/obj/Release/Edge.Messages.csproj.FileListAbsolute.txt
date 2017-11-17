@@ -1,0 +1,4 @@
+C:\SVN\WebBuying_TGP\Edge.DialogMessage\bin\Release\Edge.Messages.dll
+C:\SVN\WebBuying_TGP\Edge.DialogMessage\bin\Release\Edge.Messages.pdb
+C:\SVN\WebBuying_TGP\Edge.DialogMessage\obj\Release\Edge.Messages.dll
+C:\SVN\WebBuying_TGP\Edge.DialogMessage\obj\Release\Edge.Messages.pdb

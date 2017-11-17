@@ -1,0 +1,18 @@
+2016-08-08 12:21:58,196  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-08-08 12:22:07,972  User admin,functionName:,msg:List 
+2016-08-08 12:22:19,695  User admin,functionName:,msg:List 
+2016-08-08 12:38:58,621  User admin,functionName:,msg:List 
+2016-08-08 14:34:25,125  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-08-08 14:34:32,141  User admin,functionName:,msg:List 
+2016-08-08 15:10:24,524  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-08-08 15:10:45,046  User admin,functionName:,msg:Add 
+2016-08-08 15:10:50,996  User admin,functionName:,msg:Add 
+2016-08-08 15:10:51,065  User admin,functionName:,msg:Add Brand Success Code:1111 
+2016-08-08 15:10:56,473  User admin,functionName:,msg:Delete 
+2016-08-08 15:37:00,327  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-08-08 15:37:25,728  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-08-08 15:58:04,083  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-08-08 15:58:19,543  User admin,functionName:,msg:List 
+2016-08-08 17:00:17,272  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-08-08 17:00:31,544  User admin,functionName:,msg:Add 
+2016-08-08 17:00:31,613  User admin,functionName:,msg:Add Brand Success Code:111 

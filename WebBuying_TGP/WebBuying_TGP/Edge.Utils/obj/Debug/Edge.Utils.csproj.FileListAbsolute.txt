@@ -1,0 +1,18 @@
+C:\SVN\WebBuying\Edge.Utils\bin\Debug\Edge.Utils.dll
+C:\SVN\WebBuying\Edge.Utils\bin\Debug\Edge.Utils.pdb
+C:\SVN\WebBuying\Edge.Utils\obj\Debug\Edge.Utils.dll
+C:\SVN\WebBuying\Edge.Utils\obj\Debug\Edge.Utils.pdb
+C:\SVN\WebBuying_TGP\Edge.Utils\bin\Debug\Edge.Utils.dll
+C:\SVN\WebBuying_TGP\Edge.Utils\bin\Debug\Edge.Utils.pdb
+C:\SVN\WebBuying_TGP\Edge.Utils\obj\Debug\Edge.Utils.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\Edge.Utils\obj\Debug\Edge.Utils.dll
+C:\SVN\WebBuying_TGP\Edge.Utils\obj\Debug\Edge.Utils.pdb
+C:\SVN2\WebBuying_TGP\Edge.Utils\bin\Debug\Edge.Utils.dll
+C:\SVN2\WebBuying_TGP\Edge.Utils\bin\Debug\Edge.Utils.pdb
+C:\SVN2\WebBuying_TGP\Edge.Utils\obj\Debug\Edge.Utils.csprojResolveAssemblyReference.cache
+C:\SVN2\WebBuying_TGP\Edge.Utils\obj\Debug\Edge.Utils.dll
+C:\SVN2\WebBuying_TGP\Edge.Utils\obj\Debug\Edge.Utils.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.Utils\bin\Debug\Edge.Utils.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.Utils\bin\Debug\Edge.Utils.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.Utils\obj\Debug\Edge.Utils.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.Utils\obj\Debug\Edge.Utils.pdb

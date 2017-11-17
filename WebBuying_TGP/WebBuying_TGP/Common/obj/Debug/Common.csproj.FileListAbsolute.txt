@@ -1,0 +1,23 @@
+C:\SVN\WebBuying\Common\bin\Debug\Edge.Common.dll
+C:\SVN\WebBuying\Common\bin\Debug\Edge.Common.pdb
+C:\SVN\WebBuying\Common\bin\Debug\OpenSmtp.dll
+C:\SVN\WebBuying\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying\Common\obj\Debug\Edge.Common.dll
+C:\SVN\WebBuying\Common\obj\Debug\Edge.Common.pdb
+C:\SVN\WebBuying_TGP\Common\bin\Debug\Edge.Common.dll
+C:\SVN\WebBuying_TGP\Common\bin\Debug\Edge.Common.pdb
+C:\SVN\WebBuying_TGP\Common\bin\Debug\OpenSmtp.dll
+C:\SVN\WebBuying_TGP\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\Common\obj\Debug\Edge.Common.dll
+C:\SVN\WebBuying_TGP\Common\obj\Debug\Edge.Common.pdb
+C:\SVN2\WebBuying_TGP\Common\bin\Debug\Edge.Common.dll
+C:\SVN2\WebBuying_TGP\Common\bin\Debug\Edge.Common.pdb
+C:\SVN2\WebBuying_TGP\Common\bin\Debug\OpenSmtp.dll
+C:\SVN2\WebBuying_TGP\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\SVN2\WebBuying_TGP\Common\obj\Debug\Edge.Common.dll
+C:\SVN2\WebBuying_TGP\Common\obj\Debug\Edge.Common.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Common\bin\Debug\Edge.Common.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Common\bin\Debug\Edge.Common.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Common\bin\Debug\OpenSmtp.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Common\obj\Debug\Edge.Common.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Common\obj\Debug\Edge.Common.pdb

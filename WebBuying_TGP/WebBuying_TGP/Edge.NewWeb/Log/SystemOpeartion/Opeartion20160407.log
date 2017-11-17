@@ -1,0 +1,8 @@
+2016-04-07 15:52:29,970  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-07 15:52:48,131  User admin,functionName:,msg:Approve Success :RECIO0000000057 
+2016-04-07 15:53:11,545  User admin,functionName:,msg:Approve Success :RECIO0000000054 
+2016-04-07 16:30:14,116  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-07 16:34:53,492  User admin,functionName:,msg:Receive Supplier Order RECIO0000000053 Update Success 
+2016-04-07 16:40:33,139  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-07 16:41:07,313  User admin,functionName:,msg:Receive Supplier Order RECIO0000000053 Update Success 
+2016-04-07 16:45:39,515  User admin,functionName:,msg:Order to Supplier PO0000000000076 Update Success 

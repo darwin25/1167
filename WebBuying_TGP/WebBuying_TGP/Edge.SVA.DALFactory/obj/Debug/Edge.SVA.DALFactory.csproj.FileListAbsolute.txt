@@ -1,0 +1,44 @@
+C:\SVN\WebBuying\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.DALFactory.dll
+C:\SVN\WebBuying\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.DALFactory.pdb
+C:\SVN\WebBuying\Edge.SVA.DALFactory\bin\Debug\Edge.Common.dll
+C:\SVN\WebBuying\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.IDAL.dll
+C:\SVN\WebBuying\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.Model.dll
+C:\SVN\WebBuying\Edge.SVA.DALFactory\bin\Debug\OpenSmtp.dll
+C:\SVN\WebBuying\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.IDAL.pdb
+C:\SVN\WebBuying\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.Model.pdb
+C:\SVN\WebBuying\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.dll
+C:\SVN\WebBuying\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.DALFactory.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.DALFactory.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.Common.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.IDAL.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.Model.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\OpenSmtp.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.IDAL.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.Model.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.DALFactory.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.DALFactory.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.Common.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.IDAL.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.Model.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\OpenSmtp.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.IDAL.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.Model.pdb
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.csprojResolveAssemblyReference.cache
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.dll
+C:\SVN2\WebBuying_TGP\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.DALFactory.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.DALFactory.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.Common.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.IDAL.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.Model.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\OpenSmtp.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.IDAL.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\bin\Debug\Edge.SVA.Model.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.csprojResolveAssemblyReference.cache
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\Edge.SVA.DALFactory\obj\Debug\Edge.SVA.DALFactory.pdb

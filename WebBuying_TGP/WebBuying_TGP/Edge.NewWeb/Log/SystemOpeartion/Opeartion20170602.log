@@ -1,0 +1,39 @@
+2017-06-02 11:51:44,164  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-02 11:51:57,035  User admin,functionName:,msg:List 
+2017-06-02 11:52:32,431  User admin,functionName:,msg:Trans Out Store Order TRAOUT000002362 Add Success 
+2017-06-02 11:52:49,690  User admin,functionName:,msg:Approve Success :TRAOUT000002362 
+2017-06-02 11:54:28,545  User admin,functionName:,msg:Trans Out Store Order TRAOUT000002364 Add Success 
+2017-06-02 11:54:32,400  User admin,functionName:,msg:Approve Success :TRAOUT000002364 
+2017-06-02 11:57:31,516  User admin,functionName:,msg:List 
+2017-06-02 11:59:36,389  User admin,functionName:,msg:Approve Success :SHP000000002495 
+2017-06-02 11:59:45,070  User admin,functionName:,msg:Approve Success :SHP000000002496 
+2017-06-02 11:59:59,765  User admin,functionName:,msg:Approve Shipment Store Order :System.Net.Mail.SmtpException: Failure sending mail. ---> System.Net.WebException: The remote name could not be resolved: 'smtp.gmail.com'
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   --- End of inner exception stack trace ---
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Edge.Web.PageBase.SendEmail(String subject, String body, String sendfrom, String receipient, String password, String smtphost, String smtpport) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\PageBase.cs:line 1447
+   at Edge.Web.PageBase.SendReceoveOrderViaEmail(String ShipmentOrderNumber) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\PageBase.cs:line 1427
+   at Edge.Web.Operation.StoreOrderManagement.ShipmentStoreOrder.Approve.ExportFile(String id) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ShipmentStoreOrder\Approve.aspx.cs:line 93
+   at Edge.Web.Operation.StoreOrderManagement.ShipmentStoreOrder.Approve.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\ShipmentStoreOrder\Approve.aspx.cs:line 59 
+2017-06-02 12:00:14,194  User admin,functionName:,msg:Approve Success :SHP000000002497 
+2017-06-02 12:01:05,694  User admin,functionName:,msg:Approve Success :RECIO0000001321 
+2017-06-02 12:01:09,841  User admin,functionName:,msg:List 
+2017-06-02 12:01:58,481  User admin,functionName:,msg:Trans Out Store Order TRAOUT000002365 Add Success 
+2017-06-02 12:02:03,816  User admin,functionName:,msg:Approve Success :TRAOUT000002365 
+2017-06-02 12:02:07,516  User admin,functionName:,msg:List 
+2017-06-02 12:08:17,210  User admin,functionName:,msg:Trans Out Store Order TRAOUT000002367 Add Success 
+2017-06-02 12:08:21,242  User admin,functionName:,msg:Approve Success :TRAOUT000002367 
+2017-06-02 12:08:24,635  User admin,functionName:,msg:List 
+2017-06-02 12:08:32,483  User admin,functionName:,msg:List 
+2017-06-02 12:09:12,083  User admin,functionName:,msg:Trans Out Store Order TRAOUT000002368 Add Success 
+2017-06-02 12:09:16,089  User admin,functionName:,msg:Approve Success :TRAOUT000002368 
+2017-06-02 12:09:20,965  User admin,functionName:,msg:List 
+2017-06-02 12:13:38,943  User admin,functionName:,msg:Trans Out Store Order TRAOUT000002369 Add Success 
+2017-06-02 12:13:42,929  User admin,functionName:,msg:Approve Success :TRAOUT000002369 

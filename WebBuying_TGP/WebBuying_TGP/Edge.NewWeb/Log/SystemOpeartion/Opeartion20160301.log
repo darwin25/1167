@@ -1,0 +1,65 @@
+2016-03-01 10:30:14,908  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 10:30:19,102  User admin,functionName:,msg:List 
+2016-03-01 10:30:36,346  User admin,functionName:,msg: Delete et4tt4t 
+2016-03-01 10:30:44,307  User admin,functionName:,msg: Delete tt,ttt 
+2016-03-01 10:31:27,673  User admin,functionName:,msg: Add  
+2016-03-01 10:31:27,891  User admin,functionName:Add,msg:Add Product Success Code:test 
+2016-03-01 10:31:28,130  User admin,functionName:,msg:List 
+2016-03-01 10:31:53,535  User admin,functionName:,msg: Update  
+2016-03-01 10:31:53,691  User admin,functionName:Update,msg:Update Product Success Code:test 
+2016-03-01 10:31:59,806  User admin,functionName:,msg: Delete test 
+2016-03-01 12:05:27,271  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 12:07:02,377  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 12:08:32,260  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 12:08:59,745  User admin,functionName:,msg:ExPort System.Exception: Incorrect syntax near the keyword 'from'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.Ord_PickingOrder_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_PickingOrder_H.cs:line 419
+   at Edge.SVA.BLL.Ord_PickingOrder_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_PickingOrder_H.cs:line 103
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.PickingStoreOrder.PickingStoreOrderController.GetTransactionListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\PickingStoreOrderController.cs:line 76
+   at Edge.Web.Tools.ActiveReportsTool.GetDataBind(String ids, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 201
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 143
+   at Edge.Web.Operation.StoreOrderManagement.PickingStoreOrder.Export.LoadReport(String ids, Int32 orderType) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\PickingStoreOrder\Export.aspx.cs:line 92
+   at Edge.Web.Operation.StoreOrderManagement.PickingStoreOrder.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\PickingStoreOrder\Export.aspx.cs:line 53 
+2016-03-01 12:11:47,289  User admin,functionName:,msg:ExPort System.Exception: Incorrect syntax near the keyword 'from'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.Ord_PickingOrder_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_PickingOrder_H.cs:line 419
+   at Edge.SVA.BLL.Ord_PickingOrder_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_PickingOrder_H.cs:line 103
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.PickingStoreOrder.PickingStoreOrderController.GetTransactionListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\PickingStoreOrderController.cs:line 76
+   at Edge.Web.Tools.ActiveReportsTool.GetDataBind(String ids, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 201
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 143
+   at Edge.Web.Operation.StoreOrderManagement.PickingStoreOrder.Export.LoadReport(String ids, Int32 orderType) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\PickingStoreOrder\Export.aspx.cs:line 92
+   at Edge.Web.Operation.StoreOrderManagement.PickingStoreOrder.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\PickingStoreOrder\Export.aspx.cs:line 53 
+2016-03-01 12:15:36,768  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 12:33:56,012  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 13:59:10,211  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 14:01:52,252  User admin,functionName:,msg:List 
+2016-03-01 14:02:22,661  User admin,functionName:,msg:List 
+2016-03-01 14:02:39,801  User admin,functionName:,msg:List 
+2016-03-01 14:11:39,472  User admin,functionName:,msg:Stock Adjustment STKADJ000000062 Update Success 
+2016-03-01 14:30:29,845  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 14:41:29,008  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 14:43:24,493  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 14:45:00,716  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 14:50:48,298  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 14:53:22,391  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 15:36:39,305  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 15:48:46,576  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 15:59:19,895  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 16:03:14,328  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 16:16:08,117  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 16:22:48,461  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 16:38:10,668  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 16:39:27,649  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 16:56:29,831  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 17:01:11,982  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 17:04:53,982  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 17:08:15,378  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 17:12:36,091  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 17:15:37,244  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 17:24:42,201  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 17:27:05,286  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 17:29:14,678  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 18:01:09,700  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 18:01:20,590  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 18:09:11,222  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-01 18:10:56,689  User ,functionName:Login,msg: Login Operation userName:admin 

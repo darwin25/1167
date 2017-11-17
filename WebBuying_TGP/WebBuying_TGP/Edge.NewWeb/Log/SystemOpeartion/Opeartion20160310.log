@@ -1,0 +1,14 @@
+2016-03-10 15:04:10,041  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-10 15:04:30,984  User admin,functionName:,msg:Update User Lisa 
+2016-03-10 15:04:30,984  User admin,functionName:,msg:Add To Role Admin 
+2016-03-10 15:04:30,984  User admin,functionName:,msg:Add To Role Designer 
+2016-03-10 15:04:30,984  User admin,functionName:,msg:Remove Role Manager 
+2016-03-10 15:04:30,984  User admin,functionName:,msg:Add To Role Operator 
+2016-03-10 15:04:30,984  User admin,functionName:,msg:Add To Role Supervisor 
+2016-03-10 15:04:30,984  User admin,functionName:,msg:Add To Role Warehouse Supervisor 
+2016-03-10 15:29:18,628  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-10 15:49:24,297  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-10 16:40:55,178  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-10 16:48:29,180  User admin,functionName:,msg:List 
+2016-03-10 16:50:06,861  User admin,functionName:,msg:List 
+2016-03-10 17:51:17,236  User ,functionName:Login,msg: Login Operation userName:admin 

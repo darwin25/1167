@@ -1,0 +1,174 @@
+2016-06-02 10:54:26,547  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 10:54:35,818  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 10:54:44,631  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 10:56:32,640  User admin,functionName:,msg:Add Category 销售拣货单 
+2016-06-02 10:57:26,431  User admin,functionName:,msg:Add Permission List 
+2016-06-02 10:57:33,166  User admin,functionName:,msg:Add Permission Approve 
+2016-06-02 10:59:41,076  User admin,functionName:,msg:Add Tree Menu : 销售拣货单 
+2016-06-02 11:00:05,134  User admin,functionName:,msg:Update Role Admin 
+2016-06-02 11:09:48,058  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 11:12:17,608  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 11:13:24,112  User admin,functionName:,msg:List 
+2016-06-02 11:23:28,294  User ,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 327
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:23:45,757  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 11:24:14,362  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 327
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:24:27,946  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 327
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:24:32,163  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 327
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:25:36,045  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 11:30:02,108  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 327
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:31:17,356  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 327
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:38:11,112  User ,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 325
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:38:23,442  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 11:38:29,243  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 325
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:39:05,650  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 11:39:48,858  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 325
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:40:09,589  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 325
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:40:48,761  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.Grid1_PreRowDataBound(Object sender, GridPreRowEventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 325
+   at FineUI.Grid.OnPreRowDataBound(GridPreRowEventArgs e)
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesPickOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesPickOrder\List.aspx.cs:line 205
+2016-06-02 11:56:58,729  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 12:54:35,892  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 12:54:45,268  User admin,functionName:,msg:Show 
+2016-06-02 12:56:23,727  User admin,functionName:,msg:Show 
+2016-06-02 13:03:16,179  User admin,functionName:,msg:Show 
+2016-06-02 14:09:19,016  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 14:09:39,341  User admin,functionName:,msg:Show 
+2016-06-02 14:35:39,077  User admin,functionName:,msg:Show 
+2016-06-02 14:49:31,696  User admin,functionName:,msg:Show 
+2016-06-02 14:51:35,141  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 14:51:42,745  User admin,functionName:,msg:Show 
+2016-06-02 14:52:37,812  User admin,functionName:,msg:Show 
+2016-06-02 14:54:17,707  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 14:54:25,642  User admin,functionName:,msg:Show 
+2016-06-02 14:56:12,359  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 14:56:21,854  User admin,functionName:,msg:Show 
+2016-06-02 15:00:16,834  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:00:29,087  User admin,functionName:,msg:Show 
+2016-06-02 15:00:37,901  User admin,functionName:,msg:Show 
+2016-06-02 15:00:37,917  User admin,functionName:,msg: Stock Take 01 Update Success 
+2016-06-02 15:00:40,926  User admin,functionName:,msg:Show 
+2016-06-02 15:03:39,773  User admin,functionName:,msg:Show 
+2016-06-02 15:05:59,416  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:06:07,391  User admin,functionName:,msg:Show 
+2016-06-02 15:06:16,519  User admin,functionName:,msg:Show 
+2016-06-02 15:06:16,519  User admin,functionName:,msg: Stock Take 01 Update Success 
+2016-06-02 15:06:21,532  User admin,functionName:,msg:Show 
+2016-06-02 15:07:34,691  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:08:00,433  User admin,functionName:,msg:Show 
+2016-06-02 15:08:04,263  User admin,functionName:,msg:Show 
+2016-06-02 15:08:56,040  User admin,functionName:,msg: Stock Take 01 Update Success 
+2016-06-02 15:15:34,412  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:15:57,902  User admin,functionName:,msg:Show 
+2016-06-02 15:16:07,299  User admin,functionName:,msg:Show 
+2016-06-02 15:17:52,677  User admin,functionName:,msg: Stock Take 01 Update Success 
+2016-06-02 15:18:22,303  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:18:55,053  User admin,functionName:,msg:Show 
+2016-06-02 15:19:05,118  User admin,functionName:,msg:Show 
+2016-06-02 15:21:06,598  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:21:17,877  User admin,functionName:,msg:Show 
+2016-06-02 15:21:25,167  User admin,functionName:,msg:Show 
+2016-06-02 15:24:05,388  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:24:14,724  User admin,functionName:,msg:Show 
+2016-06-02 15:24:21,881  User admin,functionName:,msg:Show 
+2016-06-02 15:24:21,897  User admin,functionName:,msg: Ord_ReturnOrder_D Update Success 
+2016-06-02 15:24:25,140  User admin,functionName:,msg:Show 
+2016-06-02 15:25:00,671  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:25:11,305  User admin,functionName:,msg:Show 
+2016-06-02 15:25:17,294  User admin,functionName:,msg:Show 
+2016-06-02 15:26:02,254  User admin,functionName:,msg: Ord_ReturnOrder_D Update Success 
+2016-06-02 15:26:06,318  User admin,functionName:,msg:Show 
+2016-06-02 15:27:06,936  User admin,functionName:,msg:Show 
+2016-06-02 15:27:15,871  User admin,functionName:,msg:Show 
+2016-06-02 15:27:17,774  User admin,functionName:,msg: Ord_ReturnOrder_D Update Success 
+2016-06-02 15:30:58,174  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:31:07,590  User admin,functionName:,msg:Modify 
+2016-06-02 15:31:17,855  User admin,functionName:,msg:Modify 
+2016-06-02 15:31:17,870  User admin,functionName:,msg: Ord_ReturnOrder_D Update Success 
+2016-06-02 15:31:21,374  User admin,functionName:,msg:Modify 
+2016-06-02 15:31:55,328  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:32:05,108  User admin,functionName:,msg:Modify 
+2016-06-02 15:32:12,211  User admin,functionName:,msg:Modify 
+2016-06-02 15:32:51,585  User admin,functionName:,msg: Ord_ReturnOrder_D Update Success 
+2016-06-02 15:35:37,846  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:35:49,080  User admin,functionName:,msg:Modify 
+2016-06-02 15:35:59,107  User admin,functionName:,msg:Modify 
+2016-06-02 15:35:59,138  User admin,functionName:,msg: Ord_ReturnOrder_D Update Success 
+2016-06-02 15:36:07,342  User admin,functionName:,msg:Modify 
+2016-06-02 15:52:09,195  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-02 15:52:29,202  User admin,functionName:,msg:Approve Failed :SPUO00000000001 
+2016-06-02 15:52:37,106  User admin,functionName:,msg:Approve Success :SPUO00000000002 

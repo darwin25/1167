@@ -1,0 +1,7 @@
+C:\SVN\WebBuying_TGP\Edge.SVA.IDAL\bin\Release\Edge.SVA.IDAL.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.IDAL\bin\Release\Edge.SVA.IDAL.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.IDAL\bin\Release\Edge.SVA.Model.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.IDAL\bin\Release\Edge.SVA.Model.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.IDAL\obj\Release\Edge.SVA.IDAL.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\Edge.SVA.IDAL\obj\Release\Edge.SVA.IDAL.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.IDAL\obj\Release\Edge.SVA.IDAL.pdb

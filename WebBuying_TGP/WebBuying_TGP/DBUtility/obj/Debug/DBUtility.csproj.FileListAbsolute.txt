@@ -1,0 +1,28 @@
+C:\SVN\WebBuying\DBUtility\bin\Debug\Edge.DBUtility.dll
+C:\SVN\WebBuying\DBUtility\bin\Debug\Edge.DBUtility.pdb
+C:\SVN\WebBuying\DBUtility\bin\Debug\MySql.Data.dll
+C:\SVN\WebBuying\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\SVN\WebBuying\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying\DBUtility\obj\Debug\Edge.DBUtility.dll
+C:\SVN\WebBuying\DBUtility\obj\Debug\Edge.DBUtility.pdb
+C:\SVN\WebBuying_TGP\DBUtility\bin\Debug\Edge.DBUtility.dll
+C:\SVN\WebBuying_TGP\DBUtility\bin\Debug\Edge.DBUtility.pdb
+C:\SVN\WebBuying_TGP\DBUtility\bin\Debug\MySql.Data.dll
+C:\SVN\WebBuying_TGP\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\SVN\WebBuying_TGP\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\DBUtility\obj\Debug\Edge.DBUtility.dll
+C:\SVN\WebBuying_TGP\DBUtility\obj\Debug\Edge.DBUtility.pdb
+C:\SVN2\WebBuying_TGP\DBUtility\bin\Debug\Edge.DBUtility.dll
+C:\SVN2\WebBuying_TGP\DBUtility\bin\Debug\Edge.DBUtility.pdb
+C:\SVN2\WebBuying_TGP\DBUtility\bin\Debug\MySql.Data.dll
+C:\SVN2\WebBuying_TGP\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\SVN2\WebBuying_TGP\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\SVN2\WebBuying_TGP\DBUtility\obj\Debug\Edge.DBUtility.dll
+C:\SVN2\WebBuying_TGP\DBUtility\obj\Debug\Edge.DBUtility.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\DBUtility\bin\Debug\Edge.DBUtility.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\DBUtility\bin\Debug\Edge.DBUtility.pdb
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\DBUtility\bin\Debug\MySql.Data.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\DBUtility\obj\Debug\Edge.DBUtility.dll
+C:\AGEL\PROJECTS\#1167 WebBuying\1167\WebBuying\WebBuying_TGP\WebBuying_TGP\DBUtility\obj\Debug\Edge.DBUtility.pdb

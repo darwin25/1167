@@ -1,0 +1,17 @@
+2017-06-08 13:06:17,936  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-08 13:06:23,853  User admin,functionName:,msg:List 
+2017-06-08 13:07:26,552  User admin,functionName:Cost Price,msg:List 
+2017-06-08 13:07:33,518  User admin,functionName:Promotion Price,msg:List 
+2017-06-08 13:36:12,718  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-08 13:36:46,447  User admin,functionName:,msg:List 
+2017-06-08 13:37:00,998  User admin,functionName:,msg:Show 
+2017-06-08 13:38:40,606  User admin,functionName:,msg:List 
+2017-06-08 13:38:44,194  User admin,functionName:,msg:List 
+2017-06-08 13:39:22,874  User admin,functionName:,msg:List 
+2017-06-08 13:40:32,931  User admin,functionName:,msg:List 
+2017-06-08 17:27:50,340  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-08 17:28:30,957  User admin,functionName:,msg:Store Order SPO000000001872 Add Success 
+2017-06-08 17:28:36,073  User admin,functionName:,msg:Approve Success :SPO000000001872 
+2017-06-08 17:28:51,244  User admin,functionName:,msg:List 
+2017-06-08 17:29:26,080  User admin,functionName:,msg:Return Store Order SRTN00000000168 Add Success 
+2017-06-08 17:29:32,883  User admin,functionName:,msg:Approve Success :SRTN00000000168 

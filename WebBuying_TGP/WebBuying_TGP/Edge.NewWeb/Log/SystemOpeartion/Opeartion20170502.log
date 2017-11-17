@@ -1,0 +1,93 @@
+2017-05-02 17:23:57,369  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 17:24:30,777  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 17:25:15,295  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 17:31:43,251  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 17:32:18,394  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 17:33:24,255  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 17:34:18,709  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 17:36:19,015  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 17:38:16,996  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 17:59:08,112  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 18:06:38,524  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 18:37:45,921  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 18:39:10,563  User admin,functionName:,msg:List 
+2017-05-02 18:39:10,673  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+Invalid column name 'ApprovedBy'.
+Invalid column name 'ApprovedOn'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1112
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 518
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 58
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\List.aspx.cs:line 133
+2017-05-02 18:39:12,760  User admin,functionName:,msg:List 
+2017-05-02 18:56:11,551  User admin,functionName:,msg:List 
+2017-05-02 18:56:23,788  User admin,functionName:,msg:List 
+2017-05-02 18:56:27,727  User admin,functionName:,msg:List 
+2017-05-02 18:56:30,399  User admin,functionName:,msg:List 
+2017-05-02 18:56:30,500  User admin,functionName:Bank,msg:Load Field,Error Message: 
+System.Web.HttpException (0x80004005): DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'RGB'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.webbuying_masterfiles_basicinformations_buy_color_list_aspx.__DataBindinglblRGB(Object sender, EventArgs e) in c:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_COLOR\List.aspx:line 49
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at FineUI.GridRow.DataBindRow()
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_COLOR.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_COLOR\List.aspx.cs:line 78
+2017-05-02 19:00:55,348  User admin,functionName:Bundle Sales,msg:List 
+2017-05-02 19:00:55,418  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+Invalid column name 'ApprovedBy'.
+Invalid column name 'ApprovedOn'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1112
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 518
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 58
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_BOXSALE.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_BOXSALE\List.aspx.cs:line 133
+2017-05-02 19:02:17,955  User admin,functionName:,msg:Add Tree Menu : Replenishment Rule 
+2017-05-02 19:03:33,397  User admin,functionName:,msg:Update Tree Menu : Replenishment Rule 
+2017-05-02 19:04:07,066  User admin,functionName:Menu Management,msg:List 
+2017-05-02 19:04:23,831  User admin,functionName:,msg:Update Tree Menu : Replenishment Rule 
+2017-05-02 19:04:29,889  User admin,functionName:Menu Management,msg:List 
+2017-05-02 19:07:49,201  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 19:07:53,355  User admin,functionName:Menu Management,msg:List 
+2017-05-02 19:14:40,654  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 19:15:07,618  User admin,functionName:,msg:List 
+2017-05-02 19:15:07,884  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_DEPARTMENT.GetList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_DEPARTMENT.cs:line 657
+   at Edge.SVA.BLL.BUY_DEPARTMENT.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_DEPARTMENT.cs:line 111
+   at Edge.Web.Tools.DALTool.GetBuyingDepartName(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 1096
+   at Edge.Web.Tools.DataTool.AddBuyingDepartName(DataTable dt, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 961
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetStockList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 108
+   at Edge.Web.WebBuying.Enquiry.StockQuery.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Enquiry\StockQuery\List.aspx.cs:line 124
+2017-05-02 19:15:12,312  User admin,functionName:Product Size,msg:List 
+2017-05-02 19:15:14,474  User admin,functionName:Discount Setting,msg:List 
+2017-05-02 19:15:21,211  User admin,functionName:Discount Setting,msg:List 
+2017-05-02 19:15:23,758  User admin,functionName:Discount Setting,msg:List 
+2017-05-02 19:18:03,319  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-02 19:18:14,482  User admin,functionName:Menu Management,msg:List 
+2017-05-02 19:18:16,886  User admin,functionName:Menu Management,msg:List 
+2017-05-02 19:18:18,937  User admin,functionName:Menu Management,msg:List 
+2017-05-02 19:18:27,552  User admin,functionName:Bundle Sales,msg:List 
+2017-05-02 19:18:27,627  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+Invalid column name 'ApprovedBy'.
+Invalid column name 'ApprovedOn'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1112
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 518
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 58
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_BOXSALE.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_BOXSALE\List.aspx.cs:line 133
+2017-05-02 19:18:29,646  User admin,functionName:Discount Setting,msg:List 
+2017-05-02 19:18:33,381  User admin,functionName:Menu Management,msg:List 

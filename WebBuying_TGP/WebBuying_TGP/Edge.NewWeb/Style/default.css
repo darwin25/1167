@@ -1,0 +1,163 @@
+﻿.header .logo
+{
+     position: absolute;
+     left:10px;
+     bottom: 5px;
+    background-image: url(../images/veilogo2.png);
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    width:59px;
+    height:30px;
+}
+.header .title
+{
+     position: absolute;
+     left:80px;
+     bottom: 5px;
+     font-size:20px;
+      font-family:Times New Roman;
+      font-weight:bold;
+}
+.header .title a
+{
+    /*color: #fff;*/
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.header .version
+{
+    position: absolute;
+    right: 5px;
+     bottom: 5px;
+       font-family:Times New Roman;
+}
+
+.header .version a
+{
+   /* color: #fff;8*/
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bottom .copyright
+{
+   /* color: #fff;*/
+    position: absolute;
+    left: 10px;
+    bottom:2px;
+}
+
+
+
+.intro
+{
+    font-family: arial,tahoma,helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+/*
+.icon_aspx
+{
+    background-image: url(../images/filetype/vs_aspx.png) !important;
+}
+.icon_txt
+{
+    background-image: url(../images/filetype/vs_txt.png) !important;
+}
+.icon_htm
+{
+    background-image: url(../images/filetype/vs_htm.png) !important;
+}
+*/
+
+
+.htoolbar
+{
+    background-image: url("../images/logo/logo2.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#logo
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+    z-index: 100000;
+}
+
+
+/**打印样式**/   
+.print_navigation
+{
+    padding: 6px 10px 6px 5px;
+    color: #2F7EAE;
+    border: 1px solid #E4E1FF;
+}
+.print_navigation b
+{
+    padding-left: 25px; 
+    font-weight: bold;
+    color: #cc0066;
+}
+
+.print_navigation .add
+{
+    float: right;
+    padding-left: 15px;
+}
+.print_navigation .back
+{
+    float: right;
+    padding-left: 15px;
+}
+
+.print_msgtable
+{
+    border: 1px solid #EDECFF;
+}
+.print_msgtable th
+{
+    padding: 0.5em;
+    font-weight: 700; /*border:1px solid #EDECFF;*/
+    border-bottom: 1px solid #F3F3F3;
+}
+.print_msgtable td
+{
+    padding: 0.2em;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.print_msgtable .showMessage
+{
+    color: #cc0066;
+    text-align: left;
+}
+
+.print_msgtablelist
+{
+    border: 1px solid #EDECFF;
+}
+.print_msgtablelist th
+{
+    padding: 0.2em;
+    font-weight: 700;
+    text-align: left; /*border:1px solid #EDECFF;*/
+     border-bottom: 1px solid #F3F3F3;
+}
+.print_msgtablelist td
+{
+    padding: 0.2em;
+    border-bottom: 1px solid #F3F3F3;
+    text-align: left;
+}
+
+.print_msgtablelist th input
+{
+    vertical-align: middle;
+}

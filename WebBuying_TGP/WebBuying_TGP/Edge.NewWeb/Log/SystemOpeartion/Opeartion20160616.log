@@ -1,0 +1,6 @@
+2016-06-16 12:42:37,578  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-16 12:43:04,777  User admin,functionName:,msg:Update Role Admin 
+2016-06-16 12:43:16,722  User admin,functionName:,msg:Show 
+2016-06-16 12:43:50,419  User admin,functionName:,msg:Update Role Admin 
+2016-06-16 12:43:57,442  User admin,functionName:,msg:List 
+2016-06-16 12:44:00,424  User admin,functionName:,msg:Show 

@@ -1,0 +1,8 @@
+2016-03-23 14:14:07,044  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-23 14:14:17,659  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-23 14:14:27,633  User admin,functionName:,msg:List 
+2016-03-23 14:14:37,224  User admin,functionName:,msg:List 
+2016-03-23 14:18:48,890  User admin,functionName:,msg:List 
+2016-03-23 14:19:05,763  User admin,functionName:,msg:List 
+2016-03-23 14:19:29,962  User admin,functionName:,msg: Add  
+2016-03-23 14:19:30,040  User admin,functionName:,msg:Add ProductParticulars Success Code:01119638 

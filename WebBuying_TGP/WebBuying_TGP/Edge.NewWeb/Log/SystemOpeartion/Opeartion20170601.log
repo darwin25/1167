@@ -1,0 +1,28 @@
+2017-06-01 13:47:15,779  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-01 13:49:41,371  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-01 13:50:39,397  User admin,functionName:,msg:ExPort System.ComponentModel.LicenseException: Your Trial period has expired.
+   at GrapeCity.ActiveReports.SectionReport.Run(Boolean syncDocument)
+   at GrapeCity.ActiveReports.SectionReport.Run()
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 164
+   at Edge.Web.Operation.StockTake.Print.LoadReport(String ids, Int32 orderType, String types) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StockTake\Print.aspx.cs:line 117
+   at Edge.Web.Operation.StockTake.Print.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StockTake\Print.aspx.cs:line 75 
+2017-06-01 14:12:48,238  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-06-01 14:24:50,560  User admin,functionName:,msg:ExPort System.ComponentModel.LicenseException: Your Trial period has expired.
+   at GrapeCity.ActiveReports.SectionReport.Run(Boolean syncDocument)
+   at GrapeCity.ActiveReports.SectionReport.Run()
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 164
+   at Edge.Web.Operation.StockTake.Print.LoadReport(String ids, Int32 orderType, String types) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StockTake\Print.aspx.cs:line 117
+   at Edge.Web.Operation.StockTake.Print.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StockTake\Print.aspx.cs:line 75 
+2017-06-01 14:29:54,355  User admin,functionName:,msg:ExPort System.ComponentModel.LicenseException: Your Trial period has expired.
+   at GrapeCity.ActiveReports.SectionReport.Run(Boolean syncDocument)
+   at GrapeCity.ActiveReports.SectionReport.Run()
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 164
+   at Edge.Web.Operation.StockTake.Print.LoadReport(String ids, Int32 orderType, String types) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StockTake\Print.aspx.cs:line 117
+   at Edge.Web.Operation.StockTake.Print.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StockTake\Print.aspx.cs:line 75 
+2017-06-01 14:30:14,562  User admin,functionName:,msg:ExPort System.ComponentModel.LicenseException: Your Trial period has expired.
+   at GrapeCity.ActiveReports.SectionReport.Run(Boolean syncDocument)
+   at GrapeCity.ActiveReports.SectionReport.Run()
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 164
+   at Edge.Web.Operation.StockTake.Print.LoadReport(String ids, Int32 orderType, String types) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StockTake\Print.aspx.cs:line 117
+   at Edge.Web.Operation.StockTake.Print.Page_Load(Object sender, EventArgs e) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StockTake\Print.aspx.cs:line 75 
+2017-06-01 17:27:06,097  User ,functionName:Login,msg: Login Operation userName:admin 

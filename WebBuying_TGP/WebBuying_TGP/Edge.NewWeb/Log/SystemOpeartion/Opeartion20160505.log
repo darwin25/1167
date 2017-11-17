@@ -1,0 +1,11 @@
+2016-05-05 15:34:30,971  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-05 15:34:43,476  User admin,functionName:,msg:Void 
+2016-05-05 15:34:43,491  User admin,functionName:,msg:Void Failed :SHP000000000231 
+2016-05-05 15:37:34,937  User admin,functionName:,msg:Void 
+2016-05-05 15:37:34,937  User admin,functionName:,msg:Void Failed :SHP000000000225 
+2016-05-05 15:37:48,049  User admin,functionName:,msg:Void 
+2016-05-05 15:37:48,052  User admin,functionName:,msg:Void Failed :SHP000000000217 
+2016-05-05 15:37:56,961  User admin,functionName:,msg:Void 
+2016-05-05 15:37:56,964  User admin,functionName:,msg:Void Failed :SHP000000000204 
+2016-05-05 15:38:35,562  User admin,functionName:,msg:Void 
+2016-05-05 15:38:35,565  User admin,functionName:,msg:Void Failed :SHP000000000199 

@@ -1,0 +1,178 @@
+2017-05-08 11:06:13,281  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-08 11:30:17,337  User admin,functionName:Product Details,msg:List 
+2017-05-08 11:30:21,497  User admin,functionName:Product Type,msg:List 
+2017-05-08 11:30:22,595  User admin,functionName:Associated Product,msg:List 
+2017-05-08 11:30:23,462  User admin,functionName:Product Picture,msg:List 
+2017-05-08 11:30:29,515  User admin,functionName:Menu Management,msg:List 
+2017-05-08 11:31:04,715  User admin,functionName:,msg:List 
+2017-05-08 11:31:09,040  User admin,functionName:,msg:List 
+2017-05-08 11:31:18,085  User admin,functionName:,msg:Show 
+2017-05-08 11:31:47,369  User admin,functionName:,msg:Show 
+2017-05-08 11:31:52,676  User admin,functionName:,msg:Show 
+2017-05-08 11:34:58,699  User admin,functionName:,msg:Show 
+2017-05-08 11:35:28,967  User admin,functionName:,msg:Show 
+2017-05-08 11:36:32,158  User admin,functionName:,msg:Show 
+2017-05-08 12:01:01,233  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-08 12:01:43,426  User admin,functionName:,msg:List 
+2017-05-08 12:01:51,429  User admin,functionName:,msg:Show 
+2017-05-08 12:08:21,186  User admin,functionName:,msg:Show 
+2017-05-08 16:29:18,334  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-08 16:29:52,641  User admin,functionName:,msg:List 
+2017-05-08 16:30:36,009  User admin,functionName:,msg:Show 
+2017-05-08 16:31:28,118  User admin,functionName:,msg: Update  
+2017-05-08 16:31:28,822  User admin,functionName:,msg:Update Product Success Code:12121066 
+2017-05-08 16:31:34,449  User admin,functionName:,msg:Show 
+2017-05-08 16:33:30,221  User admin,functionName:,msg:Update Tree Menu : Goods 
+2017-05-08 16:33:50,380  User admin,functionName:,msg:List 
+2017-05-08 16:34:09,298  User admin,functionName:,msg:Update Tree Menu : Store 
+2017-05-08 16:34:34,282  User admin,functionName:,msg:Update Tree Menu : Bar Code 
+2017-05-08 16:34:50,599  User admin,functionName:,msg:List 
+2017-05-08 16:36:28,681  User admin,functionName:,msg:List 
+2017-05-08 16:36:48,761  User admin,functionName:,msg:Update Tree Menu : Exchange Rate 
+2017-05-08 16:36:52,754  User admin,functionName:,msg:List 
+2017-05-08 16:37:07,774  User admin,functionName:,msg:Update Tree Menu : Color 
+2017-05-08 16:37:24,221  User admin,functionName:,msg:Update Tree Menu : Reason 
+2017-05-08 16:37:39,927  User admin,functionName:,msg:Update Tree Menu : Supplier 
+2017-05-08 16:38:10,624  User admin,functionName:,msg:Update Tree Menu : Department 
+2017-05-08 16:40:08,006  User admin,functionName:,msg:Update Tree Menu : Product Setting 
+2017-05-08 16:44:07,523  User admin,functionName:,msg:Update Tree Menu : ???? 
+2017-05-08 16:58:50,576  User admin,functionName:,msg:List 
+2017-05-08 17:00:12,168  User admin,functionName:,msg:List 
+2017-05-08 17:00:37,742  User admin,functionName:,msg:Update Tree Menu : ?? 
+2017-05-08 17:01:02,647  User admin,functionName:,msg:Update Tree Menu : Set Up 
+2017-05-08 17:01:13,353  User admin,functionName:,msg:Update Tree Menu : Set Up 
+2017-05-08 17:01:40,126  User admin,functionName:,msg:Update Tree Menu : Retail Price 
+2017-05-08 17:35:44,986  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-08 17:54:26,619  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:47187dbe-49ff-41a5-93cc-84d89f356f32
+Error Number:156,State:1,Class:15
+2017-05-08 18:08:50,319  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-08 18:09:35,965  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:09:44,501  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:09:48,062  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:09:50,711  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:09:55,539  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:10:55,460  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:11:08,027  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:11:24,803  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:11:27,706  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:11:55,295  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_ReceiveOrder_H.cs:line 521
+   at Edge.SVA.BLL.Ord_ReceiveOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_ReceiveOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ReceiveStoreOrder.ReceiveStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ReceiveStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.ReceiveStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\ReceiveStoreOrder\List.aspx.cs:line 221
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:14:51,075  User admin,functionName:,msg:List 
+2017-05-08 18:16:30,562  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_PickingOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_PickingOrder_H.cs:line 514
+   at Edge.SVA.BLL.Ord_PickingOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_PickingOrder_H.cs:line 265
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.PickingStoreOrder.PickingStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\PickingStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.PickingStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\PickingStoreOrder\List.aspx.cs:line 232
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:16:36,529  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_PickingOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_PickingOrder_H.cs:line 514
+   at Edge.SVA.BLL.Ord_PickingOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_PickingOrder_H.cs:line 265
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.PickingStoreOrder.PickingStoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\PickingStoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.PickingStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\PickingStoreOrder\List.aspx.cs:line 232
+ClientConnectionId:48dd476d-492e-4c8c-9e30-0218158ab6f4
+Error Number:156,State:1,Class:15
+2017-05-08 18:17:58,680  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-08 18:25:02,509  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-08 18:49:03,925  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-08 18:57:00,328  User admin,functionName:,msg:Update 
+2017-05-08 18:57:05,903  User admin,functionName:,msg:BUY_REPLEN AR1 Update Success 
+2017-05-08 18:59:23,403  User admin,functionName:,msg:Update 
+2017-05-08 18:59:24,939  User admin,functionName:,msg:BUY_REPLEN AR1 Update Success 
+2017-05-08 18:59:28,178  User admin,functionName:Menu Management,msg:List 
+2017-05-08 18:59:42,376  User admin,functionName:,msg: Update  
+2017-05-08 18:59:42,844  User admin,functionName:,msg:Update Replenformula Success Code:1 
+2017-05-08 18:59:43,599  User admin,functionName:Menu Management,msg:List 
+2017-05-08 19:00:34,531  User admin,functionName:,msg: Update  
+2017-05-08 19:00:34,798  User admin,functionName:,msg:Update Replenformula Success Code:1 
+2017-05-08 19:00:35,350  User admin,functionName:Menu Management,msg:List 

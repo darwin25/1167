@@ -1,0 +1,40 @@
+2017-05-05 11:48:22,696  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 12:54:22,874  User ,functionName:Menu Management,msg:List 
+2017-05-05 12:59:14,882  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 12:59:24,077  User admin,functionName:Menu Management,msg:List 
+2017-05-05 13:03:10,383  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 13:03:45,959  User admin,functionName:Menu Management,msg:List 
+2017-05-05 13:13:20,540  User admin,functionName:,msg:List 
+2017-05-05 13:13:41,312  User admin,functionName:,msg:List 
+2017-05-05 13:14:05,849  User admin,functionName:,msg:List 
+2017-05-05 13:14:20,064  User admin,functionName:,msg:Update 
+2017-05-05 13:14:20,233  User admin,functionName:,msg:BUY_REPLEN AR1 Update Success 
+2017-05-05 13:17:41,402  User admin,functionName:,msg:List 
+2017-05-05 13:17:44,001  User admin,functionName:,msg:List 
+2017-05-05 13:52:24,779  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 14:32:05,664  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 14:34:07,093  User admin,functionName:,msg:Update Tree Menu : ???? 
+2017-05-05 14:35:28,775  User admin,functionName:,msg:Update Tree Menu : ???? 
+2017-05-05 15:35:11,535  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 15:35:22,789  User admin,functionName:Product Details,msg:List 
+2017-05-05 15:35:35,281  User admin,functionName:,msg:List 
+2017-05-05 15:41:24,820  User admin,functionName:Product Type,msg:List 
+2017-05-05 15:41:39,819  User admin,functionName:,msg:List 
+2017-05-05 16:21:26,872  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 16:21:57,313  User admin,functionName:Product Type,msg:List 
+2017-05-05 16:21:59,080  User admin,functionName:Product Details,msg:List 
+2017-05-05 16:22:01,772  User admin,functionName:Associated Product,msg:List 
+2017-05-05 16:22:03,826  User admin,functionName:Product Picture,msg:List 
+2017-05-05 16:22:17,942  User admin,functionName:,msg:List 
+2017-05-05 16:24:50,209  User admin,functionName:,msg:List 
+2017-05-05 17:15:44,913  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 17:28:09,655  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 18:00:21,913  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 18:53:46,150  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-05 18:58:18,292  User admin,functionName:,msg:List 
+2017-05-05 19:00:55,083  User admin,functionName:,msg:Update 
+2017-05-05 19:00:55,190  User admin,functionName:,msg:BUY_REPLEN AR1 Update Success 
+2017-05-05 19:01:26,172  User admin,functionName:,msg:List 
+2017-05-05 19:01:38,294  User admin,functionName:,msg:Update 
+2017-05-05 19:01:38,359  User admin,functionName:,msg:BUY_REPLEN AR1 Update Success 
+2017-05-05 19:16:38,660  User ,functionName:Login,msg: Login Operation userName:admin 

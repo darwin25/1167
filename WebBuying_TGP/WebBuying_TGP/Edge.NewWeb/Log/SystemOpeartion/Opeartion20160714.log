@@ -1,0 +1,173 @@
+2016-07-14 09:25:11,250  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 09:26:12,219  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 09:26:34,576  User admin,functionName:,msg:List 
+2016-07-14 09:26:37,034  User admin,functionName:,msg:List 
+2016-07-14 09:28:25,701  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 09:48:48,403  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 09:49:56,245  User admin,functionName:,msg:Update 
+2016-07-14 09:49:56,292  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success 
+2016-07-14 09:53:25,802  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 09:54:39,643  User admin,functionName:,msg:List 
+2016-07-14 09:54:53,931  User admin,functionName:,msg:List 
+2016-07-14 09:55:15,378  User admin,functionName:,msg:List 
+2016-07-14 09:58:25,398  User admin,functionName:,msg:Update 
+2016-07-14 09:58:25,444  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success 
+2016-07-14 10:12:08,295  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:12:24,569  User admin,functionName:,msg:List 
+2016-07-14 10:12:43,514  User admin,functionName:,msg:Update 
+2016-07-14 10:12:43,592  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'OrderRoundUpQty' does not allow DBNull.Value.
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\Modify.aspx.cs:line 232
+2016-07-14 10:12:46,660  User admin,functionName:,msg:Update 
+2016-07-14 10:12:46,692  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'OrderRoundUpQty' does not allow DBNull.Value.
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\Modify.aspx.cs:line 232
+2016-07-14 10:14:13,894  User ,functionName:Login,msg: Login Operation userName:admi 
+2016-07-14 10:14:25,128  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:14:39,284  User admin,functionName:,msg:List 
+2016-07-14 10:14:48,144  User admin,functionName:,msg:Update 
+2016-07-14 10:18:21,651  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'OrderRoundUpQty' does not allow DBNull.Value.
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\Modify.aspx.cs:line 232
+2016-07-14 10:19:29,845  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:19:47,266  User admin,functionName:,msg:List 
+2016-07-14 10:19:57,917  User admin,functionName:,msg:Update 
+2016-07-14 10:19:57,979  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success 
+2016-07-14 10:20:09,511  User admin,functionName:,msg:Update 
+2016-07-14 10:20:09,542  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success But Detail Failed,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\Modify.aspx.cs:line 214
+2016-07-14 10:20:31,529  User admin,functionName:,msg:Update 
+2016-07-14 10:20:31,560  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success 
+2016-07-14 10:26:56,465  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:27:20,060  User admin,functionName:,msg:List 
+2016-07-14 10:31:02,262  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:31:37,474  User admin,functionName:,msg:List 
+2016-07-14 10:33:43,699  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:35:43,282  User admin,functionName:,msg:List 
+2016-07-14 10:35:46,744  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"CardTypeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-14 10:35:47,898  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-07-14 10:35:47,945  User admin,functionName:GetCardGrades ,msg:{"Action":"GetCardGrades","CardTypeID":0,"ConditionStr":"CardGradeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-07-14 10:35:48,990  User admin,functionName:GetCardGrades,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardGradeInfo(CardGradeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 204
+2016-07-14 10:36:20,444  User admin,functionName:,msg:List 
+2016-07-14 10:36:26,947  User admin,functionName:,msg:List 
+2016-07-14 10:39:24,448  User admin,functionName:,msg:List 
+2016-07-14 10:41:24,310  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:41:57,696  User admin,functionName:,msg:List 
+2016-07-14 10:43:41,411  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:44:14,131  User admin,functionName:,msg:List 
+2016-07-14 10:47:33,877  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:47:55,515  User admin,functionName:,msg:List 
+2016-07-14 10:49:50,006  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:51:35,175  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:52:07,387  User admin,functionName:,msg:List 
+2016-07-14 10:54:42,645  User admin,functionName:,msg:List 
+2016-07-14 10:56:48,569  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 10:58:18,928  User admin,functionName:,msg:List 
+2016-07-14 10:58:50,621  User admin,functionName:,msg:Update 
+2016-07-14 10:58:51,027  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success 
+2016-07-14 10:59:35,217  User admin,functionName:,msg:List 
+2016-07-14 11:03:31,334  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 11:03:50,614  User admin,functionName:,msg:Update 
+2016-07-14 11:04:16,494  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success But Detail Failed,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\Modify.aspx.cs:line 214
+2016-07-14 11:06:00,923  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 11:08:58,975  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 11:09:34,835  User admin,functionName:,msg:List 
+2016-07-14 11:09:48,292  User admin,functionName:,msg:Update 
+2016-07-14 11:09:49,836  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success 
+2016-07-14 11:10:03,079  User admin,functionName:,msg:Update 
+2016-07-14 11:10:07,587  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success 
+2016-07-14 11:10:45,646  User admin,functionName:,msg:List 
+2016-07-14 11:10:55,138  User admin,functionName:,msg:Update 
+2016-07-14 11:10:55,840  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success 
+2016-07-14 11:13:05,215  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 11:14:06,187  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 11:14:43,240  User admin,functionName:,msg:Update 
+2016-07-14 11:14:54,206  User admin,functionName:,msg:BUY_REPLEN 12222 Update Success 
+2016-07-14 11:50:01,588  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 11:51:19,879  User admin,functionName:,msg:Add Category 自动补货公式信息表 
+2016-07-14 11:51:37,001  User admin,functionName:,msg:Add Permission List 
+2016-07-14 11:51:39,172  User admin,functionName:,msg:Add Permission Add 
+2016-07-14 11:51:42,716  User admin,functionName:,msg:Add Permission Modify 
+2016-07-14 11:51:45,519  User admin,functionName:,msg:Add Permission Show 
+2016-07-14 11:51:48,735  User admin,functionName:,msg:Add Permission Delete 
+2016-07-14 11:53:41,302  User admin,functionName:,msg:Add Tree Menu : 自动补货公式信息表 
+2016-07-14 11:53:55,093  User admin,functionName:,msg:Update Role Admin 
+2016-07-14 11:54:16,596  User admin,functionName:,msg:List 
+2016-07-14 11:59:57,178  User admin,functionName:,msg: Add  
+2016-07-14 11:59:57,241  User admin,functionName:,msg:Add Replenformula Success Code:00001 
+2016-07-14 11:59:57,407  User admin,functionName:,msg:List 
+2016-07-14 12:04:27,078  User admin,functionName:,msg:List 
+2016-07-14 12:07:25,190  User ,functionName:Language Management,msg:List 
+2016-07-14 12:15:14,450  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 12:15:23,292  User admin,functionName:,msg:List 
+2016-07-14 12:16:16,291  User admin,functionName:,msg:List 
+2016-07-14 12:20:09,208  User ,functionName:Language Management,msg:List 
+2016-07-14 12:21:44,089  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 12:21:52,916  User admin,functionName:,msg:List 
+2016-07-14 12:24:43,051  User admin,functionName:,msg:List 
+2016-07-14 12:29:08,941  User ,functionName:Language Management,msg:List 
+2016-07-14 12:29:19,418  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 12:29:23,481  User admin,functionName:,msg:List 
+2016-07-14 12:29:39,817  User admin,functionName:,msg: Update  
+2016-07-14 12:29:39,864  User admin,functionName:,msg:Update Replenformula Success Code:00001 
+2016-07-14 12:29:40,001  User admin,functionName:,msg:List 
+2016-07-14 12:29:53,793  User admin,functionName:,msg: Add  
+2016-07-14 12:29:53,824  User admin,functionName:,msg:Add Replenformula Success Code:333 
+2016-07-14 12:29:54,012  User admin,functionName:,msg:List 
+2016-07-14 12:29:58,097  User admin,functionName:,msg: Delete 2 
+2016-07-14 14:02:04,322  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:11:55,284  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:12:25,485  User admin,functionName:,msg:List 
+2016-07-14 14:12:43,746  User admin,functionName:,msg: Add  
+2016-07-14 14:12:43,793  User admin,functionName:,msg:Add Replenformula Success Code:0001 
+2016-07-14 14:12:43,884  User admin,functionName:,msg:List 
+2016-07-14 14:17:28,839  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:19:26,465  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:29:10,420  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:29:15,111  User admin,functionName:,msg:List 
+2016-07-14 14:29:52,992  User admin,functionName:,msg:Add 
+2016-07-14 14:29:53,055  User admin,functionName:,msg:Add BUY_REPLEN Success Code:test001 
+2016-07-14 14:34:48,593  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:36:32,721  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:36:55,974  User admin,functionName:,msg:List 
+2016-07-14 14:37:10,362  User admin,functionName:,msg:Update 
+2016-07-14 14:37:10,440  User admin,functionName:,msg:BUY_REPLEN test001 Update Success 
+2016-07-14 14:37:35,985  User admin,functionName:,msg:Update 
+2016-07-14 14:37:36,017  User admin,functionName:,msg:BUY_REPLEN test001 Update Success 
+2016-07-14 14:38:19,219  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:44:56,324  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:46:34,425  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:47:03,646  User admin,functionName:,msg:Add 
+2016-07-14 14:47:03,708  User admin,functionName:,msg:Add BUY_REPLEN Success Code:test002 
+2016-07-14 14:49:31,313  User admin,functionName:,msg:Update 
+2016-07-14 14:49:31,360  User admin,functionName:,msg:BUY_REPLEN test001 Update Success 
+2016-07-14 14:56:13,713  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-07-14 14:57:04,106  User admin,functionName:,msg:List 
+2016-07-14 14:57:13,255  User admin,functionName:,msg:List 
+2016-07-14 14:57:28,788  User admin,functionName:,msg:Update 
+2016-07-14 14:57:28,851  User admin,functionName:,msg:BUY_REPLEN test002 Update Success 
+2016-07-14 14:57:54,735  User admin,functionName:,msg:Update 
+2016-07-14 14:57:54,797  User admin,functionName:,msg:BUY_REPLEN test002 Update Success 

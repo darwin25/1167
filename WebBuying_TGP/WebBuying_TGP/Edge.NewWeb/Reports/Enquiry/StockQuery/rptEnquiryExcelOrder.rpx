@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActiveReportsLayout Version="3.2" PrintWidth="19743.84" DocumentName="ARNet Document" ScriptLang="C#" MasterReport="0">
+  <StyleSheet>
+    <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black" />
+    <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold" />
+    <Style Name="Heading2" Value="font-family: Times New Roman; font-size: 14pt; font-weight: bold; font-style: italic" />
+    <Style Name="Heading3" Value="font-size: 13pt; font-weight: bold" />
+  </StyleSheet>
+  <Sections>
+    <Section Type="PageHeader" Name="PageHeader" Height="4788" BackColor="16777215" CanShrink="1">
+      <Control Type="AR.Label" Name="lblProCode" Left="108" Top="95.04" Width="1982.88" Height="393.12" Caption="Department Code" Style="color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label21" Left="2039.04" Top="95.04" Width="1982.88" Height="393.12" Caption="Department Name " Style="color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label48" Left="4006.08" Top="95.04" Width="1982.88" Height="393.12" Caption="Brand" Style="color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label12" Left="5974.56" Top="95.04" Width="1982.88" Height="393.12" Caption="Store" Style="color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label3" Left="7953.12" Top="95.04" Width="1982.88" Height="393.12" Caption="Product Code" Style="color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label5" Left="9855.359" Top="95.04" Width="3676.32" Height="393.12" Caption="Product Name" Style="color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label6" Left="13435.2" Top="95.04" Width="1982.88" Height="393.12" Caption="Stock Type" Style="color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: left; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label7" Left="15396.48" Top="95.04" Width="1982.88" Height="393.12" Caption="On hand Qty" Style="color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: right; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label8" Left="17356.32" Top="95.04" Width="1982.88" Height="393.12" Caption="金额" Style="color: Black; font-family: 微软雅黑; font-size: 11.25pt; font-weight: bold; text-align: right; vertical-align: middle; ddo-char-set: 162" PaddingLeft="16" />
+    </Section>
+    <Section Type="Detail" Name="Detail" Height="368.64" BackColor="16777215" KeepTogether="1" CanGrow="0" CanShrink="1">
+      <Control Type="AR.Field" Name="txtDepartCode" DataField="DepartCode" Left="108" Top="0" Width="1982.88" Height="393.12" Text="txtDepartCode" Style="font-family: 微软雅黑; font-size: 9.75pt; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtDepartName2" DataField="DepartName2" Left="2039.04" Top="0" Width="1982.88" Height="393.12" Text="txtDepartName2" Style="font-family: 微软雅黑; font-size: 9.75pt; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtBrandName2" DataField="BrandName2" Left="4006.08" Top="0" Width="1982.88" Height="393.12" Text="txtBrandName2" OutputFormat="" Style="font-family: 微软雅黑; font-size: 9.75pt; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtStoreName2" DataField="StoreName2" Left="5974.56" Top="0" Width="1982.88" Height="393.12" Text="txtStoreName2" OutputFormat="" Style="font-family: 微软雅黑; font-size: 9.75pt; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtProCode" DataField="ProdCode" Left="7953.12" Top="0" Width="1982.88" Height="393.12" Text="txtProCode" Style="font-family: 微软雅黑; font-size: 9.75pt; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtProdDesc1" DataField="ProdDesc1" Left="9855.36" Top="0" Width="3676.32" Height="393.12" Text="txtProdDesc1" Style="font-family: 微软雅黑; font-size: 9.75pt; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtStockTypeCode" DataField="StockTypeCode" Left="13435.2" Top="0" Width="1982.88" Height="393.12" Text="txtStockTypeCode" Style="font-family: 微软雅黑; font-size: 9.75pt; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtOnhandQty" DataField="OnhandQty" Left="15396.48" Top="0" Width="1982.88" Height="393.12" Text="txtOnhandQty" OutputFormat="#,##0.00" Style="font-family: 微软雅黑; font-size: 9.75pt; text-align: right; ddo-char-set: 0" PaddingLeft="16" />
+      <Control Type="AR.Field" Name="txtPrice" DataField="Price" Left="17356.32" Top="0" Width="1982.88" Height="393.12" Text="txtPrice" OutputFormat="¥#,##0.00" CurrencyCulture="zh-CN" Style="font-family: 微软雅黑; font-size: 9.75pt; text-align: right; ddo-char-set: 0" PaddingLeft="16" />
+    </Section>
+    <Section Type="PageFooter" Name="PageFooter" Height="735" BackColor="16777215" CanGrow="0">
+      <Control Type="AR.Label" Name="Label24" Left="15878.88" Top="31.68" Width="1440" Height="288" Caption="库存总量：" Style="font-family: 微软雅黑; font-size: 9.75pt; font-weight: bold; text-align: right; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="txtTotalQty" DataField="OnhandQty" Left="17356.32" Top="74.88" Width="1982.88" Height="288" Text="txtTotalQty" OutputFormat="#,##0.00" Style="font-family: 微软雅黑; font-size: 9.75pt; text-align: right; ddo-char-set: 0" SummaryType="2" SummaryRunning="2" PaddingLeft="16" />
+      <Control Type="AR.Label" Name="Label25" Left="15878.88" Top="355.68" Width="1440" Height="288" Caption="订单总金额：" Style="font-family: 微软雅黑; font-size: 9.75pt; font-weight: bold; text-align: right; ddo-char-set: 134" />
+      <Control Type="AR.Field" Name="txtTotatxtPrice" DataField="totalPrice" Left="17356.32" Top="319.68" Width="1982.88" Height="288" Text="txtTotaltxtTotatxtPrice" OutputFormat="¥#,##0.00" Style="font-family: 微软雅黑; font-size: 9.75pt; text-align: right; ddo-char-set: 0" SummaryType="2" SummaryRunning="2" PaddingLeft="16" />
+    </Section>
+  </Sections>
+  <ReportComponentTray />
+  <DataSources>
+    <SqlDbDataSource ConnectF="BHunkowNWeCOJ0TrLLsGciESt4PUcHe0bUYbU3ht+f5ZfnXKRrSvFFzre4MFSVur58rZAiJwPVeeO/De4+arkoQ60ayWvyRdIjJBM3ZgY5Z1TwhPOcIatAHzr9DjvC+xg0iqPOZiz4ylUBc+DwiG3w==" SQL="declare @WebSiteName nvarchar(20) &#xD;&#xA;select  BUY_PRODUCT.ProdCode,ProdDesc1,ProdDesc2,ProdDesc3, BUY_PRODUCT.DepartCode,BUY_DEPARTMENT.DepartName1,&#xD;&#xA;BUY_DEPARTMENT.DepartName2,BUY_DEPARTMENT.DepartName3, BUY_BRAND.BrandName1,BUY_BRAND.BrandName2,BUY_BRAND.BrandName3, &#xD;&#xA;BUY_STORE.StoreName1,BUY_STORE.StoreName2,BUY_STORE.StoreName3,&#xD;&#xA; @WebSiteName as WebSiteName,StockTypeCode,&#xD;&#xA;STK_StockOnhand.StockTypeCode, STK_StockOnhand.OnhandQty ,STK_StockOnhand.StoreID,BUY_RPRICE_M.Price,OnhandQty*Price as totalPrice&#xD;&#xA;FROM BUY_PRODUCT  &#xD;&#xA;left join BUY_DEPARTMENT on  BUY_PRODUCT.DepartCode=BUY_DEPARTMENT.DepartCode  &#xD;&#xA;left join BUY_BRAND on BUY_PRODUCT.BrandCode=BUY_BRAND.BrandCode  &#xD;&#xA;inner join STK_StockOnhand on BUY_PRODUCT.ProdCode=STK_StockOnhand.ProdCode&#xD;&#xA;INNER join BUY_STORE on STK_StockOnhand.StoreID=BUY_STORE.StoreID&#xD;&#xA;LEFT JOIN (SELECT ProdCode, Price FROM BUY_RPRICE_M &#xD;&#xA;WHERE  KeyID IN (SELECT max(KeyID) as KeyID FROM BUY_RPRICE_M Group by ProdCode) AND StartDate &lt;= GETDATE() AND EndDate &gt;= GETDATE() ) BUY_RPRICE_M &#xD;&#xA;on STK_StockOnhand.ProdCode = BUY_RPRICE_M.ProdCode" CommandTimeout="0" />
+  </DataSources>
+  <Script><![CDATA[
+int RowNo = 0;
+public void Detail_Format()
+{
+this.Detail.BackColor = Color.Transparent;
+}
+// 记录当前页实际高度
+public float ActualPageHeight = 0;
+
+public void ActiveReport_ReportStart()
+{
+	rpt.Document.Printer.PrinterName = "";
+}
+private void Detail_AfterPrint(object sender, EventArgs e)
+{
+	// 记录每条数据占用的高度
+	ActualPageHeight += this.Detail.Height;
+}]]></Script>
+  <PageSettings />
+  <Parameters />
+</ActiveReportsLayout>

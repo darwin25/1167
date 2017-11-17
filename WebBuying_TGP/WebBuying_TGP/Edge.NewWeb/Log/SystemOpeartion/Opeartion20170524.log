@@ -1,0 +1,51 @@
+2017-05-24 11:36:35,638  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-24 11:41:19,196  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-24 11:42:00,370  User admin,functionName:,msg:List 
+2017-05-24 11:42:45,531  User admin,functionName:,msg:List 
+2017-05-24 11:43:25,679  User admin,functionName:,msg:Store Order SPO000000001885 Detail No Data 
+2017-05-24 11:43:34,330  User admin,functionName:,msg:Store Order SPO000000001885 Detail No Data 
+2017-05-24 11:43:56,982  User admin,functionName:,msg:Store Order SPO000000001887 Add Success 
+2017-05-24 11:44:03,593  User admin,functionName:,msg:Approve Success :SPO000000001887 
+2017-05-24 11:44:13,932  User admin,functionName:,msg:Approve Success :SHP000000002525 
+2017-05-24 11:45:08,786  User admin,functionName:,msg:Store Order SPO000000001888 Add Success 
+2017-05-24 11:45:16,657  User admin,functionName:,msg:Approve Success :SPO000000001888 
+2017-05-24 11:51:05,103  User admin,functionName:,msg:Approve Success :RECIO0000001331 
+2017-05-24 11:51:08,196  User admin,functionName:,msg:List 
+2017-05-24 11:54:02,980  User admin,functionName:,msg:Store Order SPO000000001889 Add Success 
+2017-05-24 11:54:20,838  User admin,functionName:,msg:Approve Success :SPO000000001889 
+2017-05-24 11:58:18,888  User admin,functionName:,msg:List 
+2017-05-24 11:59:42,231  User admin,functionName:,msg:Approve Success :RECIO0000001332 
+2017-05-24 11:59:46,938  User admin,functionName:,msg:List 
+2017-05-24 12:01:02,900  User admin,functionName:,msg:Store Order SPO000000001890 Add Success 
+2017-05-24 12:01:11,286  User admin,functionName:,msg:Approve Success :SPO000000001890 
+2017-05-24 12:06:28,646  User admin,functionName:,msg:Store Order SPO000000001891 Add Success 
+2017-05-24 12:06:34,638  User admin,functionName:,msg:Approve Success :SPO000000001891 
+2017-05-24 12:09:06,091  User admin,functionName:,msg:List 
+2017-05-24 12:10:50,345  User admin,functionName:,msg:List 
+2017-05-24 12:11:14,251  User admin,functionName:,msg:Store Order SPO000000001892 Add Success 
+2017-05-24 12:11:30,288  User admin,functionName:,msg:Approve Success :SPO000000001892 
+2017-05-24 12:14:26,737  User admin,functionName:,msg:Approve Success :RECIO0000001334 
+2017-05-24 12:14:31,411  User admin,functionName:,msg:List 
+2017-05-24 12:19:03,415  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-24 12:21:18,593  User admin,functionName:,msg:Store Order SPO000000001840 Add Success 
+2017-05-24 12:21:29,093  User admin,functionName:,msg:Approve Success :SPO000000001840 
+2017-05-24 12:37:59,977  User admin,functionName:,msg:Approve Failed :SPO000000001840 
+2017-05-24 12:39:10,818  User admin,functionName:,msg:Store Order SPO000000001841 Add Success 
+2017-05-24 12:39:21,527  User admin,functionName:,msg:Approve Success :SPO000000001841 
+2017-05-24 12:48:09,528  User admin,functionName:,msg:Store Order SPO000000001842 Add Success 
+2017-05-24 12:48:24,204  User admin,functionName:,msg:Approve Success :SPO000000001842 
+2017-05-24 12:48:52,741  User admin,functionName:,msg:Approve Success :SHP000000002427 
+2017-05-24 12:49:13,910  User admin,functionName:,msg:Approve Success :SHP000000002428 
+2017-05-24 14:38:03,650  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-24 14:39:21,802  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-24 14:41:31,634  User admin,functionName:,msg:Store Order SPO000000001843 Add Success 
+2017-05-24 14:41:43,275  User admin,functionName:,msg:Approve Success :SPO000000001843 
+2017-05-24 14:48:33,896  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-24 14:49:22,897  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-24 14:49:52,337  User admin,functionName:,msg:Store Order SPO000000001893 Add Success 
+2017-05-24 14:49:57,844  User admin,functionName:,msg:Approve Success :SPO000000001893 
+2017-05-24 15:21:54,273  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-24 15:22:33,893  User admin,functionName:,msg:Store Order SPO000000001894 Add Success 
+2017-05-24 15:22:45,856  User admin,functionName:,msg:Approve Success :SPO000000001894 
+2017-05-24 16:05:09,484  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-24 18:42:46,536  User ,functionName:Login,msg: Login Operation userName:admin 

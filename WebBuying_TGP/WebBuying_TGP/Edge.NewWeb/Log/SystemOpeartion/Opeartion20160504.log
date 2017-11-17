@@ -1,0 +1,28 @@
+2016-05-04 12:47:33,958  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 12:47:49,164  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 12:52:03,684  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 12:52:14,295  User admin,functionName:,msg:Void 
+2016-05-04 12:52:14,435  User admin,functionName:,msg:Void Success :RECIO0000000143 
+2016-05-04 14:57:18,280  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 14:57:38,709  User admin,functionName:,msg:Void 
+2016-05-04 14:57:38,756  User admin,functionName:,msg:Void Success :RECIO0000000142 
+2016-05-04 14:57:50,136  User admin,functionName:,msg:Void 
+2016-05-04 14:57:50,191  User admin,functionName:,msg:Void Success :SPO000000000381 
+2016-05-04 14:58:00,704  User admin,functionName:,msg:Void 
+2016-05-04 14:58:00,722  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000464 
+2016-05-04 15:03:30,107  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 15:03:55,445  User admin,functionName:,msg:Void 
+2016-05-04 15:03:55,473  User admin,functionName:,msg:Void Success :RECIO0000000141 
+2016-05-04 15:07:12,598  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 15:07:21,521  User admin,functionName:,msg:Void 
+2016-05-04 15:07:21,565  User admin,functionName:,msg:Void Success :RECIO0000000140 
+2016-05-04 15:07:38,842  User admin,functionName:,msg:Approve Success :RECIO0000000139 
+2016-05-04 15:08:13,784  User admin,functionName:,msg:Approve Success :RECIO0000000138 
+2016-05-04 15:10:08,442  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 15:10:23,096  User admin,functionName:,msg:Void 
+2016-05-04 15:22:14,941  User admin,functionName:,msg:Void Success :RECIO0000000137 
+2016-05-04 16:20:23,100  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 16:36:14,551  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 16:44:20,145  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 17:09:09,163  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-05-04 17:10:33,802  User ,functionName:Login,msg: Login Operation userName:admin 

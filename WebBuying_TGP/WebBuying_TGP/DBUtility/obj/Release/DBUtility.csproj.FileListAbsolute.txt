@@ -1,0 +1,4 @@
+C:\SVN\WebBuying_TGP\DBUtility\bin\Release\Edge.DBUtility.dll
+C:\SVN\WebBuying_TGP\DBUtility\bin\Release\MySql.Data.dll
+C:\SVN\WebBuying_TGP\DBUtility\bin\Release\System.Data.SQLite.DLL
+C:\SVN\WebBuying_TGP\DBUtility\obj\Release\Edge.DBUtility.dll

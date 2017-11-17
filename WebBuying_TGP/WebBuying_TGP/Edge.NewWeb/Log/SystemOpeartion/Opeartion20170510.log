@@ -1,0 +1,10 @@
+2017-05-10 08:24:04,572  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-10 14:50:15,046  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-10 14:50:34,787  User admin,functionName:,msg:List 
+2017-05-10 14:50:44,056  User admin,functionName:,msg:List 
+2017-05-10 14:54:55,034  User admin,functionName:Menu Management,msg:List 
+2017-05-10 14:55:12,130  User admin,functionName:,msg: Update  
+2017-05-10 14:55:12,192  User admin,functionName:,msg:Update Replenformula Success Code:1 
+2017-05-10 14:55:12,371  User admin,functionName:Menu Management,msg:List 
+2017-05-10 15:04:18,420  User admin,functionName:Associated Product,msg:List 
+2017-05-10 15:09:53,370  User admin,functionName:,msg:List 

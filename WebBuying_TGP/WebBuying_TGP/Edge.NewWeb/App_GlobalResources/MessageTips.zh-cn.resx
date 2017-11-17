@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddFailed" xml:space="preserve">
+    <value>添加失败！</value>
+  </data>
+  <data name="AddSuccess" xml:space="preserve">
+    <value>添加成功！</value>
+  </data>
+  <data name="ApproveResult" xml:space="preserve">
+    <value>成功  ： {0}      失败  :  {1}</value>
+  </data>
+  <data name="CanNotDeleteRole" xml:space="preserve">
+    <value>对不起,不能删除这个[ {0} ]权限,否则将无法进行权限管理!</value>
+  </data>
+  <data name="ConfirmDeleteRecord" xml:space="preserve">
+    <value>你是否确定删除这条记录？</value>
+  </data>
+  <data name="ConfirmDeleteRole" xml:space="preserve">
+    <value>你是否确定删除该角色？</value>
+  </data>
+  <data name="CurrentRole" xml:space="preserve">
+    <value>当前角色：</value>
+  </data>
+  <data name="CurrentUser" xml:space="preserve">
+    <value>当前用户：</value>
+  </data>
+  <data name="DeleteFailed" xml:space="preserve">
+    <value>删除失败！</value>
+  </data>
+  <data name="DeleteMenu" xml:space="preserve">
+    <value>成功删除{0}个菜单</value>
+  </data>
+  <data name="DeleteSuccess" xml:space="preserve">
+    <value>删除成功！</value>
+  </data>
+  <data name="ExistDefaultAddress" xml:space="preserve">
+    <value>已存在默认收货地址！</value>
+  </data>
+  <data name="ExistMemberRule" xml:space="preserve">
+    <value>已传在会员规则！</value>
+  </data>
+  <data name="Exists" xml:space="preserve">
+    <value>已存在！</value>
+  </data>
+  <data name="ExistUser" xml:space="preserve">
+    <value>该用户名已存在！</value>
+  </data>
+  <data name="NameNotEmpty" xml:space="preserve">
+    <value>名称不能为空！</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>没有数据！</value>
+  </data>
+  <data name="NotDepartment" xml:space="preserve">
+    <value>这个部门不存在！</value>
+  </data>
+  <data name="NotExistUser" xml:space="preserve">
+    <value>该用户不存在！</value>
+  </data>
+  <data name="NotModuleAccess" xml:space="preserve">
+    <value>但你没有任何模块的访问权</value>
+  </data>
+  <data name="NotPermission" xml:space="preserve">
+    <value>您没有权限进入本页！请重新登录或与管理员联系</value>
+  </data>
+  <data name="NotPermissionLimit" xml:space="preserve">
+    <value>没有权限限制！</value>
+  </data>
+  <data name="NotProduct" xml:space="preserve">
+    <value>这个产品不存在!</value>
+  </data>
+  <data name="NotUsePermission" xml:space="preserve">
+    <value>权限类别不能做权限使用 !</value>
+  </data>
+  <data name="NumberFormatError" xml:space="preserve">
+    <value>编号格式不正确 !</value>
+  </data>
+  <data name="NumberNotEmpty" xml:space="preserve">
+    <value>编号不能为空 !</value>
+  </data>
+  <data name="PasswordInvalid" xml:space="preserve">
+    <value>你的密码错误！</value>
+  </data>
+  <data name="PleaseSelectItem" xml:space="preserve">
+    <value>请选择你要更新的选项！</value>
+  </data>
+  <data name="RoleAssignment" xml:space="preserve">
+    <value>  角色分配</value>
+  </data>
+  <data name="Root" xml:space="preserve">
+    <value>根目录</value>
+  </data>
+  <data name="SecurityCodeDifferent" xml:space="preserve">
+    <value>所填写的验证码与所给的不符 !</value>
+  </data>
+  <data name="SelectUploadFile" xml:space="preserve">
+    <value>请选择要上传文件！</value>
+  </data>
+  <data name="Sorry" xml:space="preserve">
+    <value>对不起</value>
+  </data>
+  <data name="SystemLocked" xml:space="preserve">
+    <value>对不起，你错误登录了三次，系统登录锁定！</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>您没有权限进入本页或当前登录用户已过期！请重新登录或与管理员联系！</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>更新失败！</value>
+  </data>
+  <data name="UpdateSuccess" xml:space="preserve">
+    <value>更新成功！</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>用户：</value>
+  </data>
+  <data name="YouNotApprove" xml:space="preserve">
+    <value>你没有通过权限审核！</value>
+  </data>
+  <data name="YouNotUserPermission" xml:space="preserve">
+    <value>你没有帐户管理的权限！</value>
+  </data>
+  <data name="InputUID" xml:space="preserve">
+    <value>请输入UID</value>
+  </data>
+  <data name="ConfirmApprove" xml:space="preserve">
+    <value>是否确认批核交易？</value>
+  </data>
+  <data name="ConfirmVoid" xml:space="preserve">
+    <value>是否确认作废交易？</value>
+  </data>
+  <data name="ExistIssuer" xml:space="preserve">
+    <value>已经存在营运者 ！</value>
+  </data>
+  <data name="ExistBatchID" xml:space="preserve">
+    <value>已经存在{0}批次号</value>
+  </data>
+  <data name="NotReapeatBatch" xml:space="preserve">
+    <value>批次号 : {0} 存在多个优惠劵编号</value>
+  </data>
+  <data name="NotExsitCouponType" xml:space="preserve">
+    <value>不存在优惠劵编号 ： {0} </value>
+  </data>
+  <data name="ApprovalCodeLabel" xml:space="preserve">
+    <value>授权号：</value>
+  </data>
+  <data name="TxNumberLabel" xml:space="preserve">
+    <value>交易编号：</value>
+  </data>
+  <data name="NotSelected" xml:space="preserve">
+    <value>请选择记录!</value>
+  </data>
+  <data name="ExistBrandCode" xml:space="preserve">
+    <value>已经存在品牌编号！</value>
+  </data>
+  <data name="ExistStoreCodeInBrand" xml:space="preserve">
+    <value>这个品牌已经存在这个店铺代码！</value>
+  </data>
+  <data name="ExistCouponTypeCode" xml:space="preserve">
+    <value>已经存在的优惠券类型编号！</value>
+  </data>
+  <data name="BeginEndUIDBothNull" xml:space="preserve">
+    <value>开始序列号，结束序列号，物理编号不能同时为空 !</value>
+  </data>
+  <data name="CouponCodeNotNull" xml:space="preserve">
+    <value>优惠劵编号不能为空！</value>
+  </data>
+  <data name="EndingNoLessThanBeginNo" xml:space="preserve">
+    <value>结束序号不能少于开始序号 !</value>
+  </data>
+  <data name="EndingSeriesNoNotNull" xml:space="preserve">
+    <value>结束序列号不能为空！</value>
+  </data>
+  <data name="SelectCoupons" xml:space="preserve">
+    <value>请选择优惠劵！</value>
+  </data>
+  <data name="FileNotExist" xml:space="preserve">
+    <value>文件不存在 ！</value>
+  </data>
+  <data name="ExistCampaignCode" xml:space="preserve">
+    <value>已经存在活动编号！</value>
+  </data>
+  <data name="FAILED_TITLE" xml:space="preserve">
+    <value>失败信息</value>
+  </data>
+  <data name="SUCESS_TITLE" xml:space="preserve">
+    <value>成功信息</value>
+  </data>
+  <data name="WARNING_TITLE" xml:space="preserve">
+    <value>警告信息</value>
+  </data>
+  <data name="ExistEducationCode" xml:space="preserve">
+    <value>已经存在学历编号！</value>
+  </data>
+  <data name="ExistNationCode" xml:space="preserve">
+    <value>已存在国籍编号！</value>
+  </data>
+  <data name="ExistProfessionCode" xml:space="preserve">
+    <value>已存在专业编号！</value>
+  </data>
+  <data name="ExistIndustryCode" xml:space="preserve">
+    <value>已存在行业编号！</value>
+  </data>
+  <data name="ExistCurrencyCode" xml:space="preserve">
+    <value>已经存在币种编号！</value>
+  </data>
+  <data name="ExistStoreGroupCode" xml:space="preserve">
+    <value>已经存在店铺种类编号！</value>
+  </data>
+  <data name="ExistPasswordSettingCode" xml:space="preserve">
+    <value>已经存在密码规则设置！</value>
+  </data>
+  <data name="ExistReasonCode" xml:space="preserve">
+    <value>已经存在原因编号！</value>
+  </data>
+  <data name="DeleteIsUsed" xml:space="preserve">
+    <value>项目已被使用，不允许删除！</value>
+  </data>
+  <data name="ExistCardGradeCode" xml:space="preserve">
+    <value>已经存在的卡级别编号！</value>
+  </data>
+  <data name="ExistCardTypeCode" xml:space="preserve">
+    <value>已经存在的卡类型编号！</value>
+  </data>
+  <data name="ExistCustomerCode" xml:space="preserve">
+    <value>已经存在客户编号！</value>
+  </data>
+  <data name="ExistDistributeTemplateCode" xml:space="preserve">
+    <value>已经存在发布方法编号！</value>
+  </data>
+  <data name="ExistItems" xml:space="preserve">
+    <value>某些选项已存在!</value>
+  </data>
+  <data name="NoSearchCondition" xml:space="preserve">
+    <value>请选择搜索条件。</value>
+  </data>
+  <data name="CodeFormatError" xml:space="preserve">
+    <value>编码格式错误！</value>
+  </data>
+  <data name="IsMaximumLimit" xml:space="preserve">
+    <value>记录条数已经达到最大值， 你应该提交此表单数据。</value>
+  </data>
+  <data name="SpecifyRoleName" xml:space="preserve">
+    <value>请指定角色名称.</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>女性</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>男性</value>
+  </data>
+  <data name="ApproveCode" xml:space="preserve">
+    <value>批核编号：</value>
+  </data>
+  <data name="ApproveError" xml:space="preserve">
+    <value>错误信息：</value>
+  </data>
+  <data name="IsMaxSearchLimit" xml:space="preserve">
+    <value>你查询的数量已经超过系统设置值，系统将按设置的最大查询显示记录。</value>
+  </data>
+  <data name="ImportFileError" xml:space="preserve">
+    <value>导入文件格式错误（不支持多个格式同时导入）!</value>
+  </data>
+  <data name="PasswordOldIncorrect" xml:space="preserve">
+    <value>原密码输入错误！</value>
+  </data>
+  <data name="PasswordOldNewIncorrect" xml:space="preserve">
+    <value>密码输入的不一致！请重试！</value>
+  </data>
+  <data name="ExceededNumberOfRange" xml:space="preserve">
+    <value>数量超过范围。</value>
+  </data>
+  <data name="NumberDuplicate" xml:space="preserve">
+    <value>号码重复。</value>
+  </data>
+  <data name="ExistOrganizationCode" xml:space="preserve">
+    <value>已存在捐赠组织！</value>
+  </data>
+  <data name="NotExistCard" xml:space="preserve">
+    <value>卡号不存在！</value>
+  </data>
+  <data name="ExistCardGradeRank" xml:space="preserve">
+    <value>已存在卡级别等级。</value>
+  </data>
+  <data name="MemberMobileNotNull" xml:space="preserve">
+    <value>会员手机号码不能为空！</value>
+  </data>
+  <data name="MobileFormatError" xml:space="preserve">
+    <value>会员手机号码格式错误！</value>
+  </data>
+  <data name="MemberMobileNotExist" xml:space="preserve">
+    <value>此号码不存在卡编号！</value>
+  </data>
+  <data name="CampaignCodeNotExist" xml:space="preserve">
+    <value>活动编号不存在</value>
+  </data>
+  <data name="EntryActualTxnAmount" xml:space="preserve">
+    <value>Please entry the correct  Actual Txn Amount</value>
+  </data>
+  <data name="EntryDenomination" xml:space="preserve">
+    <value>Please Entry Denomination</value>
+  </data>
+  <data name="EntryTwoDecimal" xml:space="preserve">
+    <value>Invalid amount, amount must be in the range (0-99,999,999.99), and can support two decimal places</value>
+  </data>
+  <data name="EntryActualTxnAmountTooLarge" xml:space="preserve">
+    <value>优惠券面额不能小于优惠券输入的实际扣除金额</value>
+  </data>
+  <data name="OrderPickSet1" xml:space="preserve">
+    <value>只允許撿貨數量等於訂單數量</value>
+  </data>
+  <data name="OrderPickSet2" xml:space="preserve">
+    <value>只允許撿貨數量小於訂單數量</value>
+  </data>
+  <data name="OrderPickSet3" xml:space="preserve">
+    <value>只允許撿貨數量大於訂單數量</value>
+  </data>
+  <data name="OrderPickSet4" xml:space="preserve">
+    <value>只允許撿貨數量大於或者小於訂單數量</value>
+  </data>
+  <data name="ExistPasswordSecurity" xml:space="preserve">
+    <value>密码安全级别已经存在！</value>
+  </data>
+  <data name="IsOpenAmount" xml:space="preserve">
+    <value>不定额</value>
+  </data>
+  <data name="Activated" xml:space="preserve">
+    <value>激活</value>
+  </data>
+  <data name="Inactivated" xml:space="preserve">
+    <value>不激活</value>
+  </data>
+  <data name="InvalidInput" xml:space="preserve">
+    <value>前缀号码输入格式不正确</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>该输入项为必输项</value>
+  </data>
+  <data name="EndDateGreaterStartDate" xml:space="preserve">
+    <value>结束日期应该大于或等于开始日期</value>
+  </data>
+  <data name="ExistCouponNatureCode" xml:space="preserve">
+    <value>已经存在优惠券类型编号!</value>
+  </data>
+  <data name="MaxInputLimit" xml:space="preserve">
+    <value>该输入项的最大长度是{0}个字符 </value>
+  </data>
+  <data name="NotRequiredField" xml:space="preserve">
+    <value>该输入项不是必输项</value>
+  </data>
+  <data name="NumMaskValid" xml:space="preserve">
+    <value>编码规则输入不正确</value>
+  </data>
+  <data name="NumPatternValid" xml:space="preserve">
+    <value>编码前缀号码输入不正确</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>批核</value>
+  </data>
+  <data name="Void" xml:space="preserve">
+    <value>作废</value>
+  </data>
+  <data name="TheTransactionStatausNotPending" xml:space="preserve">
+    <value>交易状态不是待处理状态</value>
+  </data>
+  <data name="TheTransactionStatusNotPendingOrNotPicked" xml:space="preserve">
+    <value>交易状态不是待处理状态或者已捡货状态</value>
+  </data>
+  <data name="TheTransactionStatusNotPicked" xml:space="preserve">
+    <value>交易状态不是已捡货状态</value>
+  </data>
+  <data name="UnKnownSystemError" xml:space="preserve">
+    <value>系统错误，请联系管理员！</value>
+  </data>
+  <data name="SystemError" xml:space="preserve">
+    <value>系统错误，请联系管理员！</value>
+  </data>
+  <data name="Term1CannotBeEmpty" xml:space="preserve">
+    <value>条款条例1 不能为空！</value>
+  </data>
+  <data name="CouponNumberCannotBeEmpty" xml:space="preserve">
+    <value>优惠券号码不能为空！</value>
+  </data>
+  <data name="Lackofcolumn" xml:space="preserve">
+    <value>缺少必要的列：</value>
+  </data>
+  <data name="MinAmountTooLarge" xml:space="preserve">
+    <value>最低充值现金帐套金额要小于最高充值现金帐套金额</value>
+  </data>
+  <data name="MinPointTooLarge" xml:space="preserve">
+    <value>最低充值积分帐套积分要小于最高充值积分帐套积分</value>
+  </data>
+  <data name="MinTransferCashTooLarge" xml:space="preserve">
+    <value>每笔交易最小转换金额要小于每笔交易最大转换金额</value>
+  </data>
+  <data name="MinTransferPointTooLarge" xml:space="preserve">
+    <value>每笔交易最小转换积分要小于每笔交易最大转换积分</value>
+  </data>
+  <data name="PromotionMsg1CannotBeEmpty" xml:space="preserve">
+    <value>广告内容1不能为空！</value>
+  </data>
+  <data name="ExistsCode" xml:space="preserve">
+    <value>已经存在此编号！</value>
+  </data>
+  <data name="PhraseContent1CannotBeEmpty" xml:space="preserve">
+    <value>祝福语内容1不能为空！</value>
+  </data>
+  <data name="CouponUIDCannotBeEmpty" xml:space="preserve">
+    <value>优惠劵导入号码不能为空！</value>
+  </data>
+  <data name="HasExistedMessageTemplate" xml:space="preserve">
+    <value>已经存在此消息模版!</value>
+  </data>
+  <data name="BrandDesc1CannotBeEmpty" xml:space="preserve">
+    <value>品牌说明1 不能为空！</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>有效</value>
+  </data>
+  <data name="CashAndPointExchange" xml:space="preserve">
+    <value>金额+积分兑换</value>
+  </data>
+  <data name="CashExchange" xml:space="preserve">
+    <value>金额兑换</value>
+  </data>
+  <data name="CouponExchange" xml:space="preserve">
+    <value>优惠券兑换</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="PointExchange" xml:space="preserve">
+    <value>积分兑换</value>
+  </data>
+  <data name="RedeemedAmountExchange" xml:space="preserve">
+    <value>消费金额兑换</value>
+  </data>
+  <data name="CouponQtyCannotBeEmpty" xml:space="preserve">
+    <value>优惠券数量不能为空！</value>
+  </data>
+  <data name="ConfirmResetPassword" xml:space="preserve">
+    <value>是否确认重设密码？</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>重设密码</value>
+  </data>
+  <data name="ResetFailed" xml:space="preserve">
+    <value>重设失败！</value>
+  </data>
+  <data name="ResetSuccess" xml:space="preserve">
+    <value>重设成功！</value>
+  </data>
+  <data name="MissingPhoneNumber" xml:space="preserve">
+    <value>必须提供电话号码！</value>
+  </data>
+  <data name="FileUpLoadFailed" xml:space="preserve">
+    <value>上传失败，文件类型必须为{0}！</value>
+  </data>
+  <data name="ImgUpLoadFaild" xml:space="preserve">
+    <value>图片上传失败，类型必须为{0}！</value>
+  </data>
+  <data name="ConversionFailed" xml:space="preserve">
+    <value>转换失败！</value>
+  </data>
+  <data name="DepartNoteCannotBeEmpty" xml:space="preserve">
+    <value>部门说明 不能为空！</value>
+  </data>
+  <data name="ExistRecord" xml:space="preserve">
+    <value>已存在记录,请重新输入！</value>
+  </data>
+  <data name="CopyBOM" xml:space="preserve">
+    <value>是否复制此套餐到当前套餐下？</value>
+  </data>
+  <data name="SelectMainProduct" xml:space="preserve">
+    <value>请先选择主货品！</value>
+  </data>
+  <data name="SetDefaultQty" xml:space="preserve">
+    <value>默认数量必须在最小数量与最大数量之间！</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="PickingWarehouseNumber" xml:space="preserve">
+    <value>请选择拣货仓库编号!</value>
+  </data>
+  <data name="NoOnhandQty" xml:space="preserve">
+    <value>没有库存!</value>
+  </data>
+  <data name="CheckOnHandQty" xml:space="preserve">
+    <value>捡货数量不能大于库存数量!</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ConfirmNoProductModifyTemp" xml:space="preserve">
+    <value>你确定要批核下架/上架产品吗？</value>
+  </data>
+  <data name="ConfirmUpdateActualQty" xml:space="preserve">
+    <value>确认修改拣货数量吗？</value>
+  </data>
+  <data name="CheckOrderQty" xml:space="preserve">
+    <value>拣货数量不能大于订单数量!</value>
+  </data>
+  <data name="ApproveSuccess" xml:space="preserve">
+    <value>批核成功！</value>
+  </data>
+  <data name="TheStatausNotPending" xml:space="preserve">
+    <value>交易状态不是未审核状态</value>
+  </data>
+</root>

@@ -1,0 +1,140 @@
+2016-04-05 11:43:39,442  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-05 12:02:04,136  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-05 15:32:32,438  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-05 15:33:15,511  User admin,functionName:,msg:Close Stock Take Fail :System.Data.SqlClient.SqlException: Procedure or function 'CloseStockTake' expects parameter '@UserID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected)
+   at Edge.Web.Controllers.Operation.StockTakeController.StockTakeController.CloseStockTake(String StockTakeNumber, Int32 operatorID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StockTakeController.cs:line 248
+   at Edge.Web.Operation.StockTake.Approve.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StockTake\Approve.aspx.cs:line 45 
+2016-04-05 15:34:45,138  User admin,functionName:,msg:Close Stock Take Fail :System.Data.SqlClient.SqlException: Procedure or function 'CloseStockTake' expects parameter '@UserID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected)
+   at Edge.Web.Controllers.Operation.StockTakeController.StockTakeController.CloseStockTake(String StockTakeNumber, Int32 operatorID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StockTakeController.cs:line 248
+   at Edge.Web.Operation.StockTake.Approve.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StockTake\Approve.aspx.cs:line 45 
+2016-04-05 15:37:54,469  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-05 15:38:27,031  User admin,functionName:,msg:Close Stock Take Fail :System.Data.SqlClient.SqlException: Procedure or function 'CloseStockTake' expects parameter '@UserID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected)
+   at Edge.Web.Controllers.Operation.StockTakeController.StockTakeController.CloseStockTake(String StockTakeNumber, Int32 operatorID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StockTakeController.cs:line 248
+   at Edge.Web.Operation.StockTake.Approve.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StockTake\Approve.aspx.cs:line 45 
+2016-04-05 15:40:37,184  User admin,functionName:,msg:Close Stock Take Fail :System.Data.SqlClient.SqlException: Procedure or function 'CloseStockTake' expects parameter '@UserID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected)
+   at Edge.Web.Controllers.Operation.StockTakeController.StockTakeController.CloseStockTake(String StockTakeNumber, Int32 operatorID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StockTakeController.cs:line 248
+   at Edge.Web.Operation.StockTake.Approve.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StockTake\Approve.aspx.cs:line 45 
+2016-04-05 15:41:09,452  User admin,functionName:,msg:Close Stock Take Fail :System.Data.SqlClient.SqlException: Procedure or function 'CloseStockTake' expects parameter '@UserID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected)
+   at Edge.Web.Controllers.Operation.StockTakeController.StockTakeController.CloseStockTake(String StockTakeNumber, Int32 operatorID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StockTakeController.cs:line 248
+   at Edge.Web.Operation.StockTake.Approve.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StockTake\Approve.aspx.cs:line 45 
+2016-04-05 15:41:34,836  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-05 15:43:07,764  User admin,functionName:,msg:Close Stock Take Fail :System.Data.SqlClient.SqlException: Procedure or function 'CloseStockTake' expects parameter '@UserID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected)
+   at Edge.Web.Controllers.Operation.StockTakeController.StockTakeController.CloseStockTake(String StockTakeNumber, Int32 operatorID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StockTakeController.cs:line 248
+   at Edge.Web.Operation.StockTake.Approve.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StockTake\Approve.aspx.cs:line 45 
+2016-04-05 15:44:34,510  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-05 15:45:30,995  User admin,functionName:,msg:Close Stock Take Fail :System.Data.SqlClient.SqlException: Procedure or function 'CloseStockTake' expects parameter '@UserID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected)
+   at Edge.Web.Controllers.Operation.StockTakeController.StockTakeController.CloseStockTake(String StockTakeNumber, Int32 operatorID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StockTakeController.cs:line 248
+   at Edge.Web.Operation.StockTake.Approve.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StockTake\Approve.aspx.cs:line 45 
+2016-04-05 15:46:09,635  User admin,functionName:,msg:Close Stock Take Fail :System.Data.SqlClient.SqlException: Procedure or function 'CloseStockTake' expects parameter '@UserID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected)
+   at Edge.Web.Controllers.Operation.StockTakeController.StockTakeController.CloseStockTake(String StockTakeNumber, Int32 operatorID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StockTakeController.cs:line 248
+   at Edge.Web.Operation.StockTake.Approve.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StockTake\Approve.aspx.cs:line 45 
+2016-04-05 15:47:45,083  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-05 15:48:10,915  User admin,functionName:,msg:Close Stock Take Fail :System.Data.SqlClient.SqlException: Procedure or function 'CloseStockTake' expects parameter '@UserID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected)
+   at Edge.Web.Controllers.Operation.StockTakeController.StockTakeController.CloseStockTake(String StockTakeNumber, Int32 operatorID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StockTakeController.cs:line 248
+   at Edge.Web.Operation.StockTake.Approve.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StockTake\Approve.aspx.cs:line 45 
+2016-04-05 15:48:44,448  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-05 15:49:09,705  User admin,functionName:,msg:Close Stock Take Fail :System.Data.SqlClient.SqlException: Procedure or function 'CloseStockTake' expects parameter '@UserID', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Edge.DBUtility.DbHelperSQL.RunProcedure(String storedProcName, IDataParameter[] parameters, Int32& rowsAffected)
+   at Edge.Web.Controllers.Operation.StockTakeController.StockTakeController.CloseStockTake(String StockTakeNumber, Int32 operatorID) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StockTakeController.cs:line 248
+   at Edge.Web.Operation.StockTake.Approve.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StockTake\Approve.aspx.cs:line 45 
+2016-04-05 15:50:08,920  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-05 15:50:35,879  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000040 

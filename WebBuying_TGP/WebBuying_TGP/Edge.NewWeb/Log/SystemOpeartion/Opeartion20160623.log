@@ -1,0 +1,114 @@
+2016-06-23 09:51:54,648  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 09:54:19,117  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 09:54:33,613  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 09:54:52,369  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 09:55:26,286  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 09:56:28,192  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 09:56:39,364  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 09:57:28,106  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 09:57:48,828  User admin,functionName:,msg:List 
+2016-06-23 09:58:13,201  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"CardTypeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-06-23 09:58:14,308  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-06-23 09:58:14,355  User admin,functionName:GetCardGrades ,msg:{"Action":"GetCardGrades","CardTypeID":0,"ConditionStr":"CardGradeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-06-23 09:58:15,369  User admin,functionName:GetCardGrades,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardGradeInfo(CardGradeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 204
+2016-06-23 09:59:08,842  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"CardTypeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-06-23 09:59:09,872  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-06-23 09:59:09,872  User admin,functionName:GetCardGrades ,msg:{"Action":"GetCardGrades","CardTypeID":0,"ConditionStr":"CardGradeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-06-23 09:59:10,902  User admin,functionName:GetCardGrades,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardGradeInfo(CardGradeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 204
+2016-06-23 10:00:06,788  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"CardTypeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-06-23 10:00:07,833  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-06-23 10:00:07,833  User admin,functionName:GetCardGrades ,msg:{"Action":"GetCardGrades","CardTypeID":0,"ConditionStr":"CardGradeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-06-23 10:00:08,863  User admin,functionName:GetCardGrades,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardGradeInfo(CardGradeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 204
+2016-06-23 10:03:35,426  User ,functionName:,msg:List 
+2016-06-23 10:03:56,135  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 10:04:44,189  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 10:04:58,707  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 10:05:58,662  User admin,functionName:,msg:List 
+2016-06-23 10:06:02,180  User admin,functionName:GetCardTypes ,msg:{"Action":"GetCardTypes","CardTypeID":0,"ConditionStr":"CardTypeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-06-23 10:06:03,210  User admin,functionName:GetCardTypes,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardTypeInfo(CardTypeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 149
+2016-06-23 10:06:03,241  User admin,functionName:GetCardGrades ,msg:{"Action":"GetCardGrades","CardTypeID":0,"ConditionStr":"CardGradeID='2'","PageCurrent":"0","PageSize":"0","Language":"zh_CN","ResponseCode":0} 
+2016-06-23 10:06:04,271  User admin,functionName:GetCardGrades,msg: error ,Error Message: 
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 172.16.64.202:8081
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at Edge.Web.SVAWebReference.SVAWebService.request(String hexStr, String hexKey) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Web References\SVAWebReference\Reference.cs:line 79
+   at Edge.Web.Tools.ResetPasswordUtil.GetCardGradeInfo(CardGradeInfoRequest request, String lan) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ResetPasswordUtil.cs:line 204
+2016-06-23 10:08:01,768  User ,functionName:,msg:List 
+2016-06-23 14:29:39,297  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-23 14:29:49,021  User admin,functionName:,msg:List 
+2016-06-23 14:29:52,978  User admin,functionName:,msg:List 

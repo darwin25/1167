@@ -1,0 +1,132 @@
+2016-03-28 08:58:16,455  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 08:58:27,065  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 09:15:00,218  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 09:22:41,908  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 09:24:08,001  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 09:36:14,991  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 09:38:06,812  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 09:38:27,409  User admin,functionName:,msg:List 
+2016-03-28 10:13:33,493  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 10:17:40,608  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 10:21:22,716  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 10:21:31,583  User admin,functionName:,msg:Show 
+2016-03-28 10:22:24,432  User admin,functionName:,msg:Show 
+2016-03-28 10:32:06,358  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 10:32:15,488  User admin,functionName:,msg:Show 
+2016-03-28 10:32:21,736  User admin,functionName:,msg:Show 
+2016-03-28 10:35:17,453  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 10:35:27,535  User admin,functionName:,msg:Show 
+2016-03-28 10:35:32,199  User admin,functionName:,msg:Show 
+2016-03-28 10:38:57,440  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 10:39:09,274  User admin,functionName:,msg:Show 
+2016-03-28 10:39:15,339  User admin,functionName:,msg:List 
+2016-03-28 10:56:36,900  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 11:13:12,282  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 11:14:39,899  User admin,functionName:,msg:ExPort System.Exception: Invalid object name 'Ord_StockAdjust_Hleft'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.Ord_StockAdjust_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_StockAdjust_H.cs:line 445
+   at Edge.SVA.BLL.Ord_StockAdjust_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_StockAdjust_H.cs:line 233
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.StockAdjust.StockAdjustController.GetTransactionListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\StockAdjustController.cs:line 122
+   at Edge.Web.Tools.ActiveReportsTool.GetDataBind(String ids, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 221
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 150
+   at Edge.Web.Operation.StoreOrderManagement.StockAdjust.Export.LoadReport(String ids, Int32 orderType) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\StockAdjust\Export.aspx.cs:line 123
+   at Edge.Web.Operation.StoreOrderManagement.StockAdjust.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\StockAdjust\Export.aspx.cs:line 65 
+2016-03-28 11:15:32,989  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 11:28:54,209  User admin,functionName:,msg:Stock Adjustment STKADJ000000061 Update Success 
+2016-03-28 11:33:31,097  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 11:33:38,616  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 11:38:23,848  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 12:10:18,850  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 12:42:15,006  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 12:49:28,798  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 12:50:28,380  User admin,functionName:,msg:List 
+2016-03-28 12:50:58,350  User admin,functionName:,msg:List 
+2016-03-28 14:07:44,890  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 14:07:51,514  User admin,functionName:,msg:List 
+2016-03-28 14:45:24,665  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 14:45:29,448  User admin,functionName:,msg:List 
+2016-03-28 14:46:33,599  User admin,functionName:,msg:List 
+2016-03-28 14:46:58,659  User admin,functionName:,msg:List 
+2016-03-28 14:48:47,011  User ,functionName:,msg:List 
+2016-03-28 14:49:00,117  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 14:49:08,369  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 14:49:12,190  User admin,functionName:,msg:List 
+2016-03-28 14:54:40,115  User ,functionName:,msg:List 
+2016-03-28 14:54:51,407  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 14:54:55,241  User admin,functionName:,msg:List 
+2016-03-28 14:56:08,096  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 14:56:12,101  User admin,functionName:,msg:List 
+2016-03-28 14:57:16,461  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 14:57:21,351  User admin,functionName:,msg:List 
+2016-03-28 15:00:40,976  User ,functionName:,msg:List 
+2016-03-28 15:00:50,291  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 15:00:54,455  User admin,functionName:,msg:List 
+2016-03-28 15:03:52,185  User ,functionName:,msg:List 
+2016-03-28 15:04:00,992  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 15:04:05,942  User admin,functionName:,msg:List 
+2016-03-28 15:11:33,026  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 15:13:36,308  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 15:13:46,230  User admin,functionName:,msg:List 
+2016-03-28 15:24:56,937  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 15:25:06,601  User admin,functionName:,msg:List 
+2016-03-28 15:30:46,943  User admin,functionName:,msg:List 
+2016-03-28 15:32:06,555  User admin,functionName:,msg:List 
+2016-03-28 15:32:26,872  User admin,functionName:,msg:List 
+2016-03-28 15:45:56,806  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:17:16,919  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:17:29,795  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:27:35,512  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:27:57,672  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:33:32,164  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:33:54,433  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:35:04,603  User admin,functionName:,msg:ExPort System.Exception: The multi-part identifier "Ord_TransOutOrder_H.TransOutOrderNumber" could not be bound.
+Invalid column name 'TransOutOrderNumber'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 984
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 116
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.TransOutStoreOrder.TransOutStoreOrderController.GetTransactionListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\TransOutStoreOrderController.cs:line 121
+   at Edge.Web.Tools.ActiveReportsTool.GetDataBind(String ids, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 192
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 156
+   at Edge.Web.Operation.StoreOrderManagement.TransOutOrder.Export.LoadReport(String ids) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransOutOrder\Export.aspx.cs:line 97
+   at Edge.Web.Operation.StoreOrderManagement.TransOutOrder.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransOutOrder\Export.aspx.cs:line 58 
+2016-03-28 16:35:45,355  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:35:57,904  User admin,functionName:,msg:ExPort System.Exception: The multi-part identifier "Ord_TransOutOrder_H.TransOutOrderNumber" could not be bound.
+Invalid column name 'TransOutOrderNumber'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 984
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 116
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.TransOutStoreOrder.TransOutStoreOrderController.GetTransactionListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\TransOutStoreOrderController.cs:line 121
+   at Edge.Web.Tools.ActiveReportsTool.GetDataBind(String ids, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 192
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 156
+   at Edge.Web.Operation.StoreOrderManagement.TransOutOrder.Export.LoadReport(String ids) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransOutOrder\Export.aspx.cs:line 97
+   at Edge.Web.Operation.StoreOrderManagement.TransOutOrder.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransOutOrder\Export.aspx.cs:line 58 
+2016-03-28 16:36:53,166  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:37:05,765  User admin,functionName:,msg:ExPort System.Exception: The multi-part identifier "Ord_TransOutOrder_H.TransOutOrderNumber" could not be bound.
+Invalid column name 'TransOutOrderNumber'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 984
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 116
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.TransOutStoreOrder.TransOutStoreOrderController.GetTransactionListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\TransOutStoreOrderController.cs:line 121
+   at Edge.Web.Tools.ActiveReportsTool.GetDataBind(String ids, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 192
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 156
+   at Edge.Web.Operation.StoreOrderManagement.TransOutOrder.Export.LoadReport(String ids) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransOutOrder\Export.aspx.cs:line 97
+   at Edge.Web.Operation.StoreOrderManagement.TransOutOrder.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransOutOrder\Export.aspx.cs:line 58 
+2016-03-28 16:38:49,721  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:39:49,123  User admin,functionName:,msg:ExPort System.Exception: The multi-part identifier "Ord_TransOutOrder_H.TransOutOrderNumber" could not be bound.
+Invalid column name 'TransOutOrderNumber'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 984
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 116
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.TransOutStoreOrder.TransOutStoreOrderController.GetTransactionListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\TransOutStoreOrderController.cs:line 122
+   at Edge.Web.Tools.ActiveReportsTool.GetDataBind(String ids, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 233
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 156
+   at Edge.Web.Operation.StoreOrderManagement.TransOutOrder.Export.LoadReport(String ids) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransOutOrder\Export.aspx.cs:line 97
+   at Edge.Web.Operation.StoreOrderManagement.TransOutOrder.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransOutOrder\Export.aspx.cs:line 58 
+2016-03-28 16:40:56,908  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:41:14,280  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:49:43,034  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 16:56:54,127  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 17:31:01,185  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 17:31:59,376  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-28 18:08:20,960  User admin,functionName:,msg:Show 
+2016-03-28 18:08:27,050  User admin,functionName:,msg:List 

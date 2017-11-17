@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{181089FA-7152-4375-AE9C-3D58D2B7D43C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Edge.SVA.Model</RootNamespace>
+    <AssemblyName>Edge.SVA.Model</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Domain\ConstParam.cs" />
+    <Compile Include="Domain\EnumFrequencyUnit.cs" />
+    <Compile Include="Domain\EnumMessageServiceType.cs" />
+    <Compile Include="Domain\EnumMessageType.cs" />
+    <Compile Include="Domain\EnumYesNo.cs" />
+    <Compile Include="Domain\File\AdvertisementsViewModel.cs" />
+    <Compile Include="Domain\File\BasicViewModel\MessageTemplateDetailViewModel.cs" />
+    <Compile Include="Domain\File\BrandViewModel.cs" />
+    <Compile Include="Domain\File\DepartmentsViewModel.cs" />
+    <Compile Include="Domain\File\DistributeTemplateViewModel.cs" />
+    <Compile Include="Domain\File\MessageTemplateViewModel.cs" />
+    <Compile Include="Domain\File\PasswordRulesSettingViewModel.cs" />
+    <Compile Include="Domain\File\ReasonViewModel.cs" />
+    <Compile Include="Domain\File\StoreNatureViewModel.cs" />
+    <Compile Include="Domain\File\StoreViewModel.cs" />
+    <Compile Include="Domain\File\USEFULEXPRESSIONSViewModel.cs" />
+    <Compile Include="Domain\LanguageFlag.cs" />
+    <Compile Include="Domain\Operation\BasicViewModel\ImportMemberDetailViewModel.cs" />
+    <Compile Include="Domain\Operation\ImportMemberViewModel.cs" />
+    <Compile Include="Domain\Operation\MemberManagement\MemberInformation\MemberViewModel.cs" />
+    <Compile Include="Domain\Operation\MemberManagement\OtherInformation\ResetMemberLoginPassword\ResetMemberLoginPasswordViewModel.cs" />
+    <Compile Include="Domain\Operation\Sales_HViewModel.cs" />
+    <Compile Include="Domain\Surpport\IKeyValue.cs" />
+    <Compile Include="Domain\Surpport\KeyValue.cs" />
+    <Compile Include="Domain\SVA\BrandInfo.cs" />
+    <Compile Include="Domain\SVA\CardTypeInfo.cs" />
+    <Compile Include="Domain\SVA\CardGradeInfo.cs" />
+    <Compile Include="Domain\SVA\CouponTypeNatureInfo.cs" />
+    <Compile Include="Domain\SVA\CouponTypeInfo.cs" />
+    <Compile Include="Domain\SVA\MessageTemplateInfo.cs" />
+    <Compile Include="Domain\SVA\StoreInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Domain\WebBuying\BankViewModel.cs" />
+    <Compile Include="Domain\WebBuying\BarCodeViewModel.cs" />
+    <Compile Include="Domain\WebBuying\BasicViewModel\PromotionGiftViewModel.cs" />
+    <Compile Include="Domain\WebBuying\BasicViewModel\PromotionHitViewModel.cs" />
+    <Compile Include="Domain\WebBuying\BasicViewModel\PromotionMemberViewModel.cs" />
+    <Compile Include="Domain\WebBuying\BauhausProductViewModel.cs" />
+    <Compile Include="Domain\WebBuying\BlackListViewModel.cs" />
+    <Compile Include="Domain\WebBuying\BoxSaleViewModel.cs" />
+    <Compile Include="Domain\WebBuying\BrandViewModel.cs" />
+    <Compile Include="Domain\WebBuying\BUY_REPLENViewModel.cs" />
+    <Compile Include="Domain\WebBuying\ColorViewModel.cs" />
+    <Compile Include="Domain\WebBuying\CPriceViewModel.cs" />
+    <Compile Include="Domain\WebBuying\CurrencyViewModel.cs" />
+    <Compile Include="Domain\WebBuying\DayFlagViewModel.cs" />
+    <Compile Include="Domain\WebBuying\DepartmentViewModel.cs" />
+    <Compile Include="Domain\WebBuying\DiscountViewModel.cs" />
+    <Compile Include="Domain\WebBuying\FulfillmenthouseViewModel.cs" />
+    <Compile Include="Domain\WebBuying\IMP_PRODUCTViewModel.cs" />
+    <Compile Include="Domain\WebBuying\LogisticsPriceViewModel.cs" />
+    <Compile Include="Domain\WebBuying\MnmViewModel.cs" />
+    <Compile Include="Domain\WebBuying\MonthFlagViewModel.cs" />
+    <Compile Include="Domain\WebBuying\NewPromotionViewModel.cs" />
+    <Compile Include="Domain\WebBuying\POSStaffViewModel.cs" />
+    <Compile Include="Domain\WebBuying\PriceTypeViewModel.cs" />
+    <Compile Include="Domain\WebBuying\PriceViewModel.cs" />
+    <Compile Include="Domain\WebBuying\ProdParticularsViewModel.cs" />
+    <Compile Include="Domain\WebBuying\ProductAssociatedViewModel.cs" />
+    <Compile Include="Domain\WebBuying\ProductClassViewModel.cs" />
+    <Compile Include="Domain\WebBuying\ProductPictureViewModel.cs" />
+    <Compile Include="Domain\WebBuying\ProductSizeViewModel.cs" />
+    <Compile Include="Domain\WebBuying\ProductStyleViewModel.cs" />
+    <Compile Include="Domain\WebBuying\ProductViewModel.cs" />
+    <Compile Include="Domain\WebBuying\PromotionViewModel.cs" />
+    <Compile Include="Domain\WebBuying\ReasonViewModel.cs" />
+    <Compile Include="Domain\WebBuying\ReplenformulaViewModel.cs" />
+    <Compile Include="Domain\WebBuying\StockTypeViewModel.cs" />
+    <Compile Include="Domain\WebBuying\StoreBrandViewModel.cs" />
+    <Compile Include="Domain\WebBuying\StoreGroupViewModel.cs" />
+    <Compile Include="Domain\WebBuying\StoreViewModel.cs" />
+    <Compile Include="Domain\WebBuying\VendorViewModel.cs" />
+    <Compile Include="Domain\WebBuying\WeekFlagViewModel.cs" />
+    <Compile Include="Domain\WebBuying\Product_PendingViewModel.cs" />
+    <Compile Include="Domain\WebControls\DropdownList.cs" />
+    <Compile Include="Domain\WebControls\LineItem.cs" />
+    <Compile Include="Domain\WebControls\LineItemList.cs" />
+    <Compile Include="Domain\WebInterfaces\ExecResult.cs" />
+    <Compile Include="Domain\WebInterfaces\IForm.cs" />
+    <Compile Include="Domain\WebService\Request\GetMemberTxnListRequest.cs" />
+    <Compile Include="Domain\WebService\Request\CardTypeInfoRequest.cs" />
+    <Compile Include="Domain\WebService\Request\GetSalesTByTxnNoRequest.cs" />
+    <Compile Include="Domain\WebService\Request\MemberCardInfoRequest.cs" />
+    <Compile Include="Domain\WebService\Request\MemberInfoRequest.cs" />
+    <Compile Include="Domain\WebService\Request\MemberResetPasswordRequest.cs" />
+    <Compile Include="Domain\WebService\Request\WebServiceRequestBase.cs" />
+    <Compile Include="Domain\WebService\Request\CardGradeInfoRequest.cs" />
+    <Compile Include="Domain\WebService\Response\CardGradeInfoResponse.cs" />
+    <Compile Include="Domain\WebService\Response\CardGrades.cs" />
+    <Compile Include="Domain\WebService\Response\CardTypes.cs" />
+    <Compile Include="Domain\WebService\Response\CardTypeInfoResponse.cs" />
+    <Compile Include="Domain\WebService\Response\GetSalesTByTxnNo.cs" />
+    <Compile Include="Domain\WebService\Response\GetSalesTByTxnNoResponse.cs" />
+    <Compile Include="Domain\WebService\Response\Member.cs" />
+    <Compile Include="Domain\WebService\Response\MemberCard.cs" />
+    <Compile Include="Domain\WebService\Response\MemberCardInfoResponse.cs" />
+    <Compile Include="Domain\WebService\Response\MemberInfoResponse.cs" />
+    <Compile Include="Domain\WebService\Response\MemberResetPasswordResponse.cs" />
+    <Compile Include="Domain\WebService\Response\WebServiceResponseBase.cs" />
+    <Compile Include="Domain\WebService\Response\GetMemberTxn.cs" />
+    <Compile Include="Domain\WebService\Response\GetMemberTxnListResponse.cs" />
+    <Compile Include="Master\Brand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_ALLOC_S_D.cs" />
+    <Compile Include="Master\BUY_ALLOC_S_H.cs" />
+    <Compile Include="Master\BUY_BANK.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_BARCODE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_BLACKLIST.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_BOXSALE.cs" />
+    <Compile Include="Master\BUY_BRAND.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_COLOR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_CPRICE_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_CPRICE_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_CPRICE_M.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_CURRENCY.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_DAYFLAG.cs" />
+    <Compile Include="Master\BUY_DEPARTMENT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_DISCOUNT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_FULFILLMENTHOUSE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_INSTALLMENT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_LEASECODE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_MNM_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_MNM_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_MONTHFLAG.cs" />
+    <Compile Include="Master\BUY_PO_D.cs" />
+    <Compile Include="Master\BUY_PO_H.cs" />
+    <Compile Include="Master\BUY_PRODUCT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_ProductAssociated.cs" />
+    <Compile Include="Master\BUY_ProductAssociated_Pending.cs" />
+    <Compile Include="Master\BUY_PRODUCTCLASS.cs" />
+    <Compile Include="Master\BUY_ProductClassify.cs" />
+    <Compile Include="Master\BUY_PRODUCTCLASS_Pending.cs" />
+    <Compile Include="Master\BUY_PRODUCTPACKAGE_Pending.cs" />
+    <Compile Include="Master\BUY_ProductParticulars.cs" />
+    <Compile Include="Master\BUY_PRODUCTSIZE.cs" />
+    <Compile Include="Master\BUY_PRODUCTSIZE_Pending.cs" />
+    <Compile Include="Master\BUY_PRODUCTSTYLE.cs" />
+    <Compile Include="Master\BUY_PRODUCTSTYLE_Pending.cs" />
+    <Compile Include="Master\BUY_PRODUCT_ADD_BAU.cs" />
+    <Compile Include="Master\BUY_PRODUCT_ADD_BAU_Pending.cs" />
+    <Compile Include="Master\BUY_Product_Catalog.cs" />
+    <Compile Include="Master\BUY_Product_Catalog_Pending.cs" />
+    <Compile Include="Master\BUY_PRODUCT_CLASSIFY.cs" />
+    <Compile Include="Master\BUY_PRODUCT_CLASSIFY_Pending.cs" />
+    <Compile Include="Master\BUY_Product_Particulars.cs" />
+    <Compile Include="Master\BUY_Product_Particulars_Pending.cs" />
+    <Compile Include="Master\BUY_PRODUCT_Pending.cs" />
+    <Compile Include="Master\BUY_PRODUCT_PIC.cs" />
+    <Compile Include="Master\BUY_PRODUCT_PIC_Pending.cs" />
+    <Compile Include="Master\BUY_PROMO_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_PROMO_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_PROMO_M.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_REASON.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_REFNO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_REPLENFORMULA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_REPLEN_D.cs" />
+    <Compile Include="Master\BUY_REPLEN_H.cs" />
+    <Compile Include="Master\Buy_RPRICETYPE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_RPRICE_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_RPRICE_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_RPRICE_M.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_SETTLEMENT.cs" />
+    <Compile Include="Master\BUY_SETTLEMENT_D.cs" />
+    <Compile Include="Master\BUY_SGLINK.cs" />
+    <Compile Include="Master\BUY_SM_NATURE.cs" />
+    <Compile Include="Master\BUY_SO_D.cs" />
+    <Compile Include="Master\BUY_STKDEFINE.cs" />
+    <Compile Include="Master\BUY_STOCKSET.cs" />
+    <Compile Include="Master\BUY_STOCKTYPE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_STORE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_STOREGROUP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_SUPPROD.cs" />
+    <Compile Include="Master\BUY_SYSOPTION.cs" />
+    <Compile Include="Master\BUY_VENDOR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\BUY_WEEKFLAG.cs" />
+    <Compile Include="Master\City.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Company.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Country.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\DataModels.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\DEPARTMENT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\DistributeTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\District.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\EarnCouponRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Education.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Gender.cs" />
+    <Compile Include="Master\IMP_PRODUCT.cs" />
+    <Compile Include="Master\IMP_PRODUCT_TEMP.cs" />
+    <Compile Include="Master\Industry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\LanguageMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Location.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\LogisticsPrice.cs" />
+    <Compile Include="Master\LogisticsProvider.cs" />
+    <Compile Include="Master\MATERIAL_IN.cs" />
+    <Compile Include="Master\MATERIAL_OUT.cs" />
+    <Compile Include="Master\Member.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MemberAddress.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MemberClause.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MemberCompanyStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MemberDepartment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MemberFriend.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MemberMessageAccount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MemberNotice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MemberNotice_Filter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MemberNotice_MessageType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MemberSNSAccount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MessageTemplate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\MessageTemplateDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Nation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\OperationTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CardAdjust_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CardAdjust_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CardBatchCreate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CardDelivery_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CardDelivery_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CardOrderForm_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CardOrderForm_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CardPicking_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CardPicking_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CardTransfer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponAdjust_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponAdjust_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponBatchCreate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponDelivery_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponDelivery_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponOrderForm_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponOrderForm_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponPicking_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponPicking_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponPush_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_CouponPush_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_HQReceiveOrder_D.cs" />
+    <Compile Include="Master\Ord_HQReceiveOrder_H.cs" />
+    <Compile Include="Master\Ord_ImportCouponDispense_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_ImportCouponDispense_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_ImportCouponUID_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_ImportCouponUID_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_ImportMember_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Ord_PickingOrder_D.cs" />
+    <Compile Include="Master\Ord_PickingOrder_H.cs" />
+    <Compile Include="Master\Ord_ReceiveOrder_D.cs" />
+    <Compile Include="Master\Ord_ReceiveOrder_H.cs" />
+    <Compile Include="Master\Ord_ReturnOrder_D.cs" />
+    <Compile Include="Master\Ord_ReturnOrder_H.cs" />
+    <Compile Include="Master\Ord_SalesPickOrder_D.cs" />
+    <Compile Include="Master\Ord_SalesPickOrder_H.cs" />
+    <Compile Include="Master\Ord_SalesShipOrder_D.cs" />
+    <Compile Include="Master\Ord_SalesShipOrder_H.cs" />
+    <Compile Include="Master\Ord_ShipmentOrder_D.cs" />
+    <Compile Include="Master\Ord_ShipmentOrder_H.cs" />
+    <Compile Include="Master\Ord_StockAdjust_D.cs" />
+    <Compile Include="Master\Ord_StockAdjust_H.cs" />
+    <Compile Include="Master\Ord_StoreOrder_D.cs" />
+    <Compile Include="Master\Ord_StoreOrder_H.cs" />
+    <Compile Include="Master\Ord_TransInOrder_D.cs" />
+    <Compile Include="Master\Ord_TransInOrder_H.cs" />
+    <Compile Include="Master\Ord_TransOutOrder_D.cs" />
+    <Compile Include="Master\Ord_TransOutOrder_H.cs" />
+    <Compile Include="Master\Organization.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\OtherAccount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\OtherExchangeRate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\PasswordRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\PointRule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Position.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\POSSalesData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\POSStaff.cs" />
+    <Compile Include="Master\Product.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\ProductModifyTemp.cs" />
+    <Compile Include="Master\ProductStoreMap.cs" />
+    <Compile Include="Master\Product_Price.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Profession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\PromotionCardCondition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\PromotionMsg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\PromotionMsgType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Promotion_Gift.cs" />
+    <Compile Include="Master\Promotion_Gift_PLU.cs" />
+    <Compile Include="Master\Promotion_H.cs" />
+    <Compile Include="Master\Promotion_Hit.cs" />
+    <Compile Include="Master\Promotion_Hit_PLU.cs" />
+    <Compile Include="Master\Promotion_Member.cs" />
+    <Compile Include="Master\Province.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\QuerySets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Reason.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\ReceiveTxn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\REFNO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\RelationRoleBrand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\RelationRoleIssuer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\RSAKeyTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\SaleDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Sales_D.cs" />
+    <Compile Include="Master\Sales_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\Schedule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\ScheduleWeek.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\SEASON.cs" />
+    <Compile Include="Master\SessionInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\SNSType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\STAFFSTOREMAP.cs" />
+    <Compile Include="Master\StaffUpdateXLS_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\StaffUpdateXLS_M.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\STK_STAKE01.cs" />
+    <Compile Include="Master\STK_STAKE02.cs" />
+    <Compile Include="Master\STK_STAKEVAR.cs" />
+    <Compile Include="Master\STK_STAKE_H.cs" />
+    <Compile Include="Master\STK_StockOnhand.cs" />
+    <Compile Include="Master\Store.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\StoreGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\StoreType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\SVA_Transfer_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\SVA_Transfer_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\SVA_ValueAdjust_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\SVA_ValueAdjust_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\SVA_VoidCard_D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\SVA_VoidCard_H.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\TENDER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\USEFULEXPRESSIONS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\VenCardIDMap.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Master\VENDOR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Partial\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Release\Edge.SVA.DALFactory.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Release\Edge.SVA.DALFactory.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Release\Edge.Common.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Release\Edge.SVA.IDAL.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Release\Edge.SVA.Model.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Release\OpenSmtp.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Release\Edge.SVA.IDAL.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\bin\Release\Edge.SVA.Model.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\obj\Release\Edge.SVA.DALFactory.csprojResolveAssemblyReference.cache
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\obj\Release\Edge.SVA.DALFactory.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.DALFactory\obj\Release\Edge.SVA.DALFactory.pdb

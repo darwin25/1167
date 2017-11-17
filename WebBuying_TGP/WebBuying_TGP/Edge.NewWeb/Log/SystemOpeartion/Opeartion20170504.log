@@ -1,0 +1,442 @@
+2017-05-04 12:14:12,756  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 12:14:19,170  User admin,functionName:Menu Management,msg:List 
+2017-05-04 12:23:09,286  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 12:23:15,404  User admin,functionName:Menu Management,msg:List 
+2017-05-04 12:28:05,939  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 12:28:11,401  User admin,functionName:Menu Management,msg:List 
+2017-05-04 12:33:57,572  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 12:34:35,515  User admin,functionName:Menu Management,msg:List 
+2017-05-04 14:24:41,867  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 14:24:47,040  User admin,functionName:Menu Management,msg:List 
+2017-05-04 14:28:44,998  User admin,functionName:,msg:List 
+2017-05-04 14:28:45,157  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+Invalid column name 'ApprovedBy'.
+Invalid column name 'ApprovedOn'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1112
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 518
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 58
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\List.aspx.cs:line 133
+2017-05-04 14:33:12,710  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+Invalid column name 'ApprovedBy'.
+Invalid column name 'ApprovedOn'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1112
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 518
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 58
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\List.aspx.cs:line 133
+2017-05-04 14:36:12,093  User ,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+Invalid column name 'ApprovedBy'.
+Invalid column name 'ApprovedOn'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1112
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 518
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 58
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\List.aspx.cs:line 133
+2017-05-04 14:36:20,348  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 14:36:24,699  User admin,functionName:Menu Management,msg:List 
+2017-05-04 14:42:20,958  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 14:42:24,569  User admin,functionName:Menu Management,msg:List 
+2017-05-04 14:44:54,920  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 14:44:59,478  User admin,functionName:Menu Management,msg:List 
+2017-05-04 15:03:14,150  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 15:03:19,114  User admin,functionName:Menu Management,msg:List 
+2017-05-04 15:11:46,834  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 15:13:31,929  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 15:16:07,654  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 15:16:17,065  User admin,functionName:Menu Management,msg:List 
+2017-05-04 15:17:57,917  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 15:22:33,741  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 15:23:43,999  User admin,functionName:,msg:Add 
+2017-05-04 15:23:44,025  User admin,functionName:,msg:Add BUY_REPLEN Success Code:AR1 
+2017-05-04 15:23:47,568  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:23:58,540  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:24:14,682  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:24:23,855  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:26:11,555  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:26:35,419  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:27:00,867  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:27:26,840  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:31:05,891  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 15:31:10,128  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:31:47,220  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:43:59,938  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:48:37,403  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:49:59,442  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:50:31,882  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:51:31,486  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:52:32,289  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:55:45,434  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 15:56:05,494  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:57:10,918  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:57:59,949  User admin,functionName:Load BUY_REPLEN_H,msg:error,Error Message: 
+System.ArgumentException: Column 'StoreBrandCode' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.SVA.BLL.BUY_STORE.DataTableToList(DataTable dt) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 187
+   at Edge.SVA.BLL.BUY_STORE.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_STORE.cs:line 140
+   at Edge.Web.Tools.DALTool.GetBuyingStoreNameByID(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 907
+   at Edge.Web.Tools.DataTool.AddBuyingStoreNameByID(DataSet ds, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 769
+   at Edge.Web.Controllers.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.BUY_REPLENController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\BUY_REPLENController.cs:line 51
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\List.aspx.cs:line 100
+2017-05-04 15:58:56,283  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 16:05:18,168  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 16:45:10,578  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 16:50:08,094  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 16:52:17,300  User admin,functionName:Menu Management,msg:List 
+2017-05-04 16:53:49,613  User admin,functionName:Product Details,msg:List 
+2017-05-04 16:53:52,155  User admin,functionName:Product Type,msg:List 
+2017-05-04 16:53:55,308  User admin,functionName:Product Picture,msg:List 
+2017-05-04 17:05:20,764  User admin,functionName:,msg:List 
+2017-05-04 17:05:20,893  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+Invalid column name 'ApprovedBy'.
+Invalid column name 'ApprovedOn'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1112
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 518
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 58
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.ListByBauhuas.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\ListByBauhuas.aspx.cs:line 234
+2017-05-04 17:06:39,866  User admin,functionName:,msg:List 
+2017-05-04 17:06:39,964  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+Invalid column name 'ApprovedBy'.
+Invalid column name 'ApprovedOn'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1112
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 518
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 58
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.ListByBauhuas.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\ListByBauhuas.aspx.cs:line 234
+2017-05-04 17:07:45,860  User admin,functionName:,msg:List 
+2017-05-04 17:07:50,493  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+Invalid column name 'ApprovedBy'.
+Invalid column name 'ApprovedOn'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1112
+   at Edge.SVA.BLL.BUY_PRODUCT.GetListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 518
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 58
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.ListByBauhuas.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\ListByBauhuas.aspx.cs:line 234
+2017-05-04 17:07:55,261  User admin,functionName:,msg:List 
+2017-05-04 17:10:50,941  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_DEPARTMENT.GetList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_DEPARTMENT.cs:line 657
+   at Edge.SVA.BLL.BUY_DEPARTMENT.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_DEPARTMENT.cs:line 111
+   at Edge.Web.Tools.DALTool.GetBuyingDepartName(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 1096
+   at Edge.Web.Tools.DataTool.AddBuyingDepartName(DataTable dt, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 961
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 60
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.ListByBauhuas.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\ListByBauhuas.aspx.cs:line 234
+2017-05-04 17:10:57,984  User admin,functionName:,msg:List 
+2017-05-04 17:11:05,973  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_DEPARTMENT.GetList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_DEPARTMENT.cs:line 657
+   at Edge.SVA.BLL.BUY_DEPARTMENT.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_DEPARTMENT.cs:line 111
+   at Edge.Web.Tools.DALTool.GetBuyingDepartName(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 1096
+   at Edge.Web.Tools.DataTool.AddBuyingDepartName(DataTable dt, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 961
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 60
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.ListByBauhuas.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\ListByBauhuas.aspx.cs:line 234
+2017-05-04 17:11:10,490  User admin,functionName:,msg:List 
+2017-05-04 17:11:22,293  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_DEPARTMENT.GetList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\BUY_DEPARTMENT.cs:line 657
+   at Edge.SVA.BLL.BUY_DEPARTMENT.GetModelList(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\BUY_DEPARTMENT.cs:line 111
+   at Edge.Web.Tools.DALTool.GetBuyingDepartName(String code, Dictionary`2 cache) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DALTool.cs:line 1096
+   at Edge.Web.Tools.DataTool.AddBuyingDepartName(DataTable dt, String name, String refKey) in C:\SVN\WebBuying\Edge.NewWeb\Tools\DataTool.cs:line 961
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 60
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.ListByBauhuas.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\ListByBauhuas.aspx.cs:line 234
+2017-05-04 17:11:26,517  User admin,functionName:,msg:List 
+2017-05-04 17:14:49,191  User admin,functionName:,msg:List 
+2017-05-04 17:15:45,742  User admin,functionName:,msg:List 
+2017-05-04 17:18:02,498  User admin,functionName:,msg:List 
+2017-05-04 17:20:31,168  User admin,functionName:,msg:List 
+2017-05-04 17:35:17,570  User admin,functionName:,msg:List 
+2017-05-04 17:41:57,310  User admin,functionName:,msg:List 
+2017-05-04 17:42:53,428  User admin,functionName:,msg:Show 
+2017-05-04 17:43:45,697  User admin,functionName:,msg:List 
+2017-05-04 17:47:40,409  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 17:50:04,571  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 17:52:02,173  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 17:52:31,877  User admin,functionName:,msg:List 
+2017-05-04 17:52:44,771  User admin,functionName:,msg:List 
+2017-05-04 17:53:01,429  User admin,functionName:,msg:List 
+2017-05-04 17:53:41,736  User admin,functionName:,msg:Update 
+2017-05-04 17:53:42,220  User admin,functionName:,msg:BUY_REPLEN AR1 Update Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'OrderRoundUpQty' does not allow DBNull.Value.
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.Modify.btnSaveClose_Click(Object sender, EventArgs e) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\Modify.aspx.cs:line 258
+2017-05-04 17:54:01,059  User admin,functionName:,msg:List 
+2017-05-04 17:55:19,318  User admin,functionName:,msg:List 
+2017-05-04 17:58:09,410  User admin,functionName:,msg:List 
+2017-05-04 17:58:48,247  User admin,functionName:,msg:List 
+2017-05-04 17:59:08,747  User admin,functionName:,msg:Update 
+2017-05-04 17:59:08,778  User admin,functionName:,msg:BUY_REPLEN AR1 Update Success 
+2017-05-04 17:59:41,609  User admin,functionName:,msg:List 
+2017-05-04 17:59:48,614  User admin,functionName:,msg:List 
+2017-05-04 18:00:04,260  User admin,functionName:,msg:Update 
+2017-05-04 18:00:04,421  User admin,functionName:,msg:BUY_REPLEN AR1 Update Success But Detail Failed,Error Message: 
+System.InvalidOperationException: Column 'OrderRoundUpQty' does not allow DBNull.Value.
+   at Edge.Web.WebBuying.MasterFiles.BasicInformations.BUY_REPLEN.Modify.btnSaveClose_Click(Object sender, EventArgs e) in C:\SVN\WebBuying\Edge.NewWeb\WebBuying\MasterFiles\BasicInformations\BUY_REPLEN\Modify.aspx.cs:line 258
+2017-05-04 18:00:41,873  User admin,functionName:,msg:List 
+2017-05-04 18:00:58,264  User admin,functionName:,msg:List 
+2017-05-04 18:01:44,226  User admin,functionName:,msg:Update 
+2017-05-04 18:01:44,265  User admin,functionName:,msg:BUY_REPLEN AR1 Update Success 
+2017-05-04 18:03:43,282  User admin,functionName:,msg:List 
+2017-05-04 18:03:54,415  User admin,functionName:,msg:Update 
+2017-05-04 18:03:54,452  User admin,functionName:,msg:BUY_REPLEN AR1 Update Success 
+2017-05-04 18:05:36,014  User admin,functionName:Menu Management,msg:List 
+2017-05-04 18:22:40,928  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 19:02:32,461  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 19:10:19,109  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 19:10:51,606  User admin,functionName:,msg:List 
+2017-05-04 19:17:24,338  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_StoreOrder_H.cs:line 520
+   at Edge.SVA.BLL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_StoreOrder_H.cs:line 263
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.StoreOrder.StoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\StoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\List.aspx.cs:line 223
+ClientConnectionId:4a0f1191-94d1-49b6-8a10-c3142b42efd3
+Error Number:156,State:1,Class:15
+2017-05-04 19:17:25,696  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_StoreOrder_H.cs:line 520
+   at Edge.SVA.BLL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_StoreOrder_H.cs:line 263
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.StoreOrder.StoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\StoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\List.aspx.cs:line 223
+ClientConnectionId:4a0f1191-94d1-49b6-8a10-c3142b42efd3
+Error Number:156,State:1,Class:15
+2017-05-04 19:17:33,025  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_StoreOrder_H.cs:line 520
+   at Edge.SVA.BLL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_StoreOrder_H.cs:line 263
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.StoreOrder.StoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\StoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\List.aspx.cs:line 223
+ClientConnectionId:4a0f1191-94d1-49b6-8a10-c3142b42efd3
+Error Number:156,State:1,Class:15
+2017-05-04 19:17:33,657  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_StoreOrder_H.cs:line 520
+   at Edge.SVA.BLL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_StoreOrder_H.cs:line 263
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.StoreOrder.StoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\StoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\List.aspx.cs:line 223
+ClientConnectionId:4a0f1191-94d1-49b6-8a10-c3142b42efd3
+Error Number:156,State:1,Class:15
+2017-05-04 19:17:33,872  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_StoreOrder_H.cs:line 520
+   at Edge.SVA.BLL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_StoreOrder_H.cs:line 263
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.StoreOrder.StoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\StoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\List.aspx.cs:line 223
+ClientConnectionId:4a0f1191-94d1-49b6-8a10-c3142b42efd3
+Error Number:156,State:1,Class:15
+2017-05-04 19:17:34,080  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_StoreOrder_H.cs:line 520
+   at Edge.SVA.BLL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_StoreOrder_H.cs:line 263
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.StoreOrder.StoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\StoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\List.aspx.cs:line 223
+ClientConnectionId:4a0f1191-94d1-49b6-8a10-c3142b42efd3
+Error Number:156,State:1,Class:15
+2017-05-04 19:17:34,271  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_StoreOrder_H.cs:line 520
+   at Edge.SVA.BLL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_StoreOrder_H.cs:line 263
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.StoreOrder.StoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\StoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\List.aspx.cs:line 223
+ClientConnectionId:4a0f1191-94d1-49b6-8a10-c3142b42efd3
+Error Number:156,State:1,Class:15
+2017-05-04 19:17:34,494  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_StoreOrder_H.cs:line 520
+   at Edge.SVA.BLL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_StoreOrder_H.cs:line 263
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.StoreOrder.StoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\StoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\List.aspx.cs:line 223
+ClientConnectionId:4a0f1191-94d1-49b6-8a10-c3142b42efd3
+Error Number:156,State:1,Class:15
+2017-05-04 19:17:34,669  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.SQLServerDAL\Master\Ord_StoreOrder_H.cs:line 520
+   at Edge.SVA.BLL.Ord_StoreOrder_H.GetRecordCount(String strWhere) in C:\SVN\WebBuying\Edge.SVA.BLL\Master\Ord_StoreOrder_H.cs:line 263
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.StoreOrder.StoreOrderController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN\WebBuying\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\StoreOrderController.cs:line 45
+   at Edge.Web.Operation.StoreOrderManagement.StoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN\WebBuying\Edge.NewWeb\Operation\StoreOrderManagement\StoreOrder\List.aspx.cs:line 223
+ClientConnectionId:4a0f1191-94d1-49b6-8a10-c3142b42efd3
+Error Number:156,State:1,Class:15
+2017-05-04 19:18:05,152  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 19:23:13,816  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-04 19:25:40,581  User admin,functionName:,msg:Approve Success :SP0000000000021 
+2017-05-04 19:26:10,481  User ,functionName:Login,msg: Login Operation userName:admin 

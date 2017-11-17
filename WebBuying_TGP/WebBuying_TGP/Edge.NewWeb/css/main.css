@@ -1,0 +1,89 @@
+﻿body
+{
+    margin: 8px;
+    height: auto;
+}
+
+.clear
+{
+    clear: both;
+}
+
+/* only for coupon order*/
+.inline
+{
+    margin-left: 110px;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: right;
+    vertical-align: middle;
+}
+.mleft10
+{
+    margin-left: 10px;
+}
+.mleft10top5
+{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.mleft10right10top5
+{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.mleft10right5top5AlignRight
+{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right:5px;
+    text-align:right;
+}
+.mright10
+{
+    margin-right: 10px;
+}
+.rowpanel
+{
+    margin-bottom: 10px;
+}
+/* */
+.TextMiddleLen
+{
+     vertical-align:text-bottom;
+    }
+/*
+table.result
+{
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+}
+
+table.result th
+{
+    border-bottom: solid 1px #ccc;
+    font-weight: bold;
+    padding: 3px;
+}
+
+table.result td
+{
+    padding: 3px;
+}
+*/
+ol.result
+{
+    list-style-type: decimal;
+    margin: 10px 0 10px 25px;
+}
+.mleft20
+{
+    margin-left: 20px;
+}
+.showMessage
+{
+    color:Red;
+}

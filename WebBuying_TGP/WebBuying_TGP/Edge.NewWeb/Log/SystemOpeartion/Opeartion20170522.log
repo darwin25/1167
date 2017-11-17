@@ -1,0 +1,12 @@
+2017-05-22 18:24:43,803  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-22 18:29:41,586  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-22 18:53:57,684  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-22 18:56:28,655  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-22 19:39:16,212  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-22 19:40:01,920  User admin,functionName:,msg:Store Order SPO000000001881 Add Success 
+2017-05-22 19:42:16,023  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-22 19:44:11,646  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-22 19:44:32,759  User admin,functionName:,msg:Approve Success :SPO000000001881 
+2017-05-22 19:45:00,349  User admin,functionName:,msg:Approve Success :SHP000000002519 
+2017-05-22 19:45:29,012  User admin,functionName:,msg:Approve Success :SHP000000002520 
+2017-05-22 19:47:13,862  User ,functionName:Login,msg: Login Operation userName:admin 

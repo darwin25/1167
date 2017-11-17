@@ -1,0 +1,4 @@
+2016-02-29 14:48:41,927  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-29 14:48:46,406  User admin,functionName:,msg:List 
+2016-02-29 14:48:54,762  User admin,functionName:,msg: Update  
+2016-02-29 14:48:54,903  User admin,functionName:,msg:Update Product Success Code:01146316 

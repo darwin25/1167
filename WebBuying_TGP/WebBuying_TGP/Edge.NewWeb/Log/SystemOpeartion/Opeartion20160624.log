@@ -1,0 +1,183 @@
+2016-06-24 09:30:59,949  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 09:31:06,939  User admin,functionName:,msg:List 
+2016-06-24 09:36:30,454  User admin,functionName:,msg:List 
+2016-06-24 09:38:28,891  User admin,functionName:,msg:List 
+2016-06-24 09:47:29,608  User admin,functionName:,msg:Show 
+2016-06-24 10:02:36,846  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 10:02:51,135  User admin,functionName:,msg:List 
+2016-06-24 10:15:47,094  User ,functionName:,msg:List 
+2016-06-24 10:16:26,888  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 10:16:34,416  User admin,functionName:,msg:List 
+2016-06-24 10:41:16,320  User ,functionName:,msg:List 
+2016-06-24 10:41:58,341  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 10:42:03,791  User admin,functionName:,msg:List 
+2016-06-24 10:43:56,948  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 10:44:00,519  User admin,functionName:,msg:List 
+2016-06-24 10:45:42,546  User ,functionName:,msg:List 
+2016-06-24 10:49:13,477  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 10:49:21,344  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 10:49:27,536  User admin,functionName:,msg:List 
+2016-06-24 11:02:13,652  User ,functionName:,msg:List 
+2016-06-24 11:03:35,140  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:03:38,193  User admin,functionName:,msg:List 
+2016-06-24 11:11:31,787  User ,functionName:,msg:List 
+2016-06-24 11:11:43,149  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:11:46,950  User admin,functionName:,msg:List 
+2016-06-24 11:27:09,683  User ,functionName:,msg:List 
+2016-06-24 11:27:22,189  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:27:39,510  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:28:56,073  User admin,functionName:,msg:List 
+2016-06-24 11:31:58,355  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:32:07,628  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:32:12,069  User admin,functionName:,msg:List 
+2016-06-24 11:38:33,924  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:38:37,969  User admin,functionName:,msg:List 
+2016-06-24 11:40:13,672  User ,functionName:,msg:List 
+2016-06-24 11:40:25,696  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:40:33,896  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:40:38,207  User admin,functionName:,msg:List 
+2016-06-24 11:41:37,652  User admin,functionName:,msg: Update  
+2016-06-24 11:41:38,026  User admin,functionName:Update,msg:CDC000 
+2016-06-24 11:41:57,082  User admin,functionName:,msg: Update  
+2016-06-24 11:41:57,160  User admin,functionName:Update,msg:CDC000 
+2016-06-24 11:42:52,516  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:42:56,162  User admin,functionName:,msg:List 
+2016-06-24 11:43:25,877  User admin,functionName:,msg: Update  
+2016-06-24 11:45:02,098  User admin,functionName:Update,msg:CDC000 
+2016-06-24 11:45:28,769  User admin,functionName:,msg: Update  
+2016-06-24 11:45:57,083  User admin,functionName:Update,msg:CDC000 
+2016-06-24 11:50:13,410  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 11:50:19,653  User admin,functionName:,msg:List 
+2016-06-24 11:50:41,677  User admin,functionName:,msg: Update  
+2016-06-24 11:50:58,400  User admin,functionName:Update,msg:CDC000 
+2016-06-24 12:04:09,681  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:04:15,454  User admin,functionName:,msg:List 
+2016-06-24 12:04:44,449  User admin,functionName:,msg: Update  
+2016-06-24 12:05:35,227  User admin,functionName:Update,msg:CDC000 
+2016-06-24 12:06:13,550  User admin,functionName:,msg: Add  
+2016-06-24 12:06:13,644  User admin,functionName:Add,msg:Add Product Success Code:1111 
+2016-06-24 12:06:14,124  User admin,functionName:,msg:List 
+2016-06-24 12:07:53,918  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:07:58,899  User admin,functionName:,msg:List 
+2016-06-24 12:08:25,008  User admin,functionName:,msg: Add  
+2016-06-24 12:08:59,796  User admin,functionName:Add,msg:Add Product Success Code:2233 
+2016-06-24 12:09:00,174  User admin,functionName:,msg:List 
+2016-06-24 12:10:50,637  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:10:57,289  User admin,functionName:,msg:List 
+2016-06-24 12:11:07,451  User admin,functionName:,msg: Delete 1111,2233 
+2016-06-24 12:11:30,789  User admin,functionName:,msg: Update  
+2016-06-24 12:12:10,459  User admin,functionName:Update,msg:CDC000 
+2016-06-24 12:14:09,364  User ,functionName:Login,msg: Login Operation userName:admi44n 
+2016-06-24 12:14:24,083  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:14:31,849  User admin,functionName:,msg:List 
+2016-06-24 12:14:48,772  User admin,functionName:,msg: Update  
+2016-06-24 12:15:12,312  User admin,functionName:Update,msg:CDC000 
+2016-06-24 12:15:20,802  User admin,functionName:,msg: Update  
+2016-06-24 12:15:39,943  User admin,functionName:Update,msg:CDC000 
+2016-06-24 12:27:59,602  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:28:06,227  User admin,functionName:,msg:List 
+2016-06-24 12:28:56,602  User admin,functionName:,msg: Update  
+2016-06-24 12:32:40,034  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:32:45,425  User admin,functionName:,msg:List 
+2016-06-24 12:33:43,633  User admin,functionName:,msg: Update  
+2016-06-24 12:35:47,667  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:35:53,210  User admin,functionName:,msg:List 
+2016-06-24 12:36:04,352  User admin,functionName:,msg: Update  
+2016-06-24 12:37:39,260  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:37:58,099  User admin,functionName:,msg:List 
+2016-06-24 12:38:11,061  User admin,functionName:,msg: Update  
+2016-06-24 12:41:43,149  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:41:47,534  User admin,functionName:,msg:List 
+2016-06-24 12:42:27,832  User admin,functionName:,msg: Update  
+2016-06-24 12:42:56,927  User admin,functionName:Update,msg:CDC000 
+2016-06-24 12:43:38,716  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:43:44,749  User admin,functionName:,msg:List 
+2016-06-24 12:43:58,378  User admin,functionName:,msg: Update  
+2016-06-24 12:44:23,837  User admin,functionName:Update,msg:CDC000 
+2016-06-24 12:51:50,913  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:51:56,212  User admin,functionName:,msg:List 
+2016-06-24 12:52:06,732  User admin,functionName:,msg: Update  
+2016-06-24 12:52:49,632  User admin,functionName:Update,msg:CDC000 
+2016-06-24 12:56:11,717  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 12:56:22,935  User admin,functionName:,msg:List 
+2016-06-24 12:56:34,063  User admin,functionName:,msg: Update  
+2016-06-24 14:08:59,882  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 14:09:05,371  User admin,functionName:,msg:List 
+2016-06-24 14:09:15,337  User admin,functionName:,msg: Update  
+2016-06-24 14:09:35,523  User admin,functionName:Update,msg:Update Product Success Code:CDC000 
+2016-06-24 14:15:06,817  User ,functionName:Login,msg: Login Operation userName:admin403 
+2016-06-24 14:15:19,168  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 14:15:24,685  User admin,functionName:,msg:List 
+2016-06-24 14:16:11,323  User admin,functionName:,msg: Update  
+2016-06-24 14:16:11,542  User admin,functionName:Update,msg:Update Product Success Code:CDC000 
+2016-06-24 14:29:03,588  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 14:29:13,836  User admin,functionName:,msg:List 
+2016-06-24 14:33:24,293  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 14:34:39,803  User admin,functionName:,msg:List 
+2016-06-24 14:36:05,003  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 14:36:10,462  User admin,functionName:,msg:List 
+2016-06-24 14:36:38,136  User admin,functionName:,msg:List 
+2016-06-24 14:40:10,672  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException: Incorrect syntax near the keyword 'and'.
+Incorrect syntax near the keyword 'and'.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in D:\Working\WebBuying_NEWUI\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1001
+   at Edge.SVA.BLL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 502
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 47
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.Bauhaus.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\Bauhaus\List.aspx.cs:line 189
+2016-06-24 14:41:21,915  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 14:41:27,798  User admin,functionName:,msg:List 
+2016-06-24 14:48:43,572  User admin,functionName:,msg:List 
+2016-06-24 14:50:59,731  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 14:51:12,183  User admin,functionName:,msg:List 
+2016-06-24 14:56:06,875  User ,functionName:,msg:List 
+2016-06-24 14:56:16,973  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 14:56:32,174  User admin,functionName:,msg:List 
+2016-06-24 15:19:34,915  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 15:19:45,055  User admin,functionName:,msg:List 
+2016-06-24 15:21:01,142  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException: Incorrect syntax near '='.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in D:\Working\WebBuying_NEWUI\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1001
+   at Edge.SVA.BLL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 502
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 47
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.Bauhaus.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\Bauhaus\List.aspx.cs:line 201
+2016-06-24 15:21:09,037  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException: Incorrect syntax near '='.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in D:\Working\WebBuying_NEWUI\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1001
+   at Edge.SVA.BLL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 502
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 47
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.Bauhaus.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\Bauhaus\List.aspx.cs:line 201
+2016-06-24 15:21:10,444  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException: Incorrect syntax near '='.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in D:\Working\WebBuying_NEWUI\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1001
+   at Edge.SVA.BLL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 502
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 47
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.Bauhaus.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\Bauhaus\List.aspx.cs:line 201
+2016-06-24 15:21:42,959  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException: Incorrect syntax near '='.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString) in D:\Working\WebBuying_NEWUI\DBUtility\DbHelperSQL.cs:line 569
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1001
+   at Edge.SVA.BLL.BUY_PRODUCT.GetRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 502
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 47
+   at Edge.Web.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.Bauhaus.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\Bauhaus\List.aspx.cs:line 201
+2016-06-24 15:22:19,232  User ,functionName:,msg:List 
+2016-06-24 15:22:28,564  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 15:22:31,745  User admin,functionName:,msg:List 
+2016-06-24 15:24:07,311  User admin,functionName:,msg: Update  
+2016-06-24 15:24:07,467  User admin,functionName:Update,msg:Update Product Success Code:CDC000 
+2016-06-24 15:25:47,156  User ,functionName:,msg:List 
+2016-06-24 15:25:58,356  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 15:26:13,395  User admin,functionName:,msg:List 
+2016-06-24 15:26:21,687  User admin,functionName:,msg: Update  
+2016-06-24 15:26:21,843  User admin,functionName:Update,msg:Update Product Success Code:CDC000 
+2016-06-24 16:00:24,945  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 16:01:14,175  User admin,functionName:,msg:List 
+2016-06-24 16:07:45,289  User admin,functionName:,msg:List 
+2016-06-24 16:20:34,541  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-24 16:20:55,120  User admin,functionName:,msg:Update Tree Menu : »ìÅä´ÙÏú(ÐÂ) 
+2016-06-24 16:21:06,347  User admin,functionName:,msg:List 
+2016-06-24 16:21:23,070  User admin,functionName:,msg:List 
+2016-06-24 17:08:00,789  User ,functionName:Login,msg: Login Operation userName:admin 

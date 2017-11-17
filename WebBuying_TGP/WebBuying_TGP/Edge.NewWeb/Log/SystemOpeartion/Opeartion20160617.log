@@ -1,0 +1,22 @@
+2016-06-17 12:27:34,888  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-17 12:27:53,889  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-17 12:28:00,840  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'statusName'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.operation_storeordermanagement_salesshiporder_list_aspx.__DataBindinglblStatus(Object sender, EventArgs e) in d:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx:line 88
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at FineUI.GridRow.DataBindRow()
+   at FineUI.Grid.DataBindRow(Int32 rowIndex, Object rowObj)
+   at FineUI.Grid.DataBindToDataTable(DataTable dataTable)
+   at FineUI.Grid.DataBind()
+   at Edge.Web.Operation.StoreOrderManagement.SalesShipOrder.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\SalesShipOrder\List.aspx.cs:line 161
+2016-06-17 17:24:50,940  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-06-17 17:24:57,101  User admin,functionName:,msg:List 

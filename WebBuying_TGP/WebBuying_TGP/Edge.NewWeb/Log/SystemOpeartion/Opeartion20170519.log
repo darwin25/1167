@@ -1,0 +1,204 @@
+2017-05-19 05:22:09,584  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 05:25:41,963  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 05:26:34,150  User admin,functionName:,msg:Store Order SPO000000001855 Add Success 
+2017-05-19 05:26:39,699  User admin,functionName:,msg:Approve Success :SPO000000001855 
+2017-05-19 05:26:54,119  User admin,functionName:,msg:Approve Success :SHP000000002471 
+2017-05-19 05:28:52,421  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 05:31:27,447  User admin,functionName:,msg:Approve Success :SHP000000002473 
+2017-05-19 06:20:59,484  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 06:21:18,350  User admin,functionName:,msg:Approve Success :SHP000000002472 
+2017-05-19 06:23:12,643  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 06:43:28,894  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 06:45:48,147  User admin,functionName:,msg:Approve Success :SHP000000002474 
+2017-05-19 06:56:32,880  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 06:57:13,977  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 08:00:46,591  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 08:02:14,402  User admin,functionName:,msg:Store Order SPO000000001856 Add Success 
+2017-05-19 08:02:19,789  User admin,functionName:,msg:Approve Success :SPO000000001856 
+2017-05-19 08:02:48,226  User admin,functionName:Modify,msg:Picking Store Order SHP000000002475 Update Success 
+2017-05-19 08:02:54,328  User admin,functionName:,msg:Approve Success :SHP000000002475 
+2017-05-19 08:03:22,710  User admin,functionName:,msg:Approve Failed :SHP000000002474 
+2017-05-19 08:03:30,727  User admin,functionName:,msg:Approve Success :SHP000000002476 
+2017-05-19 08:09:28,111  User admin,functionName:,msg:Update Tree Menu : Set Up 
+2017-05-19 08:09:38,918  User admin,functionName:,msg:Update Tree Menu : SOD 
+2017-05-19 08:09:46,772  User admin,functionName:,msg:Update Tree Menu : EOD 
+2017-05-19 08:10:27,231  User admin,functionName:,msg:List 
+2017-05-19 08:10:56,556  User admin,functionName:Promotion Price,msg:List 
+2017-05-19 08:18:40,332  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 08:57:50,126  User admin,functionName:Store Order,msg:Load Faild,Error Message: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Edge.Web.Operation.StoreOrderManagement.PickingStoreOrder.List.set_RecordCount(Int32 value) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\PickingStoreOrder\List.aspx.cs:line 59
+   at Edge.Web.Operation.StoreOrderManagement.PickingStoreOrder.List.RptBind(String strWhere, String orderby) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Operation\StoreOrderManagement\PickingStoreOrder\List.aspx.cs:line 268
+2017-05-19 09:03:26,037  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 09:23:39,502  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 09:25:41,888  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 09:28:16,826  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 09:30:02,173  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 09:31:05,744  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 11:06:03,186  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 11:06:48,600  User admin,functionName:,msg:List 
+2017-05-19 11:06:55,420  User admin,functionName:Promotion Engine,msg:List 
+2017-05-19 11:06:56,337  User admin,functionName:,msg:List 
+2017-05-19 11:06:57,404  User admin,functionName:,msg:List 
+2017-05-19 11:07:16,315  User admin,functionName:Personal Information,msg:List 
+2017-05-19 11:07:35,656  User admin,functionName:,msg:Update Tree Menu : ??? 
+2017-05-19 11:07:43,171  User admin,functionName:Product Type,msg:List 
+2017-05-19 11:07:46,602  User admin,functionName:Product Details,msg:List 
+2017-05-19 11:07:54,145  User admin,functionName:,msg:List 
+2017-05-19 11:07:57,476  User admin,functionName:,msg:Show 
+2017-05-19 11:08:24,131  User admin,functionName:Associated Product,msg:List 
+2017-05-19 11:08:27,337  User admin,functionName:,msg:List 
+2017-05-19 11:08:30,345  User admin,functionName:,msg:Show 
+2017-05-19 11:43:19,531  User admin,functionName:,msg:List 
+2017-05-19 12:01:38,588  User admin,functionName:,msg:List 
+2017-05-19 12:58:59,687  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 13:01:32,040  User admin,functionName:Product Picture,msg:List 
+2017-05-19 13:03:54,240  User admin,functionName:Product Picture,msg:List 
+2017-05-19 13:03:59,796  User admin,functionName:,msg:List 
+2017-05-19 13:04:02,276  User admin,functionName:Associated Product,msg:List 
+2017-05-19 13:05:23,828  User admin,functionName:Associated Product,msg:List 
+2017-05-19 13:06:09,270  User admin,functionName:Associated Product,msg:List 
+2017-05-19 13:06:13,069  User admin,functionName:Product Type,msg:List 
+2017-05-19 13:07:48,141  User admin,functionName:Product Type,msg:List 
+2017-05-19 13:08:00,388  User admin,functionName:,msg:List 
+2017-05-19 13:19:38,610  User admin,functionName:,msg:List 
+2017-05-19 13:19:44,921  User admin,functionName:Promotion Price,msg:List 
+2017-05-19 13:19:55,491  User admin,functionName:Cost Price,msg:List 
+2017-05-19 13:19:55,572  User admin,functionName:CPrice,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_STOREGROUP.GetList(String strWhere) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\BUY_STOREGROUP.cs:line 257
+   at Edge.SVA.BLL.BUY_STOREGROUP.GetModelList(String strWhere) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\BUY_STOREGROUP.cs:line 120
+   at Edge.Web.Tools.DALTool.GetBuyingStoreGroupName(String code, Dictionary`2 cache) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\DALTool.cs:line 952
+   at Edge.Web.Tools.DataTool.AddBuyingStoreGroupName(DataSet ds, String name, String refKey) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\DataTool.cs:line 865
+   at Edge.Web.Controllers.WebBuying.MasterFiles.PriceSettings.BUY_CPRICE_H.BuyingCPriceController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\WebBuying\MasterFiles\PriceSettings\BUY_CPRICE_H\BuyingCPriceController.cs:line 150
+   at Edge.Web.WebBuying.MasterFiles.PriceSettings.BUY_CPRICE_H.List.RptBind(String strWhere, String orderby) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\WebBuying\MasterFiles\PriceSettings\BUY_CPRICE_H\List.aspx.cs:line 75
+2017-05-19 13:20:04,051  User admin,functionName:CPrice,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_STOREGROUP.GetList(String strWhere) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\BUY_STOREGROUP.cs:line 257
+   at Edge.SVA.BLL.BUY_STOREGROUP.GetModelList(String strWhere) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\BUY_STOREGROUP.cs:line 120
+   at Edge.Web.Tools.DALTool.GetBuyingStoreGroupName(String code, Dictionary`2 cache) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\DALTool.cs:line 952
+   at Edge.Web.Tools.DataTool.AddBuyingStoreGroupName(DataSet ds, String name, String refKey) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\DataTool.cs:line 865
+   at Edge.Web.Controllers.WebBuying.MasterFiles.PriceSettings.BUY_CPRICE_H.BuyingCPriceController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\WebBuying\MasterFiles\PriceSettings\BUY_CPRICE_H\BuyingCPriceController.cs:line 150
+   at Edge.Web.WebBuying.MasterFiles.PriceSettings.BUY_CPRICE_H.List.RptBind(String strWhere, String orderby) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\WebBuying\MasterFiles\PriceSettings\BUY_CPRICE_H\List.aspx.cs:line 75
+2017-05-19 13:24:51,416  User admin,functionName:,msg:List 
+2017-05-19 13:24:53,872  User admin,functionName:Promotion Price,msg:List 
+2017-05-19 13:24:57,878  User admin,functionName:Cost Price,msg:List 
+2017-05-19 13:24:57,950  User admin,functionName:CPrice,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'StoreBrandCode'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString) in C:\SVN\WebBuying\DBUtility\DbHelperSQL.cs:line 641
+   at Edge.SVA.SQLServerDAL.BUY_STOREGROUP.GetList(String strWhere) in C:\SVN2\WebBuying_TGP\Edge.SVA.SQLServerDAL\Master\BUY_STOREGROUP.cs:line 257
+   at Edge.SVA.BLL.BUY_STOREGROUP.GetModelList(String strWhere) in C:\SVN2\WebBuying_TGP\Edge.SVA.BLL\Master\BUY_STOREGROUP.cs:line 120
+   at Edge.Web.Tools.DALTool.GetBuyingStoreGroupName(String code, Dictionary`2 cache) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\DALTool.cs:line 952
+   at Edge.Web.Tools.DataTool.AddBuyingStoreGroupName(DataSet ds, String name, String refKey) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Tools\DataTool.cs:line 865
+   at Edge.Web.Controllers.WebBuying.MasterFiles.PriceSettings.BUY_CPRICE_H.BuyingCPriceController.GetTransactionList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\Controllers\WebBuying\MasterFiles\PriceSettings\BUY_CPRICE_H\BuyingCPriceController.cs:line 150
+   at Edge.Web.WebBuying.MasterFiles.PriceSettings.BUY_CPRICE_H.List.RptBind(String strWhere, String orderby) in C:\SVN2\WebBuying_TGP\Edge.NewWeb\WebBuying\MasterFiles\PriceSettings\BUY_CPRICE_H\List.aspx.cs:line 75
+2017-05-19 13:25:02,333  User admin,functionName:Promotion Engine,msg:List 
+2017-05-19 13:25:55,085  User admin,functionName:,msg:Update Tree Menu : ????? 
+2017-05-19 13:26:11,684  User admin,functionName:,msg:Update Tree Menu : ????? 
+2017-05-19 13:26:21,841  User admin,functionName:,msg:Update Tree Menu : ????? 
+2017-05-19 13:26:38,593  User admin,functionName:,msg:Show 
+2017-05-19 13:26:48,682  User admin,functionName:,msg:List 
+2017-05-19 13:26:52,323  User admin,functionName:,msg:List 
+2017-05-19 13:26:57,128  User admin,functionName:,msg:List 
+2017-05-19 13:27:01,754  User admin,functionName:,msg:List 
+2017-05-19 13:27:09,626  User admin,functionName:Bundle Sales,msg:List 
+2017-05-19 13:27:13,914  User admin,functionName:Menu Management,msg:List 
+2017-05-19 13:41:38,032  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 13:42:01,928  User admin,functionName:,msg:List 
+2017-05-19 13:42:06,917  User admin,functionName:,msg:Show 
+2017-05-19 14:53:24,960  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 14:55:38,192  User admin,functionName:,msg:List 
+2017-05-19 14:58:02,873  User admin,functionName:,msg:List 
+2017-05-19 15:18:45,769  User admin,functionName:,msg:Store Order SPO000000001857 Add Success 
+2017-05-19 15:19:13,280  User admin,functionName:,msg:Approve Success :SPO000000001857 
+2017-05-19 15:20:05,767  User admin,functionName:,msg:Approve Success :SHP000000002484 
+2017-05-19 15:20:24,340  User admin,functionName:,msg:Approve Success :SHP000000002485 
+2017-05-19 15:24:48,644  User admin,functionName:,msg:List 
+2017-05-19 15:26:06,286  User admin,functionName:,msg:Show 
+2017-05-19 15:34:22,656  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 15:37:48,395  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 15:38:37,366  User admin,functionName:,msg:Store Order SPO000000001861 Add Success 
+2017-05-19 15:38:48,691  User admin,functionName:,msg:Approve Success :SPO000000001861 
+2017-05-19 15:43:32,721  User admin,functionName:,msg:Approve Success :SHP000000002486 
+2017-05-19 15:43:50,095  User admin,functionName:,msg:Approve Success :SHP000000002487 
+2017-05-19 16:28:25,899  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 16:36:54,815  User admin,functionName:,msg:Store Order SPO000000001863 Add Success 
+2017-05-19 16:37:00,266  User admin,functionName:,msg:Approve Success :SPO000000001863 
+2017-05-19 16:37:20,477  User admin,functionName:,msg:Approve Success :SHP000000002488 
+2017-05-19 16:38:17,350  User admin,functionName:,msg:Approve Success :SHP000000002489 
+2017-05-19 16:47:48,379  User admin,functionName:,msg:Store Order SPO000000001865 Add Success 
+2017-05-19 16:47:53,811  User admin,functionName:,msg:Approve Success :SPO000000001865 
+2017-05-19 16:48:00,253  User admin,functionName:,msg:Approve Failed :SHP000000002488 
+2017-05-19 16:48:13,195  User admin,functionName:,msg:Approve Success :SHP000000002491 
+2017-05-19 16:48:29,794  User admin,functionName:,msg:Approve Success :SHP000000002492 
+2017-05-19 16:55:14,448  User admin,functionName:,msg:Store Order SPO000000001866 Add Success 
+2017-05-19 16:55:23,135  User admin,functionName:,msg:Approve Success :SPO000000001866 
+2017-05-19 16:55:38,262  User admin,functionName:,msg:Approve Success :SHP000000002493 
+2017-05-19 16:55:48,505  User admin,functionName:,msg:Approve Success :SHP000000002494 
+2017-05-19 17:10:01,194  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 17:12:27,190  User admin,functionName:,msg:Store Order SPO000000001867 Add Success 
+2017-05-19 17:12:31,865  User admin,functionName:,msg:Approve Success :SPO000000001867 
+2017-05-19 17:13:03,308  User admin,functionName:,msg:Approve Success :SHP000000002496 
+2017-05-19 17:14:14,652  User admin,functionName:,msg:Approve Success :SHP000000002497 
+2017-05-19 17:28:00,091  User admin,functionName:,msg:List 
+2017-05-19 17:29:23,201  User admin,functionName:,msg:Store Order SPO000000001868 Add Success 
+2017-05-19 17:29:35,375  User admin,functionName:,msg:Approve Success :SPO000000001868 
+2017-05-19 17:30:45,841  User admin,functionName:,msg:Approve Success :SHP000000002499 
+2017-05-19 17:30:58,700  User admin,functionName:,msg:Approve Success :SHP000000002500 
+2017-05-19 17:36:42,545  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 17:42:03,477  User admin,functionName:,msg:List 
+2017-05-19 17:44:55,023  User admin,functionName:,msg:List 
+2017-05-19 18:03:23,747  User admin,functionName:,msg:List 
+2017-05-19 18:03:35,986  User admin,functionName:,msg:Approve Success :RECIO0000001321 
+2017-05-19 18:03:42,938  User admin,functionName:,msg:List 
+2017-05-19 18:03:49,395  User admin,functionName:,msg:List 
+2017-05-19 18:25:11,699  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 18:25:42,649  User admin,functionName:,msg:Store Order SPO000000001869 Add Success 
+2017-05-19 18:25:50,900  User admin,functionName:,msg:Approve Success :SPO000000001869 
+2017-05-19 18:26:03,847  User admin,functionName:,msg:Approve Success :SHP000000002503 
+2017-05-19 18:26:58,409  User admin,functionName:,msg:Store Order SPO000000001870 Add Success 
+2017-05-19 18:27:05,642  User admin,functionName:,msg:Approve Success :SPO000000001870 
+2017-05-19 18:32:56,818  User admin,functionName:,msg:Store Order SPO000000001871 Add Success 
+2017-05-19 18:33:02,401  User admin,functionName:,msg:Approve Success :SPO000000001871 
+2017-05-19 18:35:48,765  User admin,functionName:,msg:Store Order SPO000000001872 Add Success 
+2017-05-19 18:35:52,887  User admin,functionName:,msg:Approve Success :SPO000000001872 
+2017-05-19 18:41:01,224  User admin,functionName:,msg:Receive Store Order SGRN00000000579 Add Success 
+2017-05-19 18:41:13,200  User admin,functionName:,msg:Approve Success :SGRN00000000579 
+2017-05-19 18:50:52,046  User admin,functionName:,msg:Store Order SPO000000001873 Add Success 
+2017-05-19 18:50:59,946  User admin,functionName:,msg:Approve Success :SPO000000001873 
+2017-05-19 18:53:46,096  User admin,functionName:,msg:Store Order SPO000000001874 Add Success 
+2017-05-19 18:53:50,805  User admin,functionName:,msg:Approve Success :SPO000000001874 
+2017-05-19 18:56:55,965  User admin,functionName:,msg:List 
+2017-05-19 18:57:24,023  User admin,functionName:,msg:Approve Success :RECIO0000001323 
+2017-05-19 18:57:30,387  User admin,functionName:,msg:List 
+2017-05-19 19:08:23,453  User admin,functionName:,msg:List 
+2017-05-19 19:08:52,862  User admin,functionName:,msg:List 
+2017-05-19 19:09:44,527  User admin,functionName:,msg:Store Order SPO000000001875 Add Success 
+2017-05-19 19:09:50,423  User admin,functionName:,msg:Approve Success :SPO000000001875 
+2017-05-19 19:12:06,737  User admin,functionName:,msg:Store Order SPO000000001876 Add Success 
+2017-05-19 19:12:13,028  User admin,functionName:,msg:Approve Success :SPO000000001876 
+2017-05-19 19:15:06,479  User admin,functionName:,msg:Approve Success :RECIO0000001324 
+2017-05-19 19:15:09,882  User admin,functionName:,msg:List 
+2017-05-19 19:16:28,986  User admin,functionName:,msg:Store Order SPO000000001877 Add Success 
+2017-05-19 19:16:34,770  User admin,functionName:,msg:Approve Success :SPO000000001877 
+2017-05-19 19:21:36,888  User admin,functionName:,msg:Approve Failed :RECIO0000001324 
+2017-05-19 19:24:05,505  User ,functionName:Login,msg: Login Operation userName:admin 
+2017-05-19 19:24:30,875  User admin,functionName:,msg:Store Order SPO000000001878 Add Success 
+2017-05-19 19:24:35,632  User admin,functionName:,msg:Approve Success :SPO000000001878 
+2017-05-19 19:26:46,028  User admin,functionName:,msg:Approve Success :RECIO0000001325 
+2017-05-19 19:26:50,016  User admin,functionName:,msg:List 
+2017-05-19 19:32:16,642  User admin,functionName:,msg:Store Order SPO000000001879 Detail No Data 
+2017-05-19 19:32:24,691  User admin,functionName:,msg:Store Order SPO000000001879 Add Success 
+2017-05-19 19:32:29,519  User admin,functionName:,msg:Approve Success :SPO000000001879 
+2017-05-19 19:35:34,381  User admin,functionName:,msg:Approve Success :RECIO0000001326 
+2017-05-19 19:35:37,642  User admin,functionName:,msg:List 
+2017-05-19 19:36:32,389  User admin,functionName:,msg:List 
+2017-05-19 19:37:20,026  User admin,functionName:,msg:Store Order SPO000000001880 Add Success 
+2017-05-19 19:37:27,625  User admin,functionName:,msg:Approve Success :SPO000000001880 
+2017-05-19 19:39:53,370  User admin,functionName:,msg:List 
+2017-05-19 19:40:51,493  User admin,functionName:,msg:List 
+2017-05-19 19:41:29,822  User admin,functionName:,msg:List 
+2017-05-19 19:41:43,136  User admin,functionName:,msg:Approve Success :RECIO0000001327 
+2017-05-19 19:41:49,213  User admin,functionName:,msg:List 

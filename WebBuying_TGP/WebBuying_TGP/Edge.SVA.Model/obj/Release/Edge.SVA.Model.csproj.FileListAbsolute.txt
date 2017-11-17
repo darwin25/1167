@@ -1,0 +1,4 @@
+C:\SVN\WebBuying_TGP\Edge.SVA.Model\bin\Release\Edge.SVA.Model.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.Model\bin\Release\Edge.SVA.Model.pdb
+C:\SVN\WebBuying_TGP\Edge.SVA.Model\obj\Release\Edge.SVA.Model.dll
+C:\SVN\WebBuying_TGP\Edge.SVA.Model\obj\Release\Edge.SVA.Model.pdb

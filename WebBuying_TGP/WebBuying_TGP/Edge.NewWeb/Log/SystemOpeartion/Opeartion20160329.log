@@ -1,0 +1,77 @@
+2016-03-29 08:55:46,750  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 08:56:14,525  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 09:39:05,849  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 09:39:31,397  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 09:39:50,592  User admin,functionName:,msg:ExPort System.Exception: Incorrect syntax near the keyword 'left'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.Ord_TransInOrder_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_TransInOrder_H.cs:line 474
+   at Edge.SVA.BLL.Ord_TransInOrder_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_TransInOrder_H.cs:line 116
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.TransInStoreOrder.TransInStoreOrderController.GetTransactionListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\TransInStoreOrderController.cs:line 122
+   at Edge.Web.Tools.ActiveReportsTool.GetDataBind(String ids, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 195
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 159
+   at Edge.Web.Operation.StoreOrderManagement.TransInOrder.Export.LoadReport(String ids, Int32 orderType) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransInOrder\Export.aspx.cs:line 118
+   at Edge.Web.Operation.StoreOrderManagement.TransInOrder.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransInOrder\Export.aspx.cs:line 60 
+2016-03-29 09:41:24,690  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 09:43:39,616  User admin,functionName:,msg:ExPort System.Exception: Incorrect syntax near the keyword 'left'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.Ord_TransInOrder_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_TransInOrder_H.cs:line 474
+   at Edge.SVA.BLL.Ord_TransInOrder_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_TransInOrder_H.cs:line 116
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.TransInStoreOrder.TransInStoreOrderController.GetTransactionListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\TransInStoreOrderController.cs:line 123
+   at Edge.Web.Tools.ActiveReportsTool.GetDataBind(String ids, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 239
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 159
+   at Edge.Web.Operation.StoreOrderManagement.TransInOrder.Export.LoadReport(String ids, Int32 orderType) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransInOrder\Export.aspx.cs:line 118
+   at Edge.Web.Operation.StoreOrderManagement.TransInOrder.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\TransInOrder\Export.aspx.cs:line 60 
+2016-03-29 09:44:20,288  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 09:44:40,952  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 09:46:36,547  User admin,functionName:,msg:Show 
+2016-03-29 09:46:50,630  User admin,functionName:,msg:Show 
+2016-03-29 09:47:15,557  User admin,functionName:,msg:Show 
+2016-03-29 09:48:03,071  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 09:48:08,704  User admin,functionName:,msg:List 
+2016-03-29 09:48:51,584  User ,functionName:Login,msg: Login Operation userName:admin485 
+2016-03-29 09:49:01,031  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 09:51:08,959  User admin,functionName:,msg:Show 
+2016-03-29 11:25:50,397  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 11:26:52,497  User admin,functionName:,msg:ExPort System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\Working\WebBuying_NEWUI\Edge.NewWeb\ReportsDeliveryOrderManagement\rptDeliveryOrderManagement.rpx'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at GrapeCity.ActiveReports.SectionReport.#abF(XmlReader reader)
+   at GrapeCity.ActiveReports.SectionReport.LoadLayout(XmlReader reader, ArrayList& errors)
+   at GrapeCity.ActiveReports.SectionReport.LoadLayout(XmlReader reader)
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 140
+   at Edge.Web.Operation.DeliveryOrderManagement.Export.LoadReport(String ids) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\DeliveryOrderManagement\Export.aspx.cs:line 97
+   at Edge.Web.Operation.DeliveryOrderManagement.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\DeliveryOrderManagement\Export.aspx.cs:line 58 
+2016-03-29 11:28:07,329  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 11:29:58,372  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 11:30:07,215  User admin,functionName:,msg:Show 
+2016-03-29 11:49:49,253  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 12:00:04,574  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 12:00:39,840  User admin,functionName:,msg:List 
+2016-03-29 12:01:25,100  User admin,functionName:,msg:List 
+2016-03-29 12:01:44,264  User admin,functionName:,msg:List 
+2016-03-29 12:14:17,909  User admin,functionName:,msg:Update Tree Menu : ø‚¥Êπ‹¿Ì 
+2016-03-29 12:19:41,980  User admin,functionName:,msg:List 
+2016-03-29 12:21:07,218  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 12:21:32,462  User admin,functionName:,msg:List 
+2016-03-29 12:23:35,692  User admin,functionName:,msg:List 
+2016-03-29 12:34:59,267  User ,functionName:,msg:List 
+2016-03-29 12:35:12,848  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 12:35:18,091  User admin,functionName:,msg:List 
+2016-03-29 12:36:58,554  User ,functionName:,msg:List 
+2016-03-29 12:37:09,812  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 12:37:15,207  User admin,functionName:,msg:List 
+2016-03-29 12:44:45,306  User admin,functionName:,msg:List 
+2016-03-29 12:45:50,166  User admin,functionName:,msg:List 
+2016-03-29 12:48:42,351  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-03-29 12:48:47,510  User admin,functionName:,msg:List 

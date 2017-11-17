@@ -1,0 +1,111 @@
+2016-04-11 12:42:49,293  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 12:43:02,624  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 12:44:57,800  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 12:45:22,536  User admin,functionName:,msg:Add ProdClass Success Code:222 
+2016-04-11 12:49:03,813  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 12:50:15,719  User admin,functionName:,msg:Add ProdClass Success Code:2222 
+2016-04-11 12:53:56,753  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:03:55,048  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:05:16,581  User admin,functionName:,msg:222 
+2016-04-11 13:07:48,753  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:08:16,133  User admin,functionName:,msg:Add ProdClass Success Code:111 
+2016-04-11 13:10:16,996  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:13:09,201  User admin,functionName:,msg:Add ProdClass Success Code:WW 
+2016-04-11 13:17:17,813  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:18:32,389  User admin,functionName:,msg:Add ProdClass Success Code:EE 
+2016-04-11 13:20:52,549  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:21:31,709  User admin,functionName:,msg:Add ProdClass Success Code:1111 
+2016-04-11 13:24:06,758  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:24:13,997  User admin,functionName:产品规格,msg:List 
+2016-04-11 13:24:44,951  User admin,functionName:,msg:Add ProdClass Success Code:ES 
+2016-04-11 13:30:55,147  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:31:08,312  User admin,functionName:产品规格,msg:List 
+2016-04-11 13:32:13,847  User admin,functionName:,msg:1111 
+2016-04-11 13:32:33,280  User admin,functionName:,msg:Add ProdClass Success Code:DDD 
+2016-04-11 13:39:23,710  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:39:30,659  User admin,functionName:产品规格,msg:List 
+2016-04-11 13:39:58,177  User admin,functionName:,msg:Add ProdClass Success Code:111 
+2016-04-11 13:40:30,332  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:40:36,100  User admin,functionName:产品规格,msg:List 
+2016-04-11 13:42:51,779  User admin,functionName:,msg:List 
+2016-04-11 13:42:56,110  User admin,functionName:,msg:update 
+2016-04-11 13:43:05,970  User admin,functionName:,msg:List 
+2016-04-11 13:43:25,003  User admin,functionName:,msg: Add  
+2016-04-11 13:43:26,219  User admin,functionName:,msg:Add BoxSale Success Code:01119638 
+2016-04-11 13:43:28,825  User admin,functionName:,msg:update 
+2016-04-11 13:44:00,624  User admin,functionName:,msg:List 
+2016-04-11 13:44:01,394  User admin,functionName:产品规格,msg:List 
+2016-04-11 13:46:07,804  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:48:29,735  User admin,functionName:,msg:Add ProdClass Success Code:2222 
+2016-04-11 13:49:33,312  User admin,functionName:,msg:2222 
+2016-04-11 13:56:31,034  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 13:57:06,495  User admin,functionName:,msg:Add ProdClass Success Code:1111 
+2016-04-11 13:59:02,608  User admin,functionName:,msg:Add ProdClass Success Code:22222 
+2016-04-11 14:00:15,075  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 14:00:39,786  User admin,functionName:,msg:22222 
+2016-04-11 14:00:43,847  User admin,functionName:,msg:22222 
+2016-04-11 14:01:27,461  User admin,functionName:,msg:22222 
+2016-04-11 14:03:29,174  User admin,functionName:,msg:22222 
+2016-04-11 14:04:07,680  User admin,functionName:,msg:Add ProdClass Success Code:1234 
+2016-04-11 14:04:54,554  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 14:08:24,341  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 14:11:13,949  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 14:11:24,305  User admin,functionName:,msg:Delete Tree Menu : 0 
+2016-04-11 14:11:42,672  User admin,functionName:,msg:Add ProdClass Success Code:1111YYY 
+2016-04-11 14:12:12,113  User admin,functionName:,msg:Update ProdClass Success Code:1111YYY 
+2016-04-11 14:12:47,703  User admin,functionName:,msg:List 
+2016-04-11 14:12:49,730  User admin,functionName:,msg:update 
+2016-04-11 14:13:01,499  User admin,functionName:,msg:List 
+2016-04-11 14:13:39,131  User admin,functionName:,msg:update 
+2016-04-11 14:13:42,358  User admin,functionName:,msg:List 
+2016-04-11 14:18:37,884  User admin,functionName:,msg:update 
+2016-04-11 14:19:52,560  User admin,functionName:,msg:List 
+2016-04-11 14:19:55,022  User admin,functionName:,msg:List 
+2016-04-11 14:37:43,289  User ,functionName:,msg:List 
+2016-04-11 14:38:55,650  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 14:39:10,789  User admin,functionName:,msg:List 
+2016-04-11 14:46:28,673  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 14:50:18,825  User admin,functionName:,msg:List 
+2016-04-11 14:56:28,096  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 15:03:08,058  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 15:09:14,161  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 15:15:15,642  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 15:17:39,201  User admin,functionName:,msg:List 
+2016-04-11 15:22:32,069  User ,functionName:,msg:List 
+2016-04-11 15:22:32,134  User ,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'OrderQty'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetStockListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1111
+   at Edge.SVA.BLL.BUY_PRODUCT.GetStockListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 523
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetStockList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 76
+   at Edge.Web.WebBuying.Enquiry.StockQuery.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\List.aspx.cs:line 121
+2016-04-11 15:22:46,105  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 15:22:50,531  User admin,functionName:,msg:List 
+2016-04-11 15:22:50,547  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Exception: Invalid column name 'OrderQty'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetStockListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1111
+   at Edge.SVA.BLL.BUY_PRODUCT.GetStockListByPage(String strWhere, String orderby, Int32 startIndex, Int32 endIndex) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 523
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetStockList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 76
+   at Edge.Web.WebBuying.Enquiry.StockQuery.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\List.aspx.cs:line 121
+2016-04-11 15:25:39,904  User ,functionName:,msg:List 
+2016-04-11 15:25:53,755  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 15:25:57,906  User admin,functionName:,msg:List 
+2016-04-11 15:32:05,406  User ,functionName:,msg:List 
+2016-04-11 15:32:17,370  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 15:32:21,557  User admin,functionName:,msg:List 
+2016-04-11 15:37:43,814  User ,functionName:,msg:List 
+2016-04-11 15:37:56,352  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 15:38:01,266  User admin,functionName:,msg:List 
+2016-04-11 15:56:26,564  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 22:06:13,095  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 22:17:49,454  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 22:20:25,096  User admin,functionName:,msg:Update Role Admin 
+2016-04-11 22:20:54,884  User admin,functionName:,msg:Update Role Designer 
+2016-04-11 22:21:35,702  User admin,functionName:,msg:Update Role Admin 
+2016-04-11 22:21:59,692  User admin,functionName:,msg:Update Role Admin 
+2016-04-11 22:28:01,266  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 22:29:31,605  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 22:29:40,029  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-11 22:29:59,018  User admin,functionName:,msg:Update Role Admin 
+2016-04-11 22:30:10,645  User admin,functionName:,msg:List 

@@ -1,0 +1,24 @@
+2016-04-22 13:39:14,984  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-22 13:39:30,574  User admin,functionName:,msg:Void 
+2016-04-22 13:39:30,590  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000040 
+2016-04-22 13:40:01,371  User admin,functionName:,msg:Void 
+2016-04-22 13:40:01,387  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000039 
+2016-04-22 13:40:53,779  User admin,functionName:,msg:Void 
+2016-04-22 13:40:53,810  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000038 
+2016-04-22 14:08:16,141  User admin,functionName:,msg:Void 
+2016-04-22 14:08:16,156  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000039 
+2016-04-22 14:15:19,924  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-22 14:15:32,126  User admin,functionName:,msg:Void 
+2016-04-22 14:15:32,169  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000039 
+2016-04-22 14:17:28,662  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-22 14:21:05,618  User admin,functionName:,msg:Void 
+2016-04-22 14:21:05,649  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000038 
+2016-04-22 14:23:03,070  User admin,functionName:,msg:Void 
+2016-04-22 14:23:03,101  User admin,functionName:,msg:Close Stock Take Success :SRKNUM000000038 
+2016-04-22 18:26:41,789  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-22 18:28:28,875  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-22 18:30:45,037  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-22 18:35:35,802  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-22 18:36:57,761  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-22 18:39:54,979  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-22 18:41:58,559  User ,functionName:Login,msg: Login Operation userName:admin 

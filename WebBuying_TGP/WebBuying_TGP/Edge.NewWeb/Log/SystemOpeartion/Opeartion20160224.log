@@ -1,0 +1,73 @@
+2016-02-24 11:52:55,678  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 11:53:03,028  User admin,functionName:,msg:List 
+2016-02-24 11:54:55,026  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 11:55:17,158  User admin,functionName:,msg:List 
+2016-02-24 12:02:02,312  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:03:10,844  User admin,functionName:,msg:List 
+2016-02-24 12:03:26,889  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException: The multi-part identifier "T.prodcode" could not be bound.
+The multi-part identifier "T.prodcode" could not be bound.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetStockRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1050
+   at Edge.SVA.BLL.BUY_PRODUCT.GetStockRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 504
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetStockList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 63
+   at Edge.Web.WebBuying.Enquiry.StockQuery.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\List.aspx.cs:line 115
+2016-02-24 12:03:32,274  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException: The multi-part identifier "T.prodcode" could not be bound.
+The multi-part identifier "T.prodcode" could not be bound.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetStockRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1050
+   at Edge.SVA.BLL.BUY_PRODUCT.GetStockRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 504
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetStockList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 63
+   at Edge.Web.WebBuying.Enquiry.StockQuery.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\List.aspx.cs:line 115
+2016-02-24 12:06:22,847  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException: The multi-part identifier "T.prodcode" could not be bound.
+The multi-part identifier "T.prodcode" could not be bound.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetStockRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1050
+   at Edge.SVA.BLL.BUY_PRODUCT.GetStockRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 504
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetStockList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 63
+   at Edge.Web.WebBuying.Enquiry.StockQuery.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\List.aspx.cs:line 115
+2016-02-24 12:08:23,138  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:08:35,856  User admin,functionName:,msg:List 
+2016-02-24 12:09:53,220  User ,functionName:,msg:List 
+2016-02-24 12:10:01,958  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:10:08,079  User admin,functionName:,msg:List 
+2016-02-24 12:10:52,860  User ,functionName:,msg:List 
+2016-02-24 12:11:01,812  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:11:06,886  User admin,functionName:,msg:List 
+2016-02-24 12:11:28,071  User admin,functionName:,msg:List 
+2016-02-24 12:12:06,405  User admin,functionName:ProdCode,msg:Load Field,Error Message: 
+System.Data.SqlClient.SqlException: The multi-part identifier "T.prodcode" could not be bound.
+The multi-part identifier "T.prodcode" could not be bound.
+   at Edge.DBUtility.DbHelperSQL.GetSingle(String SQLString)
+   at Edge.SVA.SQLServerDAL.BUY_PRODUCT.GetStockRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\BUY_PRODUCT.cs:line 1050
+   at Edge.SVA.BLL.BUY_PRODUCT.GetStockRecordCount(String strWhere) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\BUY_PRODUCT.cs:line 504
+   at Edge.Web.Controllers.WebBuying.MasterFiles.ComplexInformations.BUY_PRODUCT.BuyingProductController.GetStockList(String strWhere, Int32 pageSize, Int32 pageIndex, Int32& recodeCount, String sortFieldStr) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\WebBuying\MasterFiles\ComplexInformations\BUY_PRODUCT\BuyingProductController.cs:line 63
+   at Edge.Web.WebBuying.Enquiry.StockQuery.List.RptBind(String strWhere, String orderby) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Enquiry\StockQuery\List.aspx.cs:line 114
+2016-02-24 12:13:20,428  User ,functionName:,msg:List 
+2016-02-24 12:13:39,090  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:13:43,261  User admin,functionName:,msg:List 
+2016-02-24 12:14:14,764  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:14:19,428  User admin,functionName:,msg:List 
+2016-02-24 12:14:57,824  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:15:02,432  User admin,functionName:,msg:List 
+2016-02-24 12:17:55,711  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:18:02,190  User admin,functionName:,msg:List 
+2016-02-24 12:20:58,617  User ,functionName:,msg:List 
+2016-02-24 12:21:09,022  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:21:16,243  User admin,functionName:,msg:List 
+2016-02-24 12:22:34,134  User ,functionName:,msg:List 
+2016-02-24 12:22:44,283  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:22:49,074  User admin,functionName:,msg:List 
+2016-02-24 12:23:56,618  User ,functionName:,msg:List 
+2016-02-24 12:24:06,993  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:24:17,465  User admin,functionName:,msg:List 
+2016-02-24 12:25:15,214  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:25:23,863  User admin,functionName:,msg:List 
+2016-02-24 12:27:32,147  User ,functionName:,msg:List 
+2016-02-24 12:27:47,719  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:27:53,002  User admin,functionName:,msg:List 
+2016-02-24 12:31:20,552  User ,functionName:,msg:List 
+2016-02-24 12:31:55,224  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-02-24 12:32:03,682  User admin,functionName:,msg:List 

@@ -1,0 +1,116 @@
+2016-04-02 07:38:57,639  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 08:15:08,886  User admin,functionName:,msg:List 
+2016-04-02 08:24:44,438  User admin,functionName:,msg:List 
+2016-04-02 08:29:49,605  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 08:34:00,332  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 08:37:18,394  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 08:52:35,457  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 09:35:19,034  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 09:35:38,528  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 09:36:35,780  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 09:44:33,261  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 09:51:54,797  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 10:03:54,831  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 10:08:32,028  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 10:10:13,699  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 10:22:10,209  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 10:22:41,637  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 10:32:29,148  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 10:40:34,478  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 10:40:48,243  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 11:08:54,943  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 11:14:00,565  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 11:18:36,152  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 11:21:56,061  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 11:26:37,340  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 11:26:46,441  User admin,functionName:,msg:ExPort System.Exception: Incorrect syntax near 'by'.
+   at Edge.DBUtility.DbHelperSQL.Query(String SQLString)
+   at Edge.SVA.SQLServerDAL.Ord_ShipmentOrder_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.SQLServerDAL\Master\Ord_ShipmentOrder_H.cs:line 498
+   at Edge.SVA.BLL.Ord_ShipmentOrder_H.GetListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.SVA.BLL\Master\Ord_ShipmentOrder_H.cs:line 262
+   at Edge.Web.Controllers.Operation.StoreOrderManagement.ShipmentStoreOrder.ShipmentStoreOrderController.GetTransactionListByParm(String strWhere, String filedOrder, String webSiteName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Controllers\Operation\StoreOrderManagement\ShipmentStoreOrderController.cs:line 75
+   at Edge.Web.Tools.ActiveReportsTool.GetDataBind(String ids, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 235
+   at Edge.Web.Tools.ActiveReportsTool.LoadReport(String ids, WebViewer WebViewerOrderList, String Path, String webSiteName, String ControlName) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Tools\ActiveReportsTool.cs:line 162
+   at Edge.Web.Operation.StoreOrderManagement.ShipmentStoreOrder.Export.LoadReport(String ids, Int32 orderType) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\ShipmentStoreOrder\Export.aspx.cs:line 118
+   at Edge.Web.Operation.StoreOrderManagement.ShipmentStoreOrder.Export.Page_Load(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\ShipmentStoreOrder\Export.aspx.cs:line 60 
+2016-04-02 11:27:28,178  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 11:29:36,247  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 11:38:53,857  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:01:52,474  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:02:13,936  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:05:00,943  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:10:28,747  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:15:01,819  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:17:30,978  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:24:31,350  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:24:57,330  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:29:57,143  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:52:18,426  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:54:10,815  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 12:59:20,381  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 13:13:26,462  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 13:13:57,925  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 13:22:01,413  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 13:24:08,107  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 13:30:02,492  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 13:52:21,655  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 13:53:16,008  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 14:13:50,120  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 14:14:17,915  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 14:15:20,123  User admin,functionName:,msg:List 
+2016-04-02 14:15:29,584  User admin,functionName:,msg:List 
+2016-04-02 14:15:43,725  User admin,functionName:,msg:List 
+2016-04-02 14:15:51,106  User admin,functionName:,msg:List 
+2016-04-02 14:39:01,444  User ,functionName:,msg:List 
+2016-04-02 14:39:15,305  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 14:39:23,822  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 14:39:29,000  User admin,functionName:,msg:List 
+2016-04-02 14:46:11,551  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 14:46:16,635  User admin,functionName:,msg:List 
+2016-04-02 14:46:36,852  User admin,functionName:,msg:List 
+2016-04-02 14:47:26,081  User admin,functionName:,msg:List 
+2016-04-02 14:57:05,701  User admin,functionName:,msg:List 
+2016-04-02 14:59:42,210  User admin,functionName:,msg:List 
+2016-04-02 15:15:02,605  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 15:15:35,685  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 15:30:56,062  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 15:31:33,013  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 15:35:47,407  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 15:49:45,652  User admin,functionName:,msg:Order to Supplier PO0000000000076 Update Success 
+2016-04-02 15:50:15,160  User admin,functionName:,msg:Order to Supplier PO0000000000076 Update Success 
+2016-04-02 15:51:02,286  User admin,functionName:,msg:Return Store Order SRTN00000000013 Detail No Data 
+2016-04-02 15:51:35,420  User admin,functionName:,msg:Return Store Order SRTN00000000013 Update Success But Detail Failed,Error Message: 
+System.ArgumentException: Column 'OrderQty' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.Web.Operation.StoreOrderManagement.ReturnStoreOrder.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\ReturnStoreOrder\Modify.aspx.cs:line 144
+2016-04-02 15:51:47,392  User admin,functionName:,msg:Return Store Order SRTN00000000013 Update Success But Detail Failed,Error Message: 
+System.ArgumentException: Column 'OrderQty' does not belong to table ds.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Edge.Web.Operation.StoreOrderManagement.ReturnStoreOrder.Modify.btnSaveClose_Click(Object sender, EventArgs e) in D:\Working\WebBuying_NEWUI\Edge.NewWeb\Operation\StoreOrderManagement\ReturnStoreOrder\Modify.aspx.cs:line 144
+2016-04-02 16:02:00,932  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 16:06:13,957  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 16:21:22,915  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 16:36:48,169  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 16:38:58,380  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 18:37:17,578  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 18:50:18,096  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 18:57:05,070  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 19:05:58,688  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 19:27:16,382  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 19:29:19,478  User admin,functionName:,msg:List 
+2016-04-02 20:27:21,449  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 20:28:34,342  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 20:31:47,820  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 20:37:25,275  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 20:52:52,863  User admin,functionName:,msg:Show 
+2016-04-02 21:04:19,366  User admin,functionName:,msg:Show 
+2016-04-02 21:06:00,511  User admin,functionName:,msg:Show 
+2016-04-02 21:29:16,783  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 21:31:15,862  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 21:33:06,474  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 21:36:05,728  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 21:36:57,568  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 21:39:27,448  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 21:43:58,488  User ,functionName:Login,msg: Login Operation userName:admin 
+2016-04-02 22:00:27,237  User ,functionName:Login,msg: Login Operation userName:admin 
